@@ -1,12 +1,42 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
   </head>
-  <body>
+  <body class="page__body">
+    <header class="main-header">
+      <a class="main-header__logo" href="#">
+        <img src="img/cat-logo-mobile.svg" width="33px" height="38px" alt="Логотип сайта Кэт энерджи">
+      </a>
+      <a class="main-header__site-name" href="#">
+        <img src="img/name-site-mobile.svg" width="174px" height="50px" alt="Сайт Кэт энерджи">
+      </a>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
-
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="#">
+                <p class="site-list__item-text">Главная</p>
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">
+                <p class="site-list__item-text">Каталог продукции</p>
+              </a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">
+                <p class="site-list__item-text">Подбор программы</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
