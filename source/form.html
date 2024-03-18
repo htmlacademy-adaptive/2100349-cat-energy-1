@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Кэт энерджи</title>
+</head>
+
+<body class="page__body">
+  <header class="main-header">
+    <a class="main-header__logo" href="#">
+      <img src="img/cat-logo-mobile.svg" width="33px" height="38px" alt="Логотип сайта Кэт энерджи.">
+    </a>
+    <a class="main-header__site-name" href="#">
+      <img src="img/name-site-mobile.svg" width="174px" height="50px" alt="Сайт Кэт энерджи.">
+    </a>
+
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="#">
+              <p class="site-list__item-text">Главная</p>
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              <p class="site-list__item-text">Каталог продукции</p>
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              <p class="site-list__item-text">Подбор программы</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-questionnaire">
+    <div class="main-questionnaire__wrapper">
+      <h1 class="main-questionnaire__title">Подбор программы</h1>
+      <p class="main-questionnaire__text">Заполните анкету, и мы подберем
+        программу питания для вашего кота</p>
+
+      <ul class="main-questionnaire__field-group">
+        <li class="field-group__item">
+          <label class="field-title" for="name">имя:*</label>
+          <input class="field-name" type="text" name="cat-name" id="name" placeholder="Барсик" autocomplete="on">
+        </li>
+        <li class="field-group__item">
+          <label class="field-title" for="name">вес (кг):*</label>
+          <input class="field-weight" type="number" name="cat-weight" id="name" placeholder="7" autocomplete="on">
+        </li>
+        <li class="field-group__item">
+          <label class="field-title" for="name">возраст (лет):*</label>
+          <input class="field-weight" type="number" name="cat-age" id="name" placeholder="7" autocomplete="on">
+        </li>
+      </ul>
+    </div>
+  </main>
+
+</body>
+
