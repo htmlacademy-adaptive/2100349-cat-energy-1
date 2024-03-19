@@ -48,14 +48,17 @@
         программу питания для вашего кота</p>
 
       <ul class="main-questionnaire__field-group">
+        <span class="visually-hidden">Напишите имя кота</span>
         <li class="field-group__item">
           <label class="field-title" for="name">имя:*</label>
           <input class="field-name" type="text" name="cat-name" id="name" placeholder="Барсик" autocomplete="on">
         </li>
+        <span class="visually-hidden">Введите вес</span>
         <li class="field-group__item">
           <label class="field-title" for="name">вес (кг):*</label>
           <input class="field-weight" type="number" name="cat-weight" id="name" placeholder="7" autocomplete="on">
         </li>
+        <span class="visually-hidden">Введите возраст</span>
         <li class="field-group__item">
           <label class="field-title" for="name">возраст (лет):*</label>
           <input class="field-weight" type="number" name="cat-age" id="name" placeholder="7" autocomplete="on">
@@ -65,6 +68,7 @@
   </main>
 
   <fieldset class="programm-filter__group">
+    <span class="visually-hidden">Выберите программу</span>
     <ul class="programm-filter__list">
       <li class="programm-filter__item">
         <label class="programm-filter__control">
@@ -93,9 +97,11 @@
       </h2>
 
       <form class="contacts-form" action="https://echo.htmlacademy.ru/" method="post">
+        <span class="visually-hidden">Введите адрес электронной почты</span>
         <label for="contacts-email">e-mail:*</label>
         <input class="contacts-email__field"  placeholder="kuklachev@gmail.com" type="email" name="cat-email" id="cat-email" required>
 
+        <span class="visually-hidden">Введите номер телефона</span>
         <p class="contacts-form__phone">
           <label for="contacts-phone">телефон:*</label>
             <input type="text" id="contacts-phone" name="contacts-phone" placeholder="8 (960) 900-60-90">
@@ -114,6 +120,7 @@
   </section>
 
   <section class="select">
+    <span class="visually-hidden">Выберите дополнительный товар</span>
     <div class="select__wrapper">
       <ul class="select__list">
         <li class="select__item">
@@ -165,6 +172,7 @@
   <footer class="main-footer">
     <div class="main-footer__wrapper">
       <div class="main-footer__logo"></div>
+      <span class="visually-hidden">Ссылки на социальные сети</span>
       <ul class="main-footer__social-list">
         <li class="social__item">
           <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy"></a>
