@@ -106,19 +106,19 @@
             Отличный результат без изнуряющих тренировок!
             При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
           </p>
-          <dl class="result__list">
-            <div class="result__item">
-              <dt class="result__number">5 кг</dt>
-              <dd class="result__description">снижение веса</dd>
+          <dl class="result__list progress">
+            <div class="progress__item">
+              <dt class="progress__number">5 кг</dt>
+              <dd class="progress__description">снижение веса</dd>
             </div>
-            <div class="result__item">
-              <dt class="result__number">60 дней</dt>
-              <dd class="result__description">затрачено времени</dd>
+            <div class="progress__item">
+              <dt class="progress__number">60 дней</dt>
+              <dd class="progress__description">затрачено времени</dd>
             </div>
           </dl>
           <p class="result__expenses">Затраты на питание: 15 000 руб.</p>
         </div>
-        <img src="img/cat-slider-mobile.jpg" width="280px" height="256px" alt="Слайдер превращения кота.">
+        <!--Тут должен быть слайдер с котами-->
       </section>
 
       <section class="adress">
@@ -136,21 +136,30 @@
 
     <footer class="main-footer">
       <div class="main-footer__wrapper">
-        <div class="main-footer__logo"></div>
-        <ul class="main-footer__social-list">
+        <div class="main-footer__logo">
+          <a class="main-footer__name-site" href="#">
+            <img src="img/name-site-mobile.svg" width="174px" height="50px" alt="Сайт Кэт энерджи.">
+          </a>
+        </div>
+        <ul class="main-footer__social-list social">
           <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy"></a>
+            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">Ссылка на страницу в вконтакте</span>
+            </a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru"></a>
+            <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
+              <span class="visually-hidden">Ссылка на ютуб канал</span>
+            </a>
           </li>
           <li class="social__item">
-            <a class="social__link social__link--telegram" href="https://t.me/htmlacademy"></a>
+            <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">
+              <span class="visually-hidden">Ссылка на страницу в телеграмм</span>
+            </a>
           </li>
         </ul>
         <div class="main-footer__academy">
-          <a class="academy-link" href="#">HTML Academy</a>
-          <img class="academy-logo" src="img/htmlacademy.svg" width="27px" height="34px" alt="Логотип HTML Academy.">
+          <a class="academy-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
         </div>
       </div>
     </footer>
