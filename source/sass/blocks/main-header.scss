@@ -2,5 +2,15 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
-  width: 320px;
+  width: 279px;
+  padding-left: 20px;
+  padding-top: 13px;
+}
+
+.main-header__logo {
+  display: flex;
+}
+
+.main-header__name {
+  display: flex;
 }

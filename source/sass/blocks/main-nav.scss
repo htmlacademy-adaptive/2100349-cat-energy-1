@@ -1,3 +1,20 @@
 .main-nav {
   background-color: #ffffff;
 }
+
+.main-nav__toggle {
+  width: 24px;
+  height: 24px;
+  background-image: url("/source/img/icons/header-menu.svg");
+}
+
+.main-nav__wrapper {
+  display: flex;
+  margin-top: 66px;
+}
+
+.main-nav__list {
+  background-color: #ffffff;
+  width: 320px;
+  list-style-type: none;
+}

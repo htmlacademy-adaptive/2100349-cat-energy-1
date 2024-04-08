@@ -2,3 +2,45 @@
   background-color: #eaeaea;
   width: 320px;
 }
+
+.result__wrapper {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
+}
+
+.result__example {
+  font-family: "Oswald";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #000000;
+}
+
+.result__text {
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #444444;
+}
+
+.result__list {
+  gap: 20px;
+  width: 280px;
+  min-height: 70px;
+}
+
+.result__expenses {
+  font-family: "Oswald";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+
+.result__slider {
+  padding-top: 20px;
+}

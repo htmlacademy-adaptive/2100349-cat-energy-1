@@ -1,3 +1,19 @@
 .site-list {
   list-style-type: none;
 }
+
+.site-list__item {
+  display: flex;
+  width: 320px;
+  border-top: 1px solid #e6e6e6;
+}
+
+.site-list__link {
+  text-decoration: none;
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}

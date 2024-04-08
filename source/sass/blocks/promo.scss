@@ -1,0 +1,30 @@
+.promo {
+  display: flex;
+}
+
+.promo__title {
+  font-family: "Oswald";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.promo__slogan {
+  font-family: "Oswald";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.promo__product {
+  width: 280px;
+  height: 270px;
+}
+
+.promo__programm-selection {
+  padding-top: 3px;
+}
