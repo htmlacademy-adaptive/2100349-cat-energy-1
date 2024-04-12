@@ -1,22 +1,12 @@
 .main-nav {
   background-color: #ffffff;
-}
-
-.main-nav__toggle {
-  margin-left: 65px;
-  width: 24px;
-  height: 24px;
-  border: none;
-  background-image: url("/source/img/icons/header-menu.svg");
-}
-
-.main-nav__wrapper {
-  display: flex;
-  margin-left: 0;
+  padding-top: 15px;
 }
 
 .main-nav__list {
   background-color: #ffffff;
-  width: 320px;
+  width: 280px;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

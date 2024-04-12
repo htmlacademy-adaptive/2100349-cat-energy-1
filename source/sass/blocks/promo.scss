@@ -6,6 +6,7 @@
 
 .promo__title {
   font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
@@ -15,6 +16,7 @@
 
 .promo__slogan {
   font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
@@ -28,5 +30,5 @@
 }
 
 .promo__programm-selection {
-  padding-top: 3px;
+  width: 280px;
 }
