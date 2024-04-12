@@ -3,14 +3,16 @@
 }
 
 .main-nav__toggle {
+  margin-left: 65px;
   width: 24px;
   height: 24px;
+  border: none;
   background-image: url("/source/img/icons/header-menu.svg");
 }
 
 .main-nav__wrapper {
   display: flex;
-  margin-top: 66px;
+  margin-left: 0;
 }
 
 .main-nav__list {

@@ -1,16 +1,14 @@
 .programm-cards {
   display: flex;
-  width: 280px;
-  height: 266px;
-  background-color: #d9d9d9;
+  padding-left: 20px;
 }
 
-.programm-cards__wrapper {
-  gap: 20px;
-}
+//.programm-cards__wrapper {}
 
 .programm-cards__item {
   display: flex;
+  flex-direction: column;
   width: 280px;
-  background-color: #d9d9d9;
+  background-color: #f2f2f2;
+  margin-top: 20px;
 }

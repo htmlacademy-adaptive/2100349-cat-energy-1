@@ -1,0 +1,31 @@
+.catalog__item {
+  display: flex;
+}
+
+.catalog__item-foto {
+  width: 140px;
+  height: 107px;
+}
+
+.catalog__item-description {
+  display: flex;
+}
+
+.catalog__item-title {
+  font-family: "Oswald";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #222222;
+}
+
+//.catalog__item-specifications
+
+//.catalog__item-specification
+
+.catalog__item-order {
+  display: flex;
+  width: 280px;
+  height: 40px;
+}

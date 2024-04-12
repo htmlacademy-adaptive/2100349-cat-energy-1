@@ -1,3 +1,7 @@
+@import "global/common.scss";
+@import "global/fonts.scss";
+@import "global/visually-hidden.scss";
+@import "global/general-button.scss";
 @import "blocks/page.scss";
 @import "blocks/main-header.scss";
 @import "blocks/main-nav.scss";
@@ -11,34 +15,16 @@
 @import "blocks/progress.scss";
 @import "blocks/adress.scss";
 @import "blocks/main-footer.scss";
-@import url("./blocks/social.scss");
-@import url("./blocks/social__item.scss");
-@import url("./blocks/product-cards.scss");
-@import url("./blocks/product-cards__wrapper.scss");
-@import url("./blocks/product-cards__list.scss");
-@import url("./blocks/catalog__item.scss");
-@import url("./blocks/catalog__item-description.scss");
-@import url("./blocks/catalog__item-specifications.scss");
-@import url("./blocks/catalog__item-specification.scss");
-@import url("./blocks/parameters.scss");
-@import url("./blocks/parameters__name.scss");
-@import url("./blocks/parameters__text.scss");
-@import url("./blocks/additional-products.scss");
-@import url("./blocks/additional-products__wrapper.scss");
-@import url("./blocks/additional-products__list.scss");
-@import url("./blocks/additional-products__item.scss");
-@import url("./blocks/name-product.scss");
-@import url("./blocks/name-product__list.scss");
-@import url("./blocks/name-product__parameter.scss");
-@import url("./blocks/name-product__price.scss");
-@import url("./blocks/present.scss");
-@import url("./blocks/main-container__field.scss");
-@import url("./blocks/form.scss");
-@import url("./blocks/form__group.scss");
-@import url("./blocks/form__group-list.scss");
-@import url("./blocks/form__group-item.scss");
-@import url("./blocks/form__group-wrapper.scss");
-@import url("./elements/main-nav__toggle.scss");
-@import "elements/site-list__item.scss";
-@import url("./elements/promo__programm-selection.scss");
+@import "blocks/social.scss";
+@import "blocks/product-cards.scss";
+@import "blocks/catalog.scss";
+@import "blocks/parameters.scss";
+@import "blocks/additional-products.scss";
+@import "blocks/name-product.scss";
+@import "blocks/present.scss";
+@import "blocks/form.scss";
+
+
+
+
 

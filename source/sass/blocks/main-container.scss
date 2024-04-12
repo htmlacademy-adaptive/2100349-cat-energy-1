@@ -1,4 +1,29 @@
 .main-container {
   display: flex;
+  flex-grow: 1;
+  flex-direction: column;
   width: 320px;
+  background-color: #ffffff;
+}
+
+.main-container__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #000000;
+}
+
+.main-container__text {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #000000;
+}
+
+.main-container__field {
+  display: flex;
+  flex-direction: column;
 }

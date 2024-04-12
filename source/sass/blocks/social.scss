@@ -1,14 +1,25 @@
 .social {
   display: flex;
-  padding: 74px 20px;
 }
 
 .social__item {
+  display: inline-block;
   list-style-type: none;
   text-decoration: none;
-}
-
-.social__link {
   width: 28px;
   height: 22px;
+}
+
+//.social__link {}
+
+.social__link--vkontakte {
+  background-image: url("/source/img/icons/vk-icon.svg");
+}
+
+.social__link--youtube {
+  background-image: url("/source/img/icons/youtube-icon.svg");
+}
+
+.social__link--telegram {
+  background-image: url("/source/img/icons/tg-icon.svg");
 }
