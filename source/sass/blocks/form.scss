@@ -5,35 +5,35 @@
 //.form__group--line
 
 .form__title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", $basic-font;
   font-size: 24px;
   font-weight: 400;
   line-height: 26px;
   text-align: left;
-  color: #000000;
+  color: $basic-black;
 }
 
 .form__label {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", $basic-font;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
   text-align: left;
-  color: #444444;
+  color: $grey;
 }
 
 .form__input {
   min-width: 173px;
   height: 45px;
-  border: 1px solid #e7e7e7;
-  font-family: "Oswald", sans-serif;
+  border: 1px solid $light-grey;
+  font-family: "Oswald", $basic-font;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
   text-align: left;
-  color: #444444;
+  color: $grey;
 }
 
 .form__group-list {
@@ -43,13 +43,13 @@
 //.form__group-item {}
 
 .form__control-radio {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", $basic-font;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
   text-align: left;
-  color: #444444;
+  color: $grey;
 }
 
 //.form__input--email {}
@@ -71,10 +71,10 @@
 }
 
 .form__required-fields {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", $basic-font;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   text-align: center;
-  color: #000000;
+  color: $basic-black;
 }

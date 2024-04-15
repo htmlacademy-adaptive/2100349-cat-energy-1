@@ -1,15 +1,15 @@
 .parameters__name {
-  font-family: "Lato";
+  font-family: "Lato", $basic-font;
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
-  color: #444444;
+  color: $grey;
 }
 
 .parameters__text {
-  font-family: "Lato";
+  font-family: "Lato",$basic-font;
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
-  color: #444444;
+  color: $grey;
 }

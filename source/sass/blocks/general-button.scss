@@ -1,12 +1,12 @@
 .general-button {
-  background-color: #68b738;
-  font-family: "Oswald", sans-serif;
+  background-color: $accent-color;
+  font-family: "Oswald", $basic-font;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   text-align: center;
-  color: #ffffff;
+  color: $basic-white;
   text-decoration: none;
   padding-bottom: 10px;
   padding-top: 10px;

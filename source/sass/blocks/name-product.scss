@@ -1,5 +1,5 @@
 .name-product__title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", $basic-font;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
@@ -12,21 +12,21 @@
 //.name-product__item
 
 .name-product__parameter {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", $basic-font;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
   text-align: left;
-  color: #444444;
+  color: $grey;
 }
 
 .name-product__price {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", $basic-font;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
   text-align: right;
-  color: #444444;
+  color: $grey;
 }
 
 .name-product__order {

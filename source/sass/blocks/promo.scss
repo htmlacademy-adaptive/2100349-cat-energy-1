@@ -5,23 +5,23 @@
 }
 
 .promo__title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", $basic-font;
   text-transform: uppercase;
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
   text-align: center;
-  color: #ffffff;
+  color: $basic-white;
 }
 
 .promo__slogan {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", $basic-font;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
   text-align: center;
-  color: #ffffff;
+  color: $basic-white;
 }
 
 .promo__product {

@@ -1,7 +1,7 @@
 .features {
   display: flex;
   margin-top: 20px;
-  background-color: #ffffff;
+  background-color: $basic-white;
 }
 
 .features__wrapper {
@@ -12,11 +12,11 @@
 }
 
 .features__work {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", $basic-font;
   font-size: 36px;
   font-weight: 400;
   line-height: 40px;
-  color: #000000;
+  color: $basic-black;
 }
 
 .features__list {
@@ -25,10 +25,10 @@
 }
 
 .features__item {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", $basic-font;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
-  color: #444444;
+  color: $grey;
   padding-top: 20px;
 }
