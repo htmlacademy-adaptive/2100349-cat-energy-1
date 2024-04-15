@@ -1,30 +1,30 @@
 .programm__head {
-  font-family: "Oswald", $basic-font;
+  font-family: $title-font;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 400;
   line-height: 37px;
-  color: $basic-black;
+  color: $title-text;
   text-align: center;
 }
 
 .programm__text {
-  font-family: "Lato", $basic-font;
+  font-family: $basic-font;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
   text-align: left;
-  color: $grey;
+  color: $text-color;
   padding-left: 20px;
 }
 
 .programm__catalog {
-  font-family: "Oswald", $basic-font;
+  font-family: $title-font;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  color: $basic-black;
+  color: $title-text;
   padding-left: 20px;
   padding-top: 15px;
   padding-bottom: 18px;

@@ -1,6 +1,6 @@
 .main-footer {
   display: flex;
-  background-color: $basic-grey;
+  background-color: $element-bg;
   width: 320px;
 }
 
@@ -27,12 +27,12 @@
 }
 
 .main-footer__academy-link {
-  font-family: "Lato", $basic-font;
+  font-family: $basic-font;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   text-align: left;
-  color: $grey;
+  color: $text-color;
   display: flex;
   width: 280px;
   height: 34px;
