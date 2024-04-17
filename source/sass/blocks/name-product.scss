@@ -5,11 +5,17 @@
   font-weight: 400;
   line-height: 16px;
   color: #222222;
+  margin: 0;
 }
 
-//.name-product__list
+.name-product__list {
+  margin: 0;
+}
 
-//.name-product__item
+.name-product__item {
+  display: flex;
+  justify-content: space-between;
+}
 
 .name-product__parameter {
   font-family: $basic-font;
@@ -27,6 +33,7 @@
   line-height: 14px;
   text-align: right;
   color: $text-color;
+  margin: 0;
 }
 
 .name-product__order {

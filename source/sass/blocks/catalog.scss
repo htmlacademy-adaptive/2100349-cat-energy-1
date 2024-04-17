@@ -17,6 +17,7 @@
   line-height: 20px;
   text-align: left;
   color: #222222;
+  margin: 0;
 }
 
 .catalog__item-text {
@@ -28,7 +29,9 @@
   color: $text-color;
 }
 
-//.catalog__item-specifications
+.catalog__item-specifications {
+  margin: 0;
+}
 
 //.catalog__item-specification
 

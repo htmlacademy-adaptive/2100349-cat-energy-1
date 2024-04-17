@@ -3,23 +3,34 @@
 }
 
 .social__item {
-  display: inline-block;
   list-style-type: none;
-  text-decoration: none;
-  width: 28px;
-  height: 22px;
 }
 
 //.social__link {}
 
 .social__link--vkontakte {
+  display: block;
+  text-decoration: none;
+  width: 28px;
+  height: 22px;
   background-image: url("../../img/icons/vk-icon.svg");
+  background-repeat: no-repeat;
 }
 
 .social__link--youtube {
+  display: block;
+  text-decoration: none;
+  width: 28px;
+  height: 22px;
   background-image: url("../../img/icons/youtube-icon.svg");
+  background-repeat: no-repeat;
 }
 
 .social__link--telegram {
+  display: block;
+  text-decoration: none;
+  width: 28px;
+  height: 22px;
   background-image: url("../../img/icons/tg-icon.svg");
+  background-repeat: no-repeat;
 }

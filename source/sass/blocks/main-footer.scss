@@ -1,29 +1,25 @@
 .main-footer {
-  display: flex;
   background-color: $element-bg;
-  width: 320px;
 }
 
 .main-footer__wrapper {
-  display: flex;
-  flex-direction: column;
   width: 280px;
+  margin: 0 auto;
 }
 
 .main-footer__name {
-  display: flex;
   width: 128px;
   height: 24px;
-  padding-left: 96px;
   padding-top: 40px;
+  margin: 0 auto;
 }
 
 .main-footer__social-list {
-  display: flex;
-  width: 280px;
   min-height: 62px;
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
+  margin: 0;
+  padding: 0;
 }
 
 .main-footer__academy-link {
@@ -34,7 +30,6 @@
   text-align: left;
   color: $text-color;
   display: flex;
-  width: 280px;
   height: 34px;
   justify-content: space-between;
   text-decoration: none;

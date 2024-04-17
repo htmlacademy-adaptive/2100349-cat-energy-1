@@ -11,6 +11,7 @@
   font-weight: 400;
   line-height: 20px;
   color: #111111;
+  margin: 0;
 }
 
 .adress__office {
@@ -18,10 +19,12 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  color: $grey;
+  color: $text-color;
+  margin: 0;
 }
 
 .adress__location {
   width: 320px;
   height: 362px;
+  display: block;
 }

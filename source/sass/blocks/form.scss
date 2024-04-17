@@ -1,5 +1,6 @@
 .form__group {
   border: none;
+  margin: 0;
 }
 
 //.form__group--line
@@ -38,6 +39,7 @@
 
 .form__group-list {
   list-style-type: none;
+  margin: 0;
 }
 
 //.form__group-item {}
@@ -77,4 +79,5 @@
   line-height: 16px;
   text-align: center;
   color: $title-text;
+  margin: 0;
 }
