@@ -39,7 +39,7 @@ html {
 
 .general-button {
   background-color: #68b738;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
@@ -60,7 +60,7 @@ html {
 }
 
 .main-header {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   display: flex;
   width: 280px;
   padding-left: 20px;
@@ -118,7 +118,7 @@ html {
 
 .site-list__link {
   text-decoration: none;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 400;
@@ -138,16 +138,17 @@ html {
 }
 
 .main-container__title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
   color: #000000;
   padding-left: 20px;
+  margin: 0;
 }
 
 .main-container__text {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 400;
@@ -155,6 +156,7 @@ html {
   text-align: left;
   color: #000000;
   padding-left: 20px;
+  margin: 0;
 }
 
 .main-container__field {
@@ -169,7 +171,7 @@ html {
 }
 
 .promo__title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 36px;
   font-weight: 400;
@@ -179,7 +181,7 @@ html {
 }
 
 .promo__slogan {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 400;
@@ -211,27 +213,29 @@ html {
 }
 
 .programm__head {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 24px;
   font-weight: 400;
   line-height: 37px;
   color: #000000;
   text-align: center;
+  margin: 0;
 }
 
 .programm__text {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
   text-align: left;
   color: #444444;
   padding-left: 20px;
+  margin: 0;
 }
 
 .programm__catalog {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
@@ -258,20 +262,22 @@ html {
 }
 
 .features__work {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 40px;
   color: #000000;
+  margin: 0;
 }
 
 .features__list {
   list-style-type: none;
   padding-bottom: 49px;
+  margin: 0;
 }
 
 .features__item {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -281,27 +287,25 @@ html {
 
 .result {
   background-color: #eaeaea;
-  width: 320px;
 }
 
 .result__wrapper {
-  display: flex;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 25px;
-  flex-direction: column;
 }
 
 .result__example {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   font-weight: 400;
   line-height: 40px;
   color: #000000;
+  margin: 0;
 }
 
 .result__text {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
@@ -316,7 +320,7 @@ html {
 }
 
 .result__expenses {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 400;
@@ -338,7 +342,7 @@ html {
 }
 
 .progress__number {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
@@ -347,79 +351,82 @@ html {
 }
 
 .progress__description {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 12px;
   text-align: center;
   color: #444444;
+  margin: 0;
 }
 
 .adress__invitation {
   display: flex;
   padding: 20px 26px;
+  background-color: #f2f2f2;
+}
+
+.adress__starting-view {
   background-color: #ffffff;
 }
 
 .adress__slogan {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   color: #111111;
+  margin: 0;
 }
 
 .adress__office {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
   color: #444444;
+  margin: 0;
 }
 
 .adress__location {
   width: 320px;
   height: 362px;
+  display: block;
 }
 
 .main-footer {
-  display: flex;
   background-color: #f2f2f2;
-  width: 320px;
 }
 
 .main-footer__wrapper {
-  display: flex;
-  flex-direction: column;
   width: 280px;
+  margin: 0 auto;
 }
 
 .main-footer__name {
-  display: flex;
   width: 128px;
   height: 24px;
-  padding-left: 96px;
   padding-top: 40px;
+  margin: 0 auto;
 }
 
 .main-footer__social-list {
-  display: flex;
-  width: 280px;
   min-height: 62px;
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
+  margin: 0;
+  padding: 0;
 }
 
 .main-footer__academy-link {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   text-align: left;
   color: #444444;
   display: flex;
-  width: 280px;
   height: 34px;
   justify-content: space-between;
   text-decoration: none;
@@ -430,23 +437,34 @@ html {
 }
 
 .social__item {
-  display: inline-block;
   list-style-type: none;
-  text-decoration: none;
-  width: 28px;
-  height: 22px;
 }
 
 .social__link--vkontakte {
+  display: block;
+  text-decoration: none;
+  width: 28px;
+  height: 22px;
   background-image: url("../../img/icons/vk-icon.svg");
+  background-repeat: no-repeat;
 }
 
 .social__link--youtube {
+  display: block;
+  text-decoration: none;
+  width: 28px;
+  height: 22px;
   background-image: url("../../img/icons/youtube-icon.svg");
+  background-repeat: no-repeat;
 }
 
 .social__link--telegram {
+  display: block;
+  text-decoration: none;
+  width: 28px;
+  height: 22px;
   background-image: url("../../img/icons/tg-icon.svg");
+  background-repeat: no-repeat;
 }
 
 .product-cards {
@@ -463,6 +481,7 @@ html {
 .product-cards__list {
   list-style-type: none;
   padding-left: 20px;
+  margin: 0;
 }
 
 .catalog__item-foto {
@@ -475,22 +494,27 @@ html {
 }
 
 .catalog__item-title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   text-align: left;
   color: #222222;
+  margin: 0;
 }
 
 .catalog__item-text {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
   text-align: center;
   color: #444444;
+}
+
+.catalog__item-specifications {
+  margin: 0;
 }
 
 .catalog__item-order {
@@ -499,7 +523,7 @@ html {
 }
 
 .parameters__name {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
@@ -507,35 +531,33 @@ html {
 }
 
 .parameters__text {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
   color: #444444;
-}
-
-.additional-products {
-  display: flex;
+  margin: 0;
 }
 
 .additional-products__title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
   color: #000000;
+  margin: 0;
 }
 
 .additional-products__list {
   list-style-type: none;
   padding-left: 20px;
+  padding-right: 20px;
+  width: 280px;
+  margin: 0;
 }
 
 .additional-products__item {
-  display: flex;
   width: 280px;
-  flex-direction: column;
-  padding-right: 20px;
 }
 
 .name-product__order {
@@ -544,16 +566,26 @@ html {
 }
 
 .name-product__title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
   color: #222222;
+  margin: 0;
+}
+
+.name-product__list {
+  margin: 0;
+}
+
+.name-product__item {
+  display: flex;
+  justify-content: space-between;
 }
 
 .name-product__parameter {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
@@ -562,12 +594,13 @@ html {
 }
 
 .name-product__price {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
   text-align: right;
   color: #444444;
+  margin: 0;
 }
 
 .name-product__order {
@@ -576,20 +609,22 @@ html {
 }
 
 .present__text {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   text-align: center;
   color: #ffffff;
+  margin: 0;
 }
 
 .form__group {
   border: none;
+  margin: 0;
 }
 
 .form__title {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 26px;
@@ -598,7 +633,7 @@ html {
 }
 
 .form__label {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
@@ -611,7 +646,7 @@ html {
   min-width: 173px;
   height: 45px;
   border: 1px solid #e7e7e7;
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
@@ -622,10 +657,11 @@ html {
 
 .form__group-list {
   list-style-type: none;
+  margin: 0;
 }
 
 .form__control-radio {
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 400;
@@ -645,11 +681,17 @@ html {
 }
 
 .form__required-fields {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "Arial", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   text-align: center;
   color: #000000;
+  margin: 0;
+}
+
+.name__img {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
