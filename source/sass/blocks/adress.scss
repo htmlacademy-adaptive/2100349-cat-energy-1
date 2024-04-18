@@ -1,6 +1,10 @@
 .adress__invitation {
   display: flex;
   padding: 20px 26px;
+  background-color: $element-bg;
+}
+
+.adress__starting-view {
   background-color: $basic-bg;
 }
 
