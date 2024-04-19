@@ -1,0 +1,34 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.promo__title {
+  font-family: $title-font;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  color: $basic-bg;
+}
+
+.promo__slogan {
+  font-family: $title-font;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  color: $basic-bg;
+}
+
+.promo__product {
+  width: 280px;
+  height: 270px;
+}
+
+.promo__programm-selection {
+  width: 280px;
+}

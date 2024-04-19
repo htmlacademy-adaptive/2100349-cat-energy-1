@@ -1,0 +1,33 @@
+.main-header {
+  background-color: $element-bg;
+  display: flex;
+  width: 280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 13px;
+  flex-wrap: wrap;
+}
+
+.main-header__logo {
+  display: flex;
+  width: 33px;
+  height: 38px;
+}
+
+.main-header__name {
+  display: flex;
+  width: 101px;
+  height: 18px;
+  padding-left: 56px;
+  padding-top: 10px;
+}
+
+.main-header__toggle {
+  margin-left: 65px;
+  margin-top: 10px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-image: url("../../img/icons/header-menu.svg");
+  background-repeat: no-repeat;
+}

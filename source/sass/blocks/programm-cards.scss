@@ -1,0 +1,14 @@
+.programm-cards {
+  display: flex;
+  padding-left: 20px;
+}
+
+//.programm-cards__wrapper {}
+
+.programm-cards__item {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  background-color: $element-bg;
+  margin-top: 20px;
+}

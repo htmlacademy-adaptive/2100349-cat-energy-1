@@ -1,0 +1,23 @@
+.progress__item {
+  width: 124px;
+  min-height: 70px;
+}
+
+.progress__number {
+  font-family: $title-font;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: $title-text;
+}
+
+.progress__description {
+  font-family: $basic-font;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: center;
+  color: $text-color;
+  margin: 0;
+}

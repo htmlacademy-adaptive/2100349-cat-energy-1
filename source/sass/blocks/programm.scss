@@ -1,0 +1,35 @@
+.programm__head {
+  font-family: $title-font;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  color: $title-text;
+  text-align: center;
+  margin: 0;
+}
+
+.programm__text {
+  font-family: $basic-font;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: $text-color;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.programm__catalog {
+  font-family: $title-font;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: $title-text;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 18px;
+  text-decoration: none;
+  border-top: 1px solid #d9d9d9;
+}

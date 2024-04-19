@@ -1,0 +1,16 @@
+.product-cards {
+  display: flex;
+  width: 320px;
+  flex-direction: column;
+}
+
+.product-cards__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-cards__list {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0;
+}
