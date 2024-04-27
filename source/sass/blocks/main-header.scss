@@ -1,11 +1,18 @@
 .main-header {
-  background-color: $element-bg;
+  background-color: $basic-bg;
   display: flex;
   width: 280px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 13px;
   flex-wrap: wrap;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 30px;
+    padding-right: 34px;
+    padding-top: 25px;
+    width: 768px;
+  }
 }
 
 .main-header__logo {
@@ -30,4 +37,8 @@
   border: none;
   background-image: url("../../img/icons/header-menu.svg");
   background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }

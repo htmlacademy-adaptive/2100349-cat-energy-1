@@ -6,6 +6,11 @@
   display: flex;
   border-top: 1px solid #e6e6e6;
   justify-content: center;
+
+  @media (min-width: $tablet-width) {
+    border-top: none;
+    justify-content: space-between;
+  }
 }
 
 .site-list__link {

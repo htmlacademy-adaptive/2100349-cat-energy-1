@@ -1,5 +1,9 @@
 .result {
   background-color: #eaeaea;
+
+  @media (min-width: $tablet-width) {
+    background-color: $basic-bg;
+  }
 }
 
 .result__wrapper {

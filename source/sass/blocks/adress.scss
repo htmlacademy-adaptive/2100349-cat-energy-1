@@ -31,4 +31,9 @@
   width: 320px;
   height: 362px;
   display: block;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    height: 400px;
+  }
 }

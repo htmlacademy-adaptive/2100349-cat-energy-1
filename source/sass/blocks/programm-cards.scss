@@ -11,4 +11,8 @@
   width: 280px;
   background-color: $element-bg;
   margin-top: 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+  }
 }

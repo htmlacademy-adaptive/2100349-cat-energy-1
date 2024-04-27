@@ -4,6 +4,10 @@
   flex-direction: column;
   width: 320px;
   background-color: $basic-bg;
+
+  @media (min-width: $tablet-width) {
+    width: 709px;
+  }
 }
 
 .main-container__title {
