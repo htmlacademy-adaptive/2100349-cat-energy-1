@@ -7,6 +7,11 @@
 
 .catalog__item-description {
   display: flex;
+
+  @media (min-width: $tablet-width) {
+    width: 324px;
+    
+  }
 }
 
 .catalog__item-title {

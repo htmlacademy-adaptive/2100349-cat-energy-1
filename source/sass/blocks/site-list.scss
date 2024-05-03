@@ -8,6 +8,7 @@
   justify-content: center;
 
   @media (min-width: $tablet-width) {
+    display: inline;
     border-top: none;
     justify-content: space-between;
   }

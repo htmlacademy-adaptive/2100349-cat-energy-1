@@ -35,6 +35,10 @@
   line-height: 18px;
   text-align: left;
   color: $text-color;
+
+  @media (min-width: $tablet-width) {
+    min-width: 498px;
+  }
 }
 
 .form__group-list {

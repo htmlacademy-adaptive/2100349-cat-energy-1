@@ -13,6 +13,9 @@
     padding-top: 25px;
     width: 768px;
   }
+  @media (min-width: $desktop-width) {
+    
+  }
 }
 
 .main-header__logo {
