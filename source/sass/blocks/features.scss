@@ -1,14 +1,11 @@
 .features {
-  display: flex;
   margin-top: 20px;
   background-color: $basic-bg;
 }
 
 .features__wrapper {
-  display: flex;
   padding-left: 20px;
   padding-right: 20px;
-  flex-direction: column;
 }
 
 .features__work {
