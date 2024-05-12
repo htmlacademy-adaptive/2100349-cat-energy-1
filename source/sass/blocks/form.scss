@@ -1,6 +1,11 @@
 .form__group {
   border: none;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    width: 628px;
+    margin-top: 65px;
+  }
 }
 
 //.form__group--line
@@ -12,6 +17,11 @@
   line-height: 26px;
   text-align: left;
   color: $title-text;
+
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .form__label {
@@ -22,6 +32,12 @@
   line-height: 18px;
   text-align: left;
   color: $text-color;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    font-size: 20px;
+    padding-top: 20px;
+  }
 }
 
 .form__input {
@@ -37,16 +53,38 @@
   color: $text-color;
 
   @media (min-width: $tablet-width) {
-    min-width: 498px;
+    min-width: 490px;
   }
 }
 
 .form__group-list {
   list-style-type: none;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    width: 628px;
+    height: 196px;
+    border: 1px solid $border-color;
+    padding: 0;
+    padding-left: 27px;
+  }
 }
 
-//.form__group-item {}
+.form__group-optional {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 533px;
+    border: none;
+    justify-content: space-between;
+  }
+}
+
+.form__group-item {
+  @media (min-width: $tablet-width) {
+    padding-right: 50px;
+  }
+}
 
 .form__control-radio {
   font-family: $title-font;

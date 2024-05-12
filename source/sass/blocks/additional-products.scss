@@ -1,4 +1,8 @@
-//.additional-products {}
+.additional-products {
+  @media (min-width: $tablet-width) {
+    margin-top: 70px;
+  }
+}
 
 //.additional-products__wrapper
 
@@ -9,6 +13,10 @@
   line-height: 24px;
   color: $title-text;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+  }
 }
 
 .additional-products__list {
@@ -20,6 +28,7 @@
 
   @media (min-width: $tablet-width) {
     width: 708px;
+    margin-top: 80px;
   }
 }
 
@@ -28,6 +37,9 @@
 
   @media (min-width: $tablet-width) {
     width: 708px;
+    border: 1px solid #cdcdcd;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 

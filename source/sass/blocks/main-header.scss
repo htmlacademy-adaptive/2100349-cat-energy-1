@@ -1,10 +1,8 @@
 .main-header {
   background-color: $basic-bg;
   display: flex;
-  width: 280px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 13px;
+  width: 100%;
+  align-items: center;
   flex-wrap: wrap;
 
   @media (min-width: $tablet-width) {
@@ -19,18 +17,23 @@
 .main-header__logo {
   width: 33px;
   height: 38px;
+  padding-left: 20px;
 }
 
 .main-header__name {
   width: 101px;
   height: 18px;
   padding-left: 56px;
-  padding-top: 10px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 13px;
+  }
 }
 
 .main-header__toggle {
-  margin-left: 65px;
+  margin-left: 55px;
   margin-top: 10px;
+  margin-right: 20px;
   width: 24px;
   height: 24px;
   border: none;

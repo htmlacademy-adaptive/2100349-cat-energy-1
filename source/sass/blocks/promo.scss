@@ -13,6 +13,11 @@
 
   @media (min-width: $tablet-width) {
     color: $title-text;
+    font-weight: 400;
+    font-size: 40px;
+    width: 414px;
+    line-height: 60px;
+    padding-left: 80px;
   }
 }
 
@@ -27,6 +32,8 @@
 
   @media (min-width: $tablet-width) {
     color: $title-text;
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 
@@ -42,4 +49,8 @@
 
 .promo__programm-selection {
   width: 280px;
+
+  @media (min-width: $tablet-width) {
+    width: 244px;
+  }
 }

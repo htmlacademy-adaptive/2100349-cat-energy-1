@@ -10,6 +10,10 @@
   line-height: 24px;
   text-align: center;
   color: $title-text;
+
+  @media (min-width: $tablet-width) {
+    font-size: 37px;
+  }
 }
 
 .progress__description {
@@ -20,4 +24,9 @@
   text-align: center;
   color: $text-color;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+    padding-top: 11px;
+  }
 }

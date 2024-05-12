@@ -49,14 +49,17 @@
         <fieldset class="form__group form__group--line">
           <legend class="visually-hidden form__title">Информация о вашем коте</legend>
 
-          <label class="form__label" for="name">имя:*</label>
-          <input class="form__input" type="text" name="cat-name" id="name" placeholder="Барсик" required>
+          <label class="form__label" for="name">имя:*
+            <input class="form__input" type="text" name="cat-name" id="name" placeholder="Барсик" required>
+          </label>
 
-          <label class="form__label" for="weight">вес (кг):*</label>
-          <input class="form__input" type="number" name="cat-weight" id="weight" placeholder="7" required>
+          <label class="form__label" for="weight">вес (кг):*
+            <input class="form__input" type="number" name="cat-weight" id="weight" placeholder="7" required>
+          </label>
 
-          <label class="form__label" for="age">возраст (лет):*</label>
-          <input class="form__input" type="number" name="cat-age" id="age" placeholder="7" required>
+          <label class="form__label" for="age">возраст (лет):*
+            <input class="form__input" type="number" name="cat-age" id="age" placeholder="7" required>
+          </label>
         </fieldset>
 
         <fieldset class="form__group form__group--line">
@@ -87,12 +90,14 @@
             Контактные данные (владельца кота)
           </legend>
 
-          <label class="form__label" for="cat-email">e-mail:*</label>
-          <input class="form__input form__input--email" placeholder="kuklachev@gmail.com" type="email" name="cat-email" id="cat-email" required>
+          <label class="form__label" for="cat-email">e-mail:*
+            <input class="form__input form__input--email" placeholder="kuklachev@gmail.com" type="email" name="cat-email" id="cat-email" required>
+          </label>
 
-          <label class="form__label" for="contacts-phone">телефон:*</label>
-          <input class="form__input form__input--tel" type="tel" id="contacts-phone" name="contacts-phone" placeholder="8 (960) 900-60-90" required>
-        </fieldset>
+          <label class="form__label" for="contacts-phone">телефон:*
+            <input class="form__input form__input--tel" type="tel" id="contacts-phone" name="contacts-phone" placeholder="8 (960) 900-60-90" required>
+          </label>
+          </fieldset>
 
         <fieldset class="form__group">
           <legend class="form__title">Комментарий</legend>
@@ -102,7 +107,7 @@
         <fieldset class="form__group">
           <legend class="form__title">Дополнительно</legend>
           <div class="form__group-wrapper">
-            <ul class="form__group-list">
+            <ul class="form__group-list form__group-optional">
               <li class="form__group-item">
                 <label class="form__label">
                   <input class="form__checkbox" type="checkbox" name="select-group" value="sweetener" checked>сахарозаменитель
@@ -145,7 +150,7 @@
             приглашаем к сотрудничеству дилеров!
           </p>
           <p class="adress__office">
-            ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
+            ул. Большая Конюшенная, д. 19/8 <span class="adress__office-space"></span>Санкт-Петербург
           </p>
         </div>
         <img class="adress__location" src="img/location.jpg" width="320" height="362" alt="Местоположение офиса на карте.">

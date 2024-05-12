@@ -1,5 +1,9 @@
 .main-footer {
   background-color: $element-bg;
+
+  @media (min-width: $tablet-width) {
+    min-height: 147px;
+  }
 }
 
 .main-footer__wrapper {
@@ -8,7 +12,11 @@
 
   @media (min-width: $tablet-width) {
     width: 708px;
+    min-height: 37px;
     display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
 
@@ -17,6 +25,11 @@
   height: 24px;
   padding-top: 40px;
   margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 7px;
+    margin-left: 0;
+  }
 }
 
 .main-footer__social-list {
@@ -27,7 +40,13 @@
   padding: 0;
 
   @media (min-width: $tablet-width) {
+    width: 132px;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 22px;
+    padding-top: 8px;
+    justify-content: space-between;
   }
 }
 
@@ -42,4 +61,8 @@
   height: 34px;
   justify-content: space-between;
   text-decoration: none;
+
+  @media (min-width: $tablet-width) {
+
+  }
 }

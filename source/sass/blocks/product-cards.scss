@@ -1,5 +1,10 @@
 .product-cards {
   width: 320px;
+
+  @media (min-width: $tablet-width) {
+    min-width: 768px;
+    margin-top: 84px;
+  }
 }
 
 //.product-cards__wrapper {}
@@ -8,4 +13,11 @@
   list-style-type: none;
   padding-left: 20px;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-left: 30px;
+  }
 }

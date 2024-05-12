@@ -19,6 +19,10 @@
   line-height: 40px;
   color: $title-text;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+  }
 }
 
 .result__text {
@@ -27,6 +31,11 @@
   font-weight: 400;
   line-height: 18px;
   color: $text-color;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .result__list {
@@ -44,6 +53,10 @@
   line-height: 20px;
   text-align: center;
   color: $title-text;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+  }
 }
 
 .result__slider {
