@@ -3,7 +3,12 @@
   padding-left: 20px;
 }
 
-//.programm-cards__wrapper {}
+.programm-cards__wrapper {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    gap: 80px;
+  }
+}
 
 .programm-cards__item {
   width: 280px;
@@ -12,5 +17,10 @@
 
   @media (min-width: $tablet-width) {
     width: 708px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    min-height: 374px;
   }
 }

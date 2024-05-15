@@ -6,6 +6,26 @@
     width: 628px;
     margin-top: 65px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 100px;
+  }
+}
+
+.form__group-tablet {
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 100px;
+  }
+}
+
+.form__group-full {
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
 }
 
 //.form__group--line
@@ -22,6 +42,11 @@
     font-size: 36px;
     line-height: 36px;
   }
+
+  @media (min-width: $desktop-width) {
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .form__label {
@@ -34,6 +59,13 @@
   color: $text-color;
 
   @media (min-width: $tablet-width) {
+    display: block;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
     display: block;
     font-size: 20px;
     padding-top: 20px;
@@ -55,6 +87,10 @@
   @media (min-width: $tablet-width) {
     min-width: 490px;
   }
+
+  @media (min-width: $desktop-width) {
+    min-width: 440px;
+  }
 }
 
 .form__group-list {
@@ -68,6 +104,10 @@
     padding: 0;
     padding-left: 27px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+  }
 }
 
 .form__group-optional {
@@ -78,12 +118,19 @@
     border: none;
     justify-content: space-between;
   }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    width: 1220px;
+  }
 }
 
 .form__group-item {
   @media (min-width: $tablet-width) {
     padding-right: 50px;
   }
+
+//  @media (min-width: $desktop-width) {}
 }
 
 .form__control-radio {
@@ -100,7 +147,12 @@
 
 //.form__input--tel {}
 
-//.form__input--textarea {}
+.form__input--textarea {
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    min-height: 175px;
+  }
+}
 
 //.form__group-wrapper {}
 

@@ -13,6 +13,13 @@
     padding-left: 20px;
     font-size: 36px;
   }
+
+  @media (min-width: $desktop-width) {
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 70px;
+    font-size: 36px;
+  }
 }
 
 .programm__text {
@@ -29,6 +36,13 @@
     width: 340px;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 340px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 73px;
   }
 }
 
@@ -48,5 +62,12 @@
   @media (min-width: $tablet-width) {
     border: none;
     font-size: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    border: none;
+    font-size: 20px;
+    padding-top: none;
+    padding-bottom: none;
   }
 }

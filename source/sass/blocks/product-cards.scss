@@ -5,6 +5,11 @@
     min-width: 768px;
     margin-top: 84px;
   }
+
+  @media (min-width: $desktop-width) {
+    min-width: 1220px;
+    padding-left: 85px;
+  }
 }
 
 //.product-cards__wrapper {}

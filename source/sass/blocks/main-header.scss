@@ -11,13 +11,21 @@
     padding-top: 25px;
     width: 768px;
   }
-  @media (min-width: $desktop-width) {}
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    padding-left: 110px;
+    padding-right: 110px;
+  }
 }
 
 .main-header__logo {
   width: 33px;
   height: 38px;
   padding-left: 20px;
+
+  @media (min-width: $desktop-width) {
+    padding-left: 0;
+  }
 }
 
 .main-header__name {
@@ -37,7 +45,7 @@
   width: 24px;
   height: 24px;
   border: none;
-  background-image: url("../../img/icons/header-menu.svg");
+  background-image: url("../img/icons/header-menu.svg");
   background-repeat: no-repeat;
 
   @media (min-width: $tablet-width) {

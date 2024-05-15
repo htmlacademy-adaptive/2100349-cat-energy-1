@@ -1,6 +1,10 @@
 .progress__item {
   width: 124px;
   min-height: 70px;
+
+  @media (min-width: $desktop-width) {
+    width: 162px;
+  }
 }
 
 .progress__number {

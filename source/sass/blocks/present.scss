@@ -1,3 +1,13 @@
+.present {
+  @media (min-width: $desktop-width) {
+    display: flex;
+    width: 245px;
+    height: 288px;
+    background-color: $accent-color;
+    margin-top: 105px;
+  }
+}
+
 .present__text {
   font-family: $basic-font;
   font-size: 16px;
@@ -6,4 +16,9 @@
   text-align: center;
   color: $basic-bg;
   margin: 0;
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
+    padding-top: 185px;
+  }
 }

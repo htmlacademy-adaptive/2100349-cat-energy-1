@@ -4,12 +4,22 @@
   @media (min-width: $tablet-width) {
     background-color: $basic-bg;
   }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    width: 1440px;
+    margin-top: 69px;
+  }
 }
 
 .result__wrapper {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 25px;
+
+  @media (min-width: $desktop-width) {
+    padding-left: 110px;
+  }
 }
 
 .result__example {
@@ -36,6 +46,22 @@
     font-size: 16px;
     line-height: 24px;
   }
+
+  @media (min-width: $tablet-width) {
+    width: 433px;
+    margin-top: 146px;
+  }
+}
+
+.result__list-transform {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: block;
+  }
 }
 
 .result__list {
@@ -43,6 +69,11 @@
   width: 280px;
   min-height: 70px;
   display: flex;
+
+  @media (min-width: $desktop-width) {
+    width: 370px;
+    margin-top: 69px;
+  }
 }
 
 .result__expenses {
@@ -56,6 +87,20 @@
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
+    width: 180px;
+    text-align: end;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100%;
+    text-align: left;
+    margin-top: 69px;
+  }
+}
+
+.result__price {
+  @media (min-width: $desktop-width) {
+    padding-left: 63px;
   }
 }
 

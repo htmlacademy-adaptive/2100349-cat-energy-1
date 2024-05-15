@@ -25,6 +25,16 @@
   list-style-type: none;
   padding-bottom: 49px;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    width: 1220px;
+  }
 }
 
 .features__item {
@@ -36,7 +46,7 @@
   padding-top: 20px;
 
   @media (min-width: $tablet-width) {
-    min-width: 230px;
+    width: 250px;
     font-size: 16px;
     line-height: 24px;
   }

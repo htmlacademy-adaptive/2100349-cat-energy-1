@@ -7,6 +7,11 @@
     width: 324px;
     background-color: $element-bg;
   }
+  @media (min-width: $desktop-width) {
+    display: block;
+    width: 245px;
+    background-color: $element-bg;
+  }
 }
 
 .catalog__item-foto {
@@ -37,6 +42,12 @@
 
   @media (min-width: $tablet-width) {
     width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 169px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -108,6 +119,10 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 169px;
   }
 }
 

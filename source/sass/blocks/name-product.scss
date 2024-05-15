@@ -12,6 +12,11 @@
     padding-left: 38px;
     padding-top: 26px;
   }
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
+    padding-left: 1px;
+  }
 }
 
 .name-product__list {
@@ -20,6 +25,10 @@
   @media (min-width: $tablet-width) {
     padding-right: 38px;
     padding-top: 28px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 285px;
   }
 }
 

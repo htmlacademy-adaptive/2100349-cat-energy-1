@@ -20,8 +20,13 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
     margin-top: 65px;
-    margin-left: 70px;
-    padding-left: 0;
+    padding-left: 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 60px;
+    margin-top: 65px;
+    padding-left: 110px;
   }
 }
 
@@ -41,8 +46,15 @@
     width: 323px;
     font-size: 20px;
     line-height: 30px;
-    margin-left: 70px;
-    padding-left: 0;
+    padding-left: 110px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 54px;
+    width: 323px;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 110px;
   }
 }
 
