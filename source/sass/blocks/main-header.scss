@@ -1,9 +1,5 @@
 .main-header {
   background-color: $basic-bg;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  flex-wrap: wrap;
 
   @media (min-width: $tablet-width) {
     padding-left: 30px;
@@ -11,6 +7,7 @@
     padding-top: 25px;
     width: 768px;
   }
+
   @media (min-width: $desktop-width) {
     width: 1220px;
     padding-left: 110px;
@@ -18,10 +15,16 @@
   }
 }
 
+.main-header__wrapper {
+  display: flex;
+  padding: 14px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .main-header__logo {
   width: 33px;
   height: 38px;
-  padding-left: 20px;
 
   @media (min-width: $desktop-width) {
     padding-left: 0;
@@ -31,7 +34,6 @@
 .main-header__name {
   width: 101px;
   height: 18px;
-  padding-left: 56px;
 
   @media (min-width: $tablet-width) {
     padding-left: 13px;
@@ -39,14 +41,12 @@
 }
 
 .main-header__toggle {
-  margin-left: 55px;
-  margin-top: 10px;
-  margin-right: 20px;
   width: 24px;
   height: 24px;
   border: none;
   background-image: url("../img/icons/header-menu.svg");
   background-repeat: no-repeat;
+  background-color: transparent;
 
   @media (min-width: $tablet-width) {
     display: none;

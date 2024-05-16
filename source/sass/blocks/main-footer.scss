@@ -22,9 +22,9 @@
 
 .main-footer__name {
   width: 128px;
-  height: 24px;
   padding-top: 40px;
   margin: 0 auto;
+  padding-bottom: 20px;
 
   @media (min-width: $tablet-width) {
     padding-top: 7px;
@@ -38,6 +38,9 @@
   border-bottom: 1px solid #d9d9d9;
   margin: 0;
   padding: 0;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
 
   @media (min-width: $tablet-width) {
     width: 132px;
@@ -58,7 +61,7 @@
   text-align: left;
   color: $text-color;
   display: flex;
-  height: 34px;
   justify-content: space-between;
   text-decoration: none;
+  padding: 20px 0 40px;
 }

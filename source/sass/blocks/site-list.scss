@@ -1,14 +1,9 @@
 .site-list {
   list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .site-list__item {
-  display: flex;
   border-top: 1px solid #e6e6e6;
-  justify-content: center;
-
   @media (min-width: $tablet-width) {
     display: inline;
     border-top: none;

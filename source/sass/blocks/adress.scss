@@ -6,8 +6,9 @@
 
 .adress__invitation {
   display: flex;
-  padding: 20px 26px;
+  padding: 26px 20px;
   background-color: $element-bg;
+  gap: 15px;
 
   @media (min-width: $tablet-width) {
     width: 628px;

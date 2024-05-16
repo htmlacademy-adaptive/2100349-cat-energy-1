@@ -13,7 +13,8 @@
 .programm-cards__item {
   width: 280px;
   background-color: $element-bg;
-  margin-top: 20px;
+  margin: 20px auto 0;
+  padding: 21px 33px 22px 20px;
 
   @media (min-width: $tablet-width) {
     width: 708px;
