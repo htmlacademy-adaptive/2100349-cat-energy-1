@@ -10,8 +10,10 @@
 
   @media (min-width: $tablet-width) {
     text-align: left;
-    padding-left: 20px;
+    padding-left: 52px;
     font-size: 36px;
+    padding-top: 77px;
+    margin: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -35,6 +37,9 @@
     width: 340px;
     font-size: 16px;
     line-height: 24px;
+    padding-left: 52px;
+    padding-top: 24px;
+    margin: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -61,6 +66,9 @@
   @media (min-width: $tablet-width) {
     border: none;
     font-size: 20px;
+    padding-left: 52px;
+    padding-top: 48px;
+    padding-bottom: 53px;
   }
 
   @media (min-width: $desktop-width) {

@@ -6,6 +6,7 @@
     padding-right: 34px;
     padding-top: 25px;
     width: 768px;
+    display: flex;
   }
 
   @media (min-width: $desktop-width) {
@@ -20,6 +21,10 @@
   padding: 14px 20px;
   justify-content: space-between;
   align-items: center;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
 }
 
 .main-header__logo {

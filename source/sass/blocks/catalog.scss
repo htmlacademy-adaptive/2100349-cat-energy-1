@@ -6,6 +6,7 @@
     display: block;
     width: 324px;
     background-color: $element-bg;
+    margin-top: 142px;
   }
 
   @media (min-width: $desktop-width) {
@@ -24,7 +25,8 @@
     height: 210px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    display: block;
+    margin-top: -80px;
   }
 }
 
