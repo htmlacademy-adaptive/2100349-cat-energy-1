@@ -1,12 +1,18 @@
 .programm-cards {
   display: flex;
   padding-left: 20px;
+
+  @media (min-width: $desktop-width) {
+    padding-left: 0px;
+  }
 }
 
 .programm-cards__wrapper {
   @media (min-width: $desktop-width) {
     display: flex;
     gap: 80px;
+    padding-left: 110px;
+    padding-right: 110px;
   }
 }
 

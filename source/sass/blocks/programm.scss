@@ -19,7 +19,7 @@
   @media (min-width: $desktop-width) {
     text-align: center;
     padding-left: 20px;
-    margin-top: 70px;
+    padding-top: 70px;
     font-size: 36px;
   }
 }
@@ -43,10 +43,11 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 340px;
+    width: 500px;
     font-size: 16px;
     line-height: 24px;
-    margin-top: 73px;
+    padding-top: 73px;
+    padding-left: 52px;
   }
 }
 
@@ -74,7 +75,7 @@
   @media (min-width: $desktop-width) {
     border: none;
     font-size: 20px;
-    padding-top: none;
+    padding-top: 23px;
     padding-bottom: none;
   }
 }

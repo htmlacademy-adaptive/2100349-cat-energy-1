@@ -11,8 +11,9 @@
 
   @media (min-width: $desktop-width) {
     width: 1220px;
-    padding-left: 110px;
-    padding-right: 110px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
   }
 }
 
@@ -33,6 +34,8 @@
 
   @media (min-width: $desktop-width) {
     padding-left: 0;
+    width: 70px;
+    height: 59px;
   }
 }
 
@@ -42,6 +45,12 @@
 
   @media (min-width: $tablet-width) {
     padding-left: 13px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 119px;
+    height: 21px;
+    padding-left: 14px;
   }
 }
 

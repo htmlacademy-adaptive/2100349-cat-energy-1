@@ -19,6 +19,7 @@
 .catalog__item-foto {
   width: 140px;
   height: 107px;
+  padding-top: 20px;
 
   @media (min-width: $tablet-width) {
     width: 200px;
@@ -31,6 +32,10 @@
 }
 
 .catalog__item-plus {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
   @media (min-width: $tablet-width) {
     width: 60px;
     height: 60px;
@@ -42,6 +47,9 @@
 }
 
 .catalog__item-description {
+  padding-top: 20px;
+  width: 140px;
+
   @media (min-width: $tablet-width) {
     width: 250px;
     margin-left: auto;
@@ -121,6 +129,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
+    width: 250px;
   }
 
   @media (min-width: $desktop-width) {
@@ -129,6 +138,8 @@
 }
 
 .catalog__item-all {
+  display: block;
+
   @media (min-width: $tablet-width) {
     height: 429px;
     background-color: $basic-bg;

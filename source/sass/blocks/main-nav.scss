@@ -16,4 +16,9 @@
     width: 436px;
     display: flex;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 478px;
+    gap: 22px;
+  }
 }

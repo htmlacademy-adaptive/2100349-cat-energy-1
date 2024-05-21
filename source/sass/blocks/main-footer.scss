@@ -17,6 +17,10 @@
     margin: 0 auto;
     align-items: center;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+  }
 }
 
 .main-footer__name {

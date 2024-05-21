@@ -28,6 +28,13 @@
     padding-left: 80px;
     text-align: left;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 190px;
+    padding-top: 110px;
+    width: 610px;
+    margin: 0;
+  }
 }
 
 .promo__slogan {
@@ -46,6 +53,11 @@
     line-height: 20px;
     text-align: left;
     padding-left: 80px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 190px;
+    padding-top: 40px;
   }
 }
 
@@ -68,5 +80,10 @@
     position: absolute;
     left: 100px;
     bottom: 526px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 110px;
+    width: 244px;
   }
 }
