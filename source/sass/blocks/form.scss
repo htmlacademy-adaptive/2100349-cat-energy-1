@@ -95,6 +95,13 @@
   }
 }
 
+.form__input--textarea {
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    min-height: 175px;
+  }
+}
+
 .form__group-list {
   list-style-type: none;
   margin: 0;
@@ -146,13 +153,6 @@
 //.form__input--email {}
 
 //.form__input--tel {}
-
-.form__input--textarea {
-  @media (min-width: $desktop-width) {
-    width: 1220px;
-    min-height: 175px;
-  }
-}
 
 .form__group-wrapper {
   @media (min-width: $desktop-width) {}

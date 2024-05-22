@@ -9,7 +9,7 @@
 </head>
 
   <body class="page__body">
-    <header class="main-header">
+    <header class="main-header page__header">
       <div class="main-header__wrapper">
         <div class="main-header__logo logo">
           <a class="logo__link" href="index.html">
@@ -44,7 +44,7 @@
     <main class="main-container">
       <h1 class="main-container__title">Каталог продукции</h1>
 
-      <section class="product-cards">
+      <section class="product-cards main-container__cards">
         <h2 class="visually-hidden">Каталог товаров с описанием</h2>
         <div class="product-cards__wrapper">
 
@@ -216,7 +216,7 @@
 
             <li class="catalog__item catalog__item-all">
               <img class="catalog__item-plus" src="img/icons/extra-plus.png" width="30px" height="30px">
-              <h3 class="catalog__item-title">Показать еще 100500 товаров</h3>
+              <h3 class="catalog__item-title catalog__item--text-all">Показать еще 100500 товаров</h3>
               <p class="catalog__item-text">На самом деле вкусов гораздо больше!</p>
               <a class="catalog__item-order general-button general-button--all" href="#">показать все</a>
             </li>
@@ -224,7 +224,7 @@
         </div>
       </section>
 
-      <section class="additional-products">
+      <section class="additional-products main-container__products">
         <div class="additional-products__wrapper">
           <h2 class="additional-products__title">Дополнительные товары</h2>
           <ul class="additional-products__list">
@@ -281,7 +281,7 @@
             </li>
           </ul>
         </div>
-        <div class="present">
+        <div class="present additional-products--present">
           <h3 class="present__text">Закажите все и получите чехол для кота в подарок!</h3>
         </div>
       </section>

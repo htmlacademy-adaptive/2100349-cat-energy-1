@@ -15,8 +15,4 @@
 .general-button--all {
   background-color: $element-bg;
   color: $text-color;
-
-  @media (min-width: $tablet-width) {
-    margin-top: 100px;
-  }
 }

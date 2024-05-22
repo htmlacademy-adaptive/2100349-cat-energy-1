@@ -1,6 +1,7 @@
 .adress {
   @media (min-width: $tablet-width) {
-    width: 768px;
+    width: 100%;
+    background-color: #f2f2f2;
   }
 }
 
@@ -11,8 +12,10 @@
   gap: 15px;
 
   @media (min-width: $tablet-width) {
-    padding: 60px 70px;
     justify-content: space-between;
+    width: 628px;
+    align-items: center;
+    margin: 0 auto;
   }
 }
 

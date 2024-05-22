@@ -5,14 +5,30 @@
     padding-left: 30px;
     padding-right: 34px;
     padding-top: 25px;
-    width: 768px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
   }
 
   @media (min-width: $desktop-width) {
     width: 1220px;
     padding-left: 0px;
     padding-right: 0px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 33px;
+  }
+}
+
+.page__header {
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
     margin: 0 auto;
   }
 }
