@@ -16,7 +16,8 @@
   color: $title-text;
 
   @media (min-width: $tablet-width) {
-    font-size: 37px;
+    font-size: 30px;
+    line-height: 37px;
   }
 }
 
@@ -28,9 +29,11 @@
   text-align: center;
   color: $text-color;
   margin: 0;
+  width: 77px;
 
   @media (min-width: $tablet-width) {
     font-size: 14px;
     padding-top: 11px;
+    width: 125px;
   }
 }

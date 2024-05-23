@@ -38,6 +38,7 @@
   line-height: 26px;
   text-align: left;
   color: $title-text;
+  margin-bottom: 35px;
 
   @media (min-width: $tablet-width) {
     font-size: 36px;
@@ -59,6 +60,10 @@
   line-height: 18px;
   text-align: left;
   color: $text-color;
+  display: flex;
+  gap: 13px;
+  margin-bottom: 14px;
+  align-items: center;
 
   @media (min-width: $tablet-width) {
     display: block;
@@ -85,6 +90,7 @@
   line-height: 18px;
   text-align: left;
   color: $text-color;
+  flex-grow: 1;
 
   @media (min-width: $tablet-width) {
     min-width: 490px;
