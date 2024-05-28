@@ -41,11 +41,12 @@
   padding-top: 37px;
 
   @media (min-width: $tablet-width) {
-    margin-top: 54px;
-    width: 323px;
+    padding: 0;
+    width: 400px;
     font-size: 20px;
     line-height: 30px;
-    padding-left: 110px;
+    padding-left: 70px;
+    padding-top: 54px;
   }
 
   @media (min-width: $desktop-width) {
