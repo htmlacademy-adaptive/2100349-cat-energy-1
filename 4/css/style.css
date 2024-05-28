@@ -277,11 +277,12 @@ html {
 }
 @media (min-width: 768px) {
   .main-container__text {
-    margin-top: 54px;
-    width: 323px;
+    padding: 0;
+    width: 400px;
     font-size: 20px;
     line-height: 30px;
-    padding-left: 110px;
+    padding-left: 70px;
+    padding-top: 54px;
   }
 }
 @media (min-width: 1220px) {
@@ -1507,8 +1508,11 @@ html {
 }
 @media (min-width: 768px) {
   .form__group {
-    width: 628px;
+    padding: 0;
+    width: 768px;
     padding-top: 65px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
 }
 @media (min-width: 1220px) {
@@ -1520,6 +1524,9 @@ html {
 @media (min-width: 768px) {
   .form__group-tablet {
     display: flex;
+    margin: 0;
+    padding-left: 70px;
+    padding-bottom: 60px;
   }
 }
 @media (min-width: 1220px) {
@@ -1542,12 +1549,13 @@ html {
   line-height: 26px;
   text-align: left;
   color: #000000;
-  margin-bottom: 35px;
+  margin: 0;
 }
 @media (min-width: 768px) {
   .form__title {
     font-size: 36px;
     line-height: 36px;
+    padding-top: 65px;
   }
 }
 @media (min-width: 1220px) {
@@ -1573,9 +1581,10 @@ html {
 }
 @media (min-width: 768px) {
   .form__label {
-    display: block;
     font-size: 20px;
-    padding-top: 20px;
+    line-height: 30px;
+    margin: 0;
+    padding-bottom: 20px;
   }
 }
 @media (min-width: 1220px) {
@@ -1628,7 +1637,6 @@ html {
     height: 196px;
     border: 1px solid #e7e7e7;
     padding: 0;
-    padding-left: 27px;
   }
 }
 @media (min-width: 1220px) {
@@ -1639,9 +1647,9 @@ html {
 
 @media (min-width: 768px) {
   .form__group-optional {
-    display: flex;
-    flex-wrap: wrap;
-    width: 533px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 628px;
     border: none;
     justify-content: space-between;
   }
@@ -1674,6 +1682,12 @@ html {
   border: none;
   margin-left: 20px;
 }
+@media (min-width: 768px) {
+  .form__request {
+    margin: 0;
+    width: 284px;
+  }
+}
 @media (min-width: 1220px) {
   .form__request {
     width: 570px;
@@ -1688,6 +1702,14 @@ html {
   text-align: center;
   color: #000000;
   margin: 0;
+  padding-top: 21px;
+  padding-bottom: 32px;
+}
+@media (min-width: 768px) {
+  .form__required-fields {
+    padding-bottom: 0;
+    padding-left: 60px;
+  }
 }
 @media (min-width: 1220px) {
   .form__required-fields {
