@@ -1,11 +1,9 @@
 .product-cards {
   @media (min-width: $tablet-width) {
-    min-width: 768px;
     margin-top: 84px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 1220px;
     margin: 0 auto;
     //padding-left: 110px;
     //padding-right: 110px;
@@ -14,6 +12,14 @@
 
 .main-container__cards {
   width: 320px;
+
+  @media (min-width: $tablet-width) {
+    min-width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+  }
 }
 
 .product-cards__wrapper {
@@ -30,7 +36,7 @@
   @media (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
-    gap: 60px;
+    column-gap: 60px;
     padding-left: 30px;
   }
 
