@@ -10,9 +10,9 @@
 .programm-cards__wrapper {
   @media (min-width: $desktop-width) {
     display: flex;
+    width: 1220px;
     gap: 80px;
-    padding-left: 110px;
-    padding-right: 110px;
+    margin: 0 auto;
   }
 }
 

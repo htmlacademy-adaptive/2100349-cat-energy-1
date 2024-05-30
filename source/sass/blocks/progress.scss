@@ -28,7 +28,8 @@
   line-height: 12px;
   text-align: center;
   color: $text-color;
-  margin: 0;
+  margin: 0 auto;
+  padding-top: 7px;
   width: 77px;
 
   @media (min-width: $tablet-width) {

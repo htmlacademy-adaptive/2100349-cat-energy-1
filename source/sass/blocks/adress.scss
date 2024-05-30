@@ -3,6 +3,11 @@
     width: 100%;
     background-color: #f2f2f2;
   }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: auto 1220px auto;
+  }
 }
 
 .adress__invitation {
@@ -13,14 +18,21 @@
 
   @media (min-width: $tablet-width) {
     justify-content: space-between;
-    width: 628px;
     align-items: center;
-    margin: 0 auto;
+    padding: 60px 70px;
   }
 }
 
 .adress__starting-view {
   background-color: $basic-bg;
+
+  @media (min-width: $desktop-width) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    z-index: 2;
+    width: 565px;
+    align-self: center;
+  }
 }
 
 .adress__slogan {
@@ -74,5 +86,7 @@
 
   @media (min-width: $desktop-width) {
     width: 100%;
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
   }
 }

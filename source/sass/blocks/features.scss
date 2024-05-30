@@ -22,8 +22,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 110px;
-    padding-right: 110px;
+    padding: 0;
+    width: 1220px;
+    margin: 0 auto;
   }
 }
 
@@ -43,9 +44,9 @@
 
 .features__list {
   list-style-type: none;
-  padding-bottom: 49px;
   margin: 0;
   padding: 0 0 29px;
+  padding-bottom: 49px;
 
   @media (min-width: $tablet-width) {
     display: flex;
