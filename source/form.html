@@ -42,10 +42,11 @@
     </header>
 
     <main class="main-container">
-      <h1 class="main-container__title">Подбор программы</h1>
-      <p class="main-container__text">Заполните анкету, и мы подберем
-        программу питания для вашего кота</p>
-
+      <div class="main-container__slogan">
+        <h1 class="main-container__title">Подбор программы</h1>
+        <p class="main-container__text">Заполните анкету, и мы подберем
+          программу питания для вашего кота</p>
+      </div>
       <form class="main-container__field form" action="https://echo.htmlacademy.ru/" method="post">
         <div class="form__group-full">
           <fieldset class="form__group form__group--line">
@@ -92,7 +93,7 @@
             Контактные данные (владельца кота)
           </legend>
           <div class="form__group-full">
-            <label class="form__label" for="cat-email">e-mail:*
+            <label class="form__label" for="cat-email"><span>e-mail:*</span>
               <input class="form__input form__input--email" placeholder="kuklachev@gmail.com" type="email" name="cat-email" id="cat-email" required>
             </label>
 
@@ -102,10 +103,10 @@
           </div>
         </fieldset>
 
-        <fieldset class="form__group">
-          <label class="form__title" id="feedback">Комментарий</label>
+        <div class="form__group">
+          <label class="form__title" for="feedback">Комментарий</label>
           <textarea class="form__input form__input--textarea" id="feedback" name="feedback" placeholder="Расскажите обо всех повадках кота"></textarea>
-        </fieldset>
+        </div>
 
         <fieldset class="form__group">
           <legend class="form__title">Дополнительно</legend>
@@ -150,7 +151,7 @@
 
       <section class="adress">
         <h2 class="visually-hidden">Адрес</h2>
-        <div class="adress__invitation">
+        <div class="adress__invitation  adress__starting-view">
           <p class="adress__slogan">
             приглашаем к сотрудничеству дилеров!
           </p>

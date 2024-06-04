@@ -99,6 +99,11 @@
   }
 }
 
+.catalog__item--text-all::before {
+  background-image: url("../img/icons/extra-plus.svg");
+  content: " ";
+}
+
 .catalog__item-text {
   font-family: $basic-font;
   font-size: 12px;

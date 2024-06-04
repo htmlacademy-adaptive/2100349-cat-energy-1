@@ -12,6 +12,7 @@
 
 .main-container__cards {
   width: 320px;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     min-width: 768px;
@@ -23,6 +24,8 @@
 }
 
 .product-cards__wrapper {
+  margin: 0 auto;
+
   @media (min-width: $desktop-width) {
     min-width: 1220px;
   }
