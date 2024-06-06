@@ -101,7 +101,12 @@
 
 .catalog__item--text-all::before {
   background-image: url("../img/icons/extra-plus.svg");
-  content: " ";
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .catalog__item-text {

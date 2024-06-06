@@ -13,13 +13,13 @@
 }
 
 .features__wrapper {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0;
+  width: 280px;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    //padding-left: 30px;
-    //padding-right: 30px;
-    width: 768px;
+    padding: 0;
+    width: 708px;
     margin: 0 auto;
   }
 
