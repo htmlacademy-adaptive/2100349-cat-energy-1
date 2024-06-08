@@ -95,12 +95,12 @@
   @media (min-width: $tablet-width) {
     width: 244px;
     position: absolute;
-    left: 100px;
+    left: 110px;
     bottom: 526px;
   }
 
   @media (min-width: $desktop-width) {
-    margin-left: 110px;
+    left: 190px;
     width: 244px;
     height: 54px;
   }

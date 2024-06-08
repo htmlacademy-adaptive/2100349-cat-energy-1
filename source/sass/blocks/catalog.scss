@@ -107,6 +107,18 @@
   height: 30px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 23px;
+
+  @media (min-width: $tablet-width) {
+    background-image: url("../img/icons/extra-plus-tablet.svg");
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
 }
 
 .catalog__item-text {

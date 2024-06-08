@@ -7,6 +7,12 @@
 
 .main-container__slogan {
   @media (min-width: $tablet-width) {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
     margin: 0 auto;
   }
 }
@@ -29,9 +35,14 @@
 
   @media (min-width: $desktop-width) {
     font-size: 60px;
-    padding-left: 0;
-    width: 1220px;
+    padding-left: 110px;
     margin: 65px auto;
+  }
+}
+
+.title--slogan {
+  @media (min-width: $desktop-width) {
+    padding-left: 0;
   }
 }
 
@@ -62,7 +73,6 @@
     width: 440px;
     font-size: 20px;
     line-height: 30px;
-    padding-left: 120px;
     padding-bottom: 66px;
   }
 }

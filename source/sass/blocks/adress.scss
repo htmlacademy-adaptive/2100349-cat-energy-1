@@ -23,7 +23,7 @@
   @media (min-width: $tablet-width) {
     justify-content: space-between;
     align-items: center;
-    padding: 60px 70px;
+    padding: 60px 0;
     width: 628px;
     margin: 0 auto;
   }
@@ -45,6 +45,8 @@
     width: 565px;
     align-self: center;
     background-color: $basic-bg;
+    padding-left: 80px;
+    padding-right: 74px;
   }
 }
 

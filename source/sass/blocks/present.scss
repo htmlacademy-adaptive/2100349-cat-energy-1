@@ -6,6 +6,16 @@
 }
 
 .additional-products--present {
+  width: 280px;
+  height: 290px;
+  background-color: $accent-color;
+  margin: 35px auto;
+
+  @media (min-width: $tablet-width) {
+    width: 707px;
+    height: 200px;
+  }
+
   @media (min-width: $desktop-width) {
     width: 245px;
     min-height: 288px;
@@ -20,7 +30,15 @@
   line-height: 20px;
   text-align: center;
   color: $basic-bg;
-  margin: 0;
+  margin: 0 auto;
+  padding-top: 186px;
+  width: 161px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 71px;
+    margin: 0;
+    margin-left: 421px;
+  }
 
   @media (min-width: $desktop-width) {
     width: 245px;

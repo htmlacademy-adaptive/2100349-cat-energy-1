@@ -43,13 +43,13 @@
 
     <main class="main-container">
       <div class="main-container__slogan">
-        <h1 class="main-container__title">Подбор программы</h1>
+        <h1 class="main-container__title title--slogan">Подбор программы</h1>
         <p class="main-container__text">Заполните анкету, и мы подберем
           программу питания для вашего кота</p>
       </div>
       <form class="main-container__field form" action="https://echo.htmlacademy.ru/" method="post">
         <div class="form__group-full">
-          <fieldset class="form__group form__group--line">
+          <fieldset class="form__group form__group--option form__group--line">
             <legend class="visually-hidden form__title">Информация о вашем коте</legend>
 
             <label class="form__label" for="name">имя:*
@@ -65,7 +65,7 @@
             </label>
           </fieldset>
 
-          <fieldset class="form__group form__group--line">
+          <fieldset class="form__group form__group--option form__group--line">
             <legend class="visually-hidden form__title">Выберите программу</legend>
             <ul class="form__group-list">
               <li class="form__group-item">
@@ -94,11 +94,11 @@
           </legend>
           <div class="form__group-full">
             <label class="form__label" for="cat-email"><span>e-mail:*</span>
-              <input class="form__input form__input--email" placeholder="kuklachev@gmail.com" type="email" name="cat-email" id="cat-email" required>
+              <input class="form__input form__input--option form__input--email" placeholder="kuklachev@gmail.com" type="email" name="cat-email" id="cat-email" required>
             </label>
 
             <label class="form__label" for="contacts-phone">телефон:*
-              <input class="form__input form__input--tel" type="tel" id="contacts-phone" name="contacts-phone" placeholder="8 (960) 900-60-90" required>
+              <input class="form__input form__input--option form__input--tel" type="tel" id="contacts-phone" name="contacts-phone" placeholder="8 (960) 900-60-90" required>
             </label>
           </div>
         </fieldset>
