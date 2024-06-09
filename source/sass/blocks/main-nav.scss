@@ -1,12 +1,23 @@
 .main-nav {
   background-color: $basic-bg;
-  padding-top: 15px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: auto;
+  }
 }
 
 .main-nav__list {
   background-color: $basic-bg;
-  width: 280px;
   list-style-type: none;
   margin: 0;
   padding: 0;
+
+  @media (min-width: $tablet-width) {
+    gap: 33px;
+    display: flex;
+  }
+
+  @media (min-width: $desktop-width) {
+    gap: 33px;
+  }
 }

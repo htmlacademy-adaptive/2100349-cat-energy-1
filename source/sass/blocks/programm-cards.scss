@@ -1,14 +1,37 @@
 .programm-cards {
-  display: flex;
-  padding-left: 20px;
+  @media (min-width: $desktop-width) {
+    padding-left: 0;
+  }
 }
 
-//.programm-cards__wrapper {}
+.programm-cards__wrapper {
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    width: 1220px;
+    gap: 80px;
+    margin: 0 auto;
+  }
+}
 
 .programm-cards__item {
-  display: flex;
-  flex-direction: column;
   width: 280px;
   background-color: $element-bg;
-  margin-top: 20px;
+  margin: 20px auto 0;
+  padding: 21px 33px 0 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+    min-height: 374px;
+  }
 }

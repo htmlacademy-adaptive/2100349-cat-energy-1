@@ -8,6 +8,15 @@
   text-align: center;
   color: $basic-bg;
   text-decoration: none;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding: 10px;
+  display: block;
+
+  @media (min-width: $desktop-width) {
+    padding: 17px;
+  }
+}
+
+.general-button--all {
+  background-color: $element-bg;
+  color: $text-color;
 }

@@ -4,6 +4,10 @@
   font-weight: 400;
   line-height: 16px;
   color: $text-color;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+  }
 }
 
 .parameters__text {
@@ -13,4 +17,8 @@
   line-height: 16px;
   color: $text-color;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+  }
 }

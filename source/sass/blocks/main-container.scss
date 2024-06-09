@@ -1,9 +1,20 @@
 .main-container {
-  display: flex;
   flex-grow: 1;
-  flex-direction: column;
-  width: 320px;
   background-color: $basic-bg;
+
+  //@media (min-width: $tablet-width) {}
+}
+
+.main-container__slogan {
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    margin: 0 auto;
+  }
 }
 
 .main-container__title {
@@ -14,6 +25,25 @@
   color: $title-text;
   padding-left: 20px;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 65px;
+    padding-left: 70px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 60px;
+    padding-left: 110px;
+    margin: 65px auto;
+  }
+}
+
+.title--slogan {
+  @media (min-width: $desktop-width) {
+    padding-left: 0;
+  }
 }
 
 .main-container__text {
@@ -25,10 +55,37 @@
   text-align: left;
   color: $title-text;
   padding-left: 20px;
+  padding-right: 20px;
   margin: 0;
+  padding-top: 37px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    width: 400px;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 70px;
+    padding-top: 54px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    width: 440px;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 66px;
+  }
 }
 
 .main-container__field {
-  display: flex;
-  flex-direction: column;
+  padding-top: 39px;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    margin: 0 auto;
+  }
 }

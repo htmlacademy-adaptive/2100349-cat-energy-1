@@ -1,14 +1,33 @@
 .features {
-  display: flex;
-  margin-top: 20px;
+  padding-top: 20px;
   background-color: $basic-bg;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 45px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+
+  @media (min-width: $desktop-width) {
+    border-bottom: none;
+  }
 }
 
 .features__wrapper {
-  display: flex;
-  padding-left: 20px;
-  padding-right: 20px;
-  flex-direction: column;
+  padding: 0;
+  width: 280px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+    width: 708px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
+    width: 1220px;
+    margin: 0 auto;
+  }
 }
 
 .features__work {
@@ -17,13 +36,31 @@
   font-weight: 400;
   line-height: 40px;
   color: $title-text;
-  margin: 0;
+  margin: 0 0 40px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .features__list {
   list-style-type: none;
-  padding-bottom: 49px;
   margin: 0;
+  padding: 0 0 29px;
+  padding-bottom: 49px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px 137px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    width: 1220px;
+    gap: 73px;
+  }
 }
 
 .features__item {
@@ -32,5 +69,11 @@
   font-weight: 400;
   line-height: 18px;
   color: $text-color;
-  padding-top: 20px;
+  margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 250px;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }

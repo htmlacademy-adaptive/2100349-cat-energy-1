@@ -1,6 +1,17 @@
 .logo__link {
   width: 33px;
   height: 38px;
+  display: block;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: block;
+    width: 70px;
+    height: 59px;
+  }
 }
 
 .logo__img {

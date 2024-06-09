@@ -1,6 +1,10 @@
 .progress__item {
   width: 124px;
   min-height: 70px;
+
+  @media (min-width: $desktop-width) {
+    width: 162px;
+  }
 }
 
 .progress__number {
@@ -10,6 +14,11 @@
   line-height: 24px;
   text-align: center;
   color: $title-text;
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 37px;
+  }
 }
 
 .progress__description {
@@ -19,5 +28,13 @@
   line-height: 12px;
   text-align: center;
   color: $text-color;
-  margin: 0;
+  margin: 0 auto;
+  padding-top: 7px;
+  width: 77px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+    padding-top: 11px;
+    width: 125px;
+  }
 }
