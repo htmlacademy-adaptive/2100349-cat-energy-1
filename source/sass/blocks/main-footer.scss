@@ -72,3 +72,16 @@
     margin: 0;
   }
 }
+
+.main-footer__academy-link::after {
+  background-image: url("../img/icons/academy-logo.svg");
+  content: "";
+  display: block;
+  width: 27px;
+  height: 34px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 23px;
+    margin-top: -5px;
+  }
+}
