@@ -201,9 +201,26 @@
   color: $text-color;
 }
 
-//.form__input--email {}
+.form__input--email {
+  background-image: url("../img/icons/e-mail-icons.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+}
 
-//.form__input--tel {}
+.form__input--tel {
+  background-image: url("../img/icons/phone-icons.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
 /*
 .form__group-wrapper {
   @media (min-width: $desktop-width) {}
