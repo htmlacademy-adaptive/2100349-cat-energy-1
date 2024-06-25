@@ -84,18 +84,15 @@
     display: none;
   }
 }
-// main-header--closed кнопка закрытия меню
-.main-header--closed {
-  display: none;
-  width: 24px;
-  height: 24px;
-  border: none;
+// main-header__toggle--closed кнопка закрытия меню
+.main-header__toggle--closed {
   background-image: url("../img/icons/header-menu--closed.svg");
-  background-repeat: no-repeat;
-  background-color: transparent;
 
   @media (min-width: $tablet-width) {
     display: none;
   }
 }
 
+.main-header__toggle--nojs {
+  visibility: hidden;
+}

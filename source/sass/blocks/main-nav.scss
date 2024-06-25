@@ -6,6 +6,17 @@
   }
 }
 
+.main-nav--nojs {
+  display: block;
+}
+
+.main-nav--opened {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
 .main-nav__list {
   background-color: $basic-bg;
   list-style-type: none;
