@@ -79,9 +79,9 @@
 
 .form__title::after {
   content: "";
-	position: absolute;
-	height: 2px;
-	background-color: $accent-color;
+  position: absolute;
+  height: 2px;
+  background-color: $accent-color;
   width: 100vw;
 }
 
