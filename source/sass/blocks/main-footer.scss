@@ -74,11 +74,13 @@
 }
 
 .main-footer__academy-link::after {
-  background-image: url("../img/icons/academy-logo.svg");
   content: "";
   display: block;
   width: 27px;
   height: 34px;
+  background-color: #666666;
+  mask-image: url("../img/icons/academy-logo.svg");
+  mask-repeat: no-repeat;
 
   @media (min-width: $tablet-width) {
     margin-left: 23px;
