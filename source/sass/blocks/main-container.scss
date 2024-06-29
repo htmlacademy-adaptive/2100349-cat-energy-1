@@ -1,6 +1,5 @@
 .main-container {
   flex-grow: 1;
-  background-color: $basic-bg;
 
   //@media (min-width: $tablet-width) {}
 }
@@ -25,6 +24,7 @@
   color: $title-text;
   padding-left: 20px;
   margin: 0;
+  margin-bottom: 41px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;

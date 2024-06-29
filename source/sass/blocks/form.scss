@@ -51,8 +51,6 @@
   }
 }
 
-//.form__group--line
-
 .form__title {
   font-family: $title-font;
   font-size: 24px;
@@ -63,11 +61,16 @@
   margin-bottom: 40px;
   display: block;
   padding-top: 25px;
+  position: relative;
+  background-color: $basic-bg;
+  width: fit-content;
+  box-shadow: 20px 0 0 $basic-bg;
 
   @media (min-width: $tablet-width) {
     font-size: 36px;
     line-height: 36px;
     padding-top: 65px;
+    box-shadow: -40px 0 0 $basic-bg, 40px 0 0 $basic-bg;
   }
 
   @media (min-width: $desktop-width) {
@@ -77,12 +80,23 @@
   }
 }
 
-.form__title::after {
+.form__title::before {
   content: "";
   position: absolute;
   height: 2px;
   background-color: $accent-color;
   width: 100vw;
+  top: 40px;
+  z-index: -1;
+
+  @media (min-width: $tablet-width) {
+    top: 85px;
+    box-shadow: -100vw 0 0 $accent-color;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 90px;
+  }
 }
 
 .form__label {
@@ -218,18 +232,24 @@
   width: 20px;
   height: 20px;
   background-color: #666666;
-  mask-image: url("/img/icons/e-mail-icons.svg");
+  mask-image: url("../img/icons/e-mail-icons.svg");
   mask-repeat: no-repeat;
   mask-position: right;
   position: absolute;
+  right: 18px;
 }
 
-.form__label--tel {
-  background-image: url("../img/icons/phone-icons.svg");
-  background-repeat: no-repeat;
-  background-position: right;
+.form__label--tel::after {
   content: "";
   display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #666666;
+  mask-image: url("../img/icons/phone-icons.svg");
+  mask-repeat: no-repeat;
+  mask-position: right;
+  position: absolute;
+  right: 18px;
 }
 
 /*
