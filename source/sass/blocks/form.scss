@@ -99,6 +99,14 @@
   }
 }
 
+.form__title--option {
+  width: 190px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
 .form__label {
   font-family: $title-font;
   text-transform: uppercase;
@@ -125,6 +133,12 @@
     font-size: 20px;
     padding-top: 0;
   }
+}
+
+//замена цвета при изменении состояния
+
+.form__label:has(.form__input:focus-visible)::after {
+  background: $accent-color;
 }
 
 .form__label span {
@@ -163,7 +177,7 @@
 }
 
 .form__input--textarea {
-  width: 320px;
+  width: 280px;
   min-height: 150px;
 
   @media (min-width: $tablet-width) {

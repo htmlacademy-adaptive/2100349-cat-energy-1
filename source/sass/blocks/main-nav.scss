@@ -1,5 +1,6 @@
 .main-nav {
   background-color: $basic-bg;
+  display: none;
 
   @media (min-width: $tablet-width) {
     margin-left: auto;
