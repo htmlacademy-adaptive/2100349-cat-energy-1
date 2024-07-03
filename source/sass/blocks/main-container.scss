@@ -57,7 +57,7 @@
   padding-left: 20px;
   padding-right: 20px;
   margin: 0;
-  padding-top: 37px;
+  //padding-top: 37px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -78,7 +78,7 @@
 }
 
 .main-container__field {
-  padding-top: 39px;
+  padding-top: 0;
 
   @media (min-width: $tablet-width) {
     padding: 0;
