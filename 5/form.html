@@ -22,12 +22,12 @@
             <img class="name__img" src="img/name-site-mobile.svg" width="101" height="18" alt="Сайт Кэт энерджи.">
           </a>
         </div>
-        <button class="main-header__toggle" type="button">
+        <button class="main-header__toggle main-header__toggle--closed main-header__toggle--nojs" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
       </div>
 
-      <nav class="main-nav">
+      <nav class="main-nav main-nav--opened main-nav--nojs">
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
             <a class="site-list__link" href="index.html">Главная</a>
@@ -71,26 +71,32 @@
             <ul class="form__group-list">
               <li class="form__group-item">
                 <label class="form__label">
-                  <input class="form__control-radio" type="radio" name="programm-group" value="weight-loss" checked>похудение
+                  <input class="form__control-radio" type="radio" name="programm-group" value="weight-loss" checked>
+                  <span class="form__control-radio-style"></span>
+                  похудение
                 </label>
               </li>
 
               <li class="form__group-item">
                 <label class="form__label">
-                  <input class="form__control-radio" type="radio" name="programm-group" value="weight-gain">набор массы
+                  <input class="form__control-radio" type="radio" name="programm-group" value="weight-gain">
+                  <span class="form__control-radio-style"></span>
+                  набор массы
                 </label>
               </li>
 
               <li class="form__group-item">
                 <label class="form__label">
-                  <input class="form__control-radio" type="radio" name="programm-group" value="advice">Не знаю (Нужен ваш совет)
+                  <input class="form__control-radio" type="radio" name="programm-group" value="advice">
+                  <span class="form__control-radio-style"></span>
+                  Не знаю (Нужен ваш совет)
                 </label>
               </li>
             </ul>
           </fieldset>
         </div>
         <fieldset class="form__group">
-          <legend class="form__title">
+          <legend class="form__title form__title--option">
             Контактные данные (владельца кота)
           </legend>
           <div class="form__group-full">
@@ -115,25 +121,33 @@
             <ul class="form__group-list form__group-optional">
               <li class="form__group-item">
                 <label class="form__label">
-                  <input class="form__checkbox" type="checkbox" name="select-group" value="sweetener" checked>сахарозаменитель
+                  <input class="form__checkbox" type="checkbox" name="select-group" value="sweetener" checked>
+                  <span class="form__checkbox-style"></span>
+                  сахарозаменитель
                 </label>
               </li>
 
               <li class="form__group-item">
                 <label class="form__label">
-                  <input class="form__checkbox" type="checkbox" name="select-group" value="drinking-water">питьевая вода
+                  <input class="form__checkbox" type="checkbox" name="select-group" value="drinking-water">
+                  <span class="form__checkbox-style"></span>
+                  питьевая вода
                 </label>
               </li>
 
               <li class="form__group-item">
                 <label class="form__label">
-                  <input class="form__checkbox" type="checkbox" name="select-group" value="milk">молоко
+                  <input class="form__checkbox" type="checkbox" name="select-group" value="milk">
+                  <span class="form__checkbox-style"></span>
+                  молоко
                 </label>
               </li>
 
               <li class="form__group-item">
                 <label class="form__label">
-                  <input class="form__checkbox" type="checkbox" name="select-group" value="vitamins">витамины
+                  <input class="form__checkbox" type="checkbox" name="select-group" value="vitamins">
+                  <span class="form__checkbox-style"></span>
+                  витамины
                 </label>
               </li>
             </ul>
