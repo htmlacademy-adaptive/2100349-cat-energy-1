@@ -150,17 +150,31 @@
 }
 
 .form__control-radio {
-  width: 30px;
-  height: 30px;
-  position: relative;
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
 }
 
-.form__control-radio::before {
+.form__control-radio-style {
   content: "";
   position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #cdcdcd;
+  border-radius: 50%;
+  margin-left: -45px;
+}
+
+.form__control-radio:checked + .form__control-radio-style::before {
+  content: "";
   width: 13px;
   height: 13px;
-  background: $accent-color;
+  background-color: $accent-color;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
 }
 
 .form__checkbox {
