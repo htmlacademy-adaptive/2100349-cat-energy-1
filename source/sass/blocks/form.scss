@@ -5,9 +5,7 @@
 
   @media (min-width: $tablet-width) {
     padding: 0;
-    width: 768px;
-    padding-left: 70px;
-    padding-right: 70px;
+    width: 628px;
     margin: 0 auto;
   }
 
@@ -49,6 +47,10 @@
 .form__group-full {
   padding-top: 39px;
 
+  @media (min-width: $tablet-width) {
+    padding-top: 0;
+  }
+
   @media (min-width: $desktop-width) {
     display: flex;
     gap: 80px;
@@ -57,6 +59,10 @@
 
 .form__group--style-line {
   border-bottom: 1px solid #d9d9d9;
+
+  @media (min-width: $tablet-width) {
+    border: none;
+  }
 }
 
 .form__title {
@@ -93,7 +99,7 @@
   position: absolute;
   height: 2px;
   background-color: $accent-color;
-  width: 100vw;
+  width: calc(100vw - 22px);
   top: 40px;
   z-index: -1;
 
@@ -145,6 +151,7 @@
 
   @media (min-width: $desktop-width) {
     display: flex;
+    width: 570px;
     font-size: 20px;
     padding-top: 0;
   }
@@ -171,6 +178,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: $tablet-width) {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .form__control-radio:checked::before {
@@ -180,6 +192,11 @@
   height: 13px;
   background-color: $accent-color;
   border-radius: 50%;
+
+  @media (min-width: $tablet-width) {
+    width: 18px;
+    height: 18px;
+  }
 }
 
 .form__checkbox {
@@ -187,6 +204,11 @@
   width: 30px;
   height: 30px;
   border: 1px solid #d9d9d9;
+
+  @media (min-width: $tablet-width) {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .form__checkbox:checked {
@@ -214,13 +236,13 @@
   }
 
   @media (min-width: $desktop-width) {
-    min-width: 440px;
+    min-width: 434px;
   }
 }
 
 .form__input--option {
   @media (min-width: $desktop-width) {
-    min-width: 496px;
+    min-width: 461px;
   }
 }
 
@@ -249,6 +271,7 @@
   @media (min-width: $tablet-width) {
     border: 1px solid $border-color;
     padding: 23px 27px 7px;
+    width: 628px;
   }
 
   @media (min-width: $desktop-width) {
@@ -276,6 +299,10 @@
   @media (min-width: $tablet-width) {
     padding-right: 50px;
   }
+}
+
+.form__group-item--optional {
+  width: 310px;
 }
 
 .form__group-full--option {
