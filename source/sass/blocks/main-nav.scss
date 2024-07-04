@@ -4,6 +4,7 @@
 
   @media (min-width: $tablet-width) {
     margin-left: auto;
+    display: block;
   }
 }
 
@@ -16,6 +17,11 @@
   position: absolute;
   width: 100%;
   left: 0;
+
+  @media (min-width: $tablet-width) {
+    position: static;
+    width: auto;
+  }
 }
 
 .main-nav__list {

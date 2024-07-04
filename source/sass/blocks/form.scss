@@ -18,6 +18,8 @@
 }
 
 .form__group--option {
+  padding-bottom: 24px;
+
   @media (min-width: $tablet-width) {
     padding-top: 65px;
   }
@@ -45,10 +47,16 @@
 }
 
 .form__group-full {
+  padding-top: 39px;
+
   @media (min-width: $desktop-width) {
     display: flex;
     gap: 80px;
   }
+}
+
+.form__group--style-line {
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .form__title {
@@ -107,6 +115,11 @@
   }
 }
 
+.form__title--no-visible {
+  padding: 0;
+  margin: 0;
+}
+
 .form__label {
   font-family: $title-font;
   text-transform: uppercase;
@@ -150,50 +163,33 @@
 }
 
 .form__control-radio {
-  position: absolute;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-}
-
-.form__control-radio-style {
-  content: "";
-  position: absolute;
+  appearance: none;
   width: 30px;
   height: 30px;
-  border: 1px solid #cdcdcd;
+  border: 1px solid #d9d9d9;
   border-radius: 50%;
-  margin-left: -45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.form__control-radio:checked + .form__control-radio-style::before {
+.form__control-radio:checked::before {
   content: "";
+  display: block;
   width: 13px;
   height: 13px;
   background-color: $accent-color;
-  top: 50%;
-  left: 5%;
-  transform: translate(-50%, -50%);
+  border-radius: 50%;
 }
 
 .form__checkbox {
-  position: absolute;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-}
-
-.form__checkbox-style {
-  position: absolute;
+  appearance: none;
   width: 30px;
   height: 30px;
-  border: 1px solid #cdcdcd;
-  margin-left: -45px;
+  border: 1px solid #d9d9d9;
 }
 
-.form__checkbox:checked + .form__checkbox-style {
+.form__checkbox:checked {
   background-image: url("../img/icons/checkbox-mobile.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -231,6 +227,7 @@
 .form__input--textarea {
   width: 280px;
   min-height: 150px;
+  padding-top: 20px;
 
   @media (min-width: $tablet-width) {
     width: 628px;
@@ -246,7 +243,8 @@
 .form__group-list {
   list-style-type: none;
   margin: 0;
-  padding-left: 45px;
+  padding: 0;
+  padding-top: 22px;
 
   @media (min-width: $tablet-width) {
     border: 1px solid $border-color;
@@ -278,6 +276,10 @@
   @media (min-width: $tablet-width) {
     padding-right: 50px;
   }
+}
+
+.form__group-full--option {
+  padding-top: 0;
 }
 /*
 .form__control-radio {
