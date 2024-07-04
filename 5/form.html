@@ -22,12 +22,12 @@
             <img class="name__img" src="img/name-site-mobile.svg" width="101" height="18" alt="Сайт Кэт энерджи.">
           </a>
         </div>
-        <button class="main-header__toggle main-header__toggle--closed main-header__toggle--nojs" type="button">
+        <button class="main-header__toggle main-header__toggle--nojs" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
       </div>
 
-      <nav class="main-nav main-nav--opened main-nav--nojs">
+      <nav class="main-nav  main-nav--nojs">
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
             <a class="site-list__link" href="index.html">Главная</a>
@@ -50,8 +50,8 @@
       </div>
       <form class="main-container__field form" action="https://echo.htmlacademy.ru/" method="post">
         <div class="form__group-full">
-          <fieldset class="form__group form__group--option form__group--line">
-            <legend class="visually-hidden form__title">Информация о вашем коте</legend>
+          <fieldset class="form__group form__group--option form__group--line  form__group--style-line">
+            <legend class="visually-hidden form__title form__title--no-visible">Информация о вашем коте</legend>
 
             <label class="form__label" for="name">имя:*
               <input class="form__input" type="text" name="cat-name" id="name" placeholder="Барсик" required>
@@ -66,13 +66,12 @@
             </label>
           </fieldset>
 
-          <fieldset class="form__group form__group--option form__group--line">
-            <legend class="visually-hidden form__title">Выберите программу</legend>
+          <fieldset class="form__group form__group--option form__group--line form__group--style-line">
+            <legend class="visually-hidden form__title form__title--no-visible">Выберите программу</legend>
             <ul class="form__group-list">
               <li class="form__group-item">
                 <label class="form__label">
                   <input class="form__control-radio" type="radio" name="programm-group" value="weight-loss" checked>
-                  <span class="form__control-radio-style"></span>
                   похудение
                 </label>
               </li>
@@ -80,7 +79,6 @@
               <li class="form__group-item">
                 <label class="form__label">
                   <input class="form__control-radio" type="radio" name="programm-group" value="weight-gain">
-                  <span class="form__control-radio-style"></span>
                   набор массы
                 </label>
               </li>
@@ -88,7 +86,6 @@
               <li class="form__group-item">
                 <label class="form__label">
                   <input class="form__control-radio" type="radio" name="programm-group" value="advice">
-                  <span class="form__control-radio-style"></span>
                   Не знаю (Нужен ваш совет)
                 </label>
               </li>
@@ -99,7 +96,7 @@
           <legend class="form__title form__title--option">
             Контактные данные (владельца кота)
           </legend>
-          <div class="form__group-full">
+          <div class="form__group-full form__group-full--option">
             <label class="form__label form__label--email" for="cat-email"><span>e-mail:*</span>
               <input class="form__input form__input--option" placeholder="kuklachev@gmail.com" type="email" name="cat-email" id="cat-email" required>
             </label>
@@ -119,34 +116,30 @@
           <legend class="form__title">Дополнительно</legend>
           <div class="form__group-wrapper">
             <ul class="form__group-list form__group-optional">
-              <li class="form__group-item">
+              <li class="form__group-item form__group-item--optional">
                 <label class="form__label">
                   <input class="form__checkbox" type="checkbox" name="select-group" value="sweetener" checked>
-                  <span class="form__checkbox-style"></span>
                   сахарозаменитель
                 </label>
               </li>
 
-              <li class="form__group-item">
+              <li class="form__group-item form__group-item--optional">
                 <label class="form__label">
                   <input class="form__checkbox" type="checkbox" name="select-group" value="drinking-water">
-                  <span class="form__checkbox-style"></span>
                   питьевая вода
                 </label>
               </li>
 
-              <li class="form__group-item">
+              <li class="form__group-item form__group-item--optional">
                 <label class="form__label">
                   <input class="form__checkbox" type="checkbox" name="select-group" value="milk">
-                  <span class="form__checkbox-style"></span>
                   молоко
                 </label>
               </li>
 
-              <li class="form__group-item">
+              <li class="form__group-item form__group-item--optional">
                 <label class="form__label">
                   <input class="form__checkbox" type="checkbox" name="select-group" value="vitamins">
-                  <span class="form__checkbox-style"></span>
                   витамины
                 </label>
               </li>
