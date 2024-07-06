@@ -84,3 +84,15 @@
     display: none;
   }
 }
+// main-header__toggle--closed кнопка закрытия меню
+.main-header__toggle--closed {
+  background-image: url("../img/icons/header-menu--closed.svg");
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.main-header__toggle--nojs {
+  visibility: hidden;
+}

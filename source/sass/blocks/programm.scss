@@ -79,3 +79,17 @@
     padding-bottom: 0;
   }
 }
+
+.programm__catalog::after {
+  background-image: url("../img/icons/right-arrow-cards.svg");
+  content: "";
+  display: block;
+  width: 32px;
+  height: 10px;
+  margin-left: 110px;
+  margin-top: -12px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 125px;
+  }
+}

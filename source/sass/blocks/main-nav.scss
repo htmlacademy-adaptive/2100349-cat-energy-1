@@ -1,8 +1,26 @@
 .main-nav {
   background-color: $basic-bg;
+  display: none;
 
   @media (min-width: $tablet-width) {
     margin-left: auto;
+    display: block;
+  }
+}
+
+.main-nav--nojs {
+  display: block;
+}
+
+.main-nav--opened {
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+
+  @media (min-width: $tablet-width) {
+    position: static;
+    width: auto;
   }
 }
 
@@ -11,6 +29,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  //display: none;
 
   @media (min-width: $tablet-width) {
     gap: 33px;

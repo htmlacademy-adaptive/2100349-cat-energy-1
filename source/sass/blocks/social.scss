@@ -8,29 +8,47 @@
 
 //.social__link {}
 
+.social__link--vkontakte::before {
+  content: "";
+  display: block;
+  width: 28px;
+  height: 22px;
+  background-color: #666666;
+  mask-image: url("../img/icons/vk-icon.svg");
+  mask-repeat: no-repeat;
+}
+
 .social__link--vkontakte {
   display: block;
   text-decoration: none;
+}
+
+.social__link--youtube::before {
+  content: "";
+  display: block;
   width: 28px;
   height: 22px;
-  background-image: url("../img/icons/vk-icon.svg");
-  background-repeat: no-repeat;
+  background-color: #666666;
+  mask-image: url("../img/icons/youtube-icon.svg");
+  mask-repeat: no-repeat;
 }
 
 .social__link--youtube {
   display: block;
   text-decoration: none;
+}
+
+.social__link--telegram::before {
+  content: "";
+  display: block;
   width: 28px;
   height: 22px;
-  background-image: url("../img/icons/youtube-icon.svg");
-  background-repeat: no-repeat;
+  background-color: #666666;
+  mask-image: url("../img/icons/tg-icon.svg");
+  mask-repeat: no-repeat;
 }
 
 .social__link--telegram {
   display: block;
   text-decoration: none;
-  width: 28px;
-  height: 22px;
-  background-image: url("../img/icons/tg-icon.svg");
-  background-repeat: no-repeat;
 }
