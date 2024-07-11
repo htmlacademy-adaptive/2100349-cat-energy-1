@@ -7,6 +7,8 @@
   color: $title-text;
   text-align: center;
   margin: 0 0 29px;
+  padding-left: 90px;
+  padding-top: 8px;
 
   @media (min-width: $tablet-width) {
     text-align: left;
@@ -18,9 +20,57 @@
 
   @media (min-width: $desktop-width) {
     text-align: center;
-    padding-left: 20px;
-    padding-top: 70px;
+    padding-left: 214px;
+    padding-top: 57px;
     font-size: 36px;
+  }
+}
+
+.programm__head--weight-loss {
+  width: 50px;
+  height: 53px;
+  background-image: url("../img/icons/cat-back-slim.svg");
+  background-color: inherit;
+  background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    width: 200px;
+    height: 211px;
+    background-image: url("../img/icons/cat-back-slim-tablet.svg");
+    background-color: inherit;
+    background-repeat: no-repeat;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100px;
+    height: 106px;
+    background-image: url("../img/icons/cat-back-slim-desktop.svg");
+    background-color: inherit;
+    background-repeat: no-repeat;
+  }
+}
+
+.programm__head--weight-gain {
+  width: 60px;
+  height: 57px;
+  background-image: url("../img/icons/cat-back-pro.svg");
+  background-color: inherit;
+  background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    width: 268px;
+    height: 200px;
+    background-image: url("../img/icons/cat-back-pro-tablet.svg");
+    background-color: inherit;
+    background-repeat: no-repeat;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 134px;
+    height: 100px;
+    background-image: url("../img/icons/cat-back-pro-desktop.svg");
+    background-color: inherit;
+    background-repeat: no-repeat;
   }
 }
 
