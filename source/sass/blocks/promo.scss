@@ -1,8 +1,13 @@
 .promo {
-  background-color: $accent-color;
+  background: linear-gradient(to bottom, $accent-color 302px, $basic-bg);
+  background-image: url("../img/mobile-background-cat.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 320px 302px;
   padding-top: 27px;
 
   @media (min-width: $tablet-width) {
+    background-image: none;
     background-color: $basic-bg;
     position: relative;
   }
