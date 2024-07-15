@@ -33,6 +33,10 @@
     display: block;
     margin-top: -80px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 169px;
+  }
 }
 
 .catalog__item-plus {
