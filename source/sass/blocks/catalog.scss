@@ -20,6 +20,16 @@
   }
 }
 
+.catalog__item-image-wrapper {
+  justify-self: end;
+  text-decoration: none;
+
+  @media (min-width: $tablet-width) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .catalog__item-foto {
   width: 140px;
   height: 107px;
@@ -92,6 +102,10 @@
     margin-top: 22px;
     margin-bottom: 21px;
   }
+}
+
+.catalog__item-title-link {
+  text-decoration: none;
 }
 
 .catalog__item--text-all {

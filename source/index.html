@@ -7,6 +7,7 @@
   <title>HTML Academy: Кэт энерджи</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="images/favicons/apple-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
 </head>
 
@@ -59,7 +60,14 @@
           <h2 class="promo__slogan">
             Занялся собой? Займись котом!
           </h2>
+
           <picture>
+            <!--<source type="image/webp" media="(min-width: 1220px)" width="552" height="499"
+              srcset="img/product-cat-energy-desktop-1x.webp 1x, img/product-cat-energy-desktop-2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)" width="709" height="609"
+              srcset="img/product-cat-energy-tablet-1x.webp 1x, img/product-cat-energy-tablet-2x.webp 2x">
+            <source type="image/webp" width="280" height="270"
+              srcset="img/product-cat-energy.webp 1x, img/product-cat-energy-2x.webp 2x">-->
             <source media="(min-width: 1220px)" width="552" height="499"
               srcset="img/product-cat-energy-desktop-1x.png 1x, img/product-cat-energy-desktop-2x.png 2x">
             <source media="(min-width: 768px)" width="709" height="609"
@@ -67,7 +75,10 @@
             <img class="promo__product" src="img/product-cat-energy.png" width="280" height="270"
             srcset="img/product-cat-energy-2x.png 2x" alt="Фотография упаковки продукта.">
           <picture>
-          <a class="promo__programm-selection general-button" href="form.html">подобрать программу</a>
+
+          <a class="promo__programm-selection general-button"
+            href="form.html">подобрать программу
+          </a>
         </div>
       </section>
 

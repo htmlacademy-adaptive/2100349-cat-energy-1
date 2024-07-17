@@ -140,6 +140,9 @@
   padding-bottom: 40px;
   margin: 0 auto;
   border: 1px solid;
+  background-image: url("../img/cat-before-mobile@1x.png"),
+    url("../img/cat-after-mobile@1x.png");
+    background-position: left center, center left;
 
   @media (min-width: $tablet-width) {
     width: 560px;

@@ -1,20 +1,30 @@
 .present {
   @media (min-width: $desktop-width) {
     display: flex;
-    background-color: $accent-color;
   }
 }
 
 .additional-products--present {
   width: 280px;
   height: 290px;
-  background-color: $accent-color;
+  background-image: url("../img/cat-in-bag-mobile-1x.png");
   margin: 35px auto;
+
+  @media (min-resolution: 2dppx) {
+    //background-image: url("../img/cat-in-bag-mobile-2x.png");
+  }
 
   @media (min-width: $tablet-width) {
     width: 707px;
+    height: auto;
     min-height: 200px;
     padding-top: 71px;
+    background-image: url("../img/cat-in-bag-tablet-1x.png");
+    background-repeat: no-repeat;
+
+    @media (min-resolution: 2dppx) {
+      //background-image: url("../img/cat-in-bag-tablet-2x.png");
+    }
   }
 
   @media (min-width: $desktop-width) {
@@ -24,6 +34,11 @@
     padding-top: 56px;
     padding-left: 42px;
     padding-right: 42px;
+    background-image: url("../img/cat-in-bag-desktop-1x.png");
+  }
+
+  @media (min-resolution: 2dppx) {
+    //background-image: url("../img/cat-in-bag-desktop-2x.png");
   }
 }
 
