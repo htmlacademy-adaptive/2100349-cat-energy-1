@@ -1,6 +1,6 @@
 .promo {
-  background: linear-gradient(to bottom, $accent-color 302px, $basic-bg);
-  background-image: url("../img/mobile-background-cat.jpg");
+  background-image: linear-gradient(to bottom, rgba(104, 183, 56, 0.85)
+    302px, $basic-bg), url("../img/mobile-background-cat.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 320px 302px;

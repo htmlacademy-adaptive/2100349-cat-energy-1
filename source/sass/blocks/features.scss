@@ -54,7 +54,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 37px 137px;
-    counter-reset: features-counter;
+    counter-reset: feature-counter;
   }
 
   @media (min-width: $desktop-width) {
@@ -64,18 +64,18 @@
   }
 }
 
-.features-counter {
-  counter-increment: feature-counter;
-}
-
 .features__item::before {
-  content: counter(feature-counter);
-  font-family: $title-font;
-  font-size: 280px;
-  font-weight: 400;
-  line-height: 280px;
-  text-align: right;
-  color: $element-bg;
+  @media (min-width: $tablet-width) {
+    content: counter(feature-counter);
+    counter-increment: feature-counter;
+    position: absolute;
+    font-family: $title-font;
+    font-size: 280px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: right;
+    color: $element-bg;
+  }
 }
 
 .features__item {
@@ -87,11 +87,14 @@
   margin-bottom: 20px;
   min-width: 60px;
   padding-left: 80px;
+  background-size: 60px 60px;
 
   @media (min-width: $tablet-width) {
     width: 250px;
     font-size: 16px;
     line-height: 24px;
+    background-size: 80px 80px;
+    padding-top: 80px;
   }
 }
 

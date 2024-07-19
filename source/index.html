@@ -31,7 +31,7 @@
             <img class="name__img" src="img/name-site-mobile.svg" width="101" height="18" alt="Сайт Кэт энерджи.">
           </a>
         </div>
-        <button class="main-header__toggle main-header__toggle--closed" type="button">
+        <button class="main-header__toggle main-header__toggle--nojs" type="button">
           <span class="visually-hidden">Открыть меню</span>
         </button>
       </div>
@@ -74,7 +74,7 @@
               srcset="img/product-cat-energy-tablet-1x.png 1x, img/product-cat-energy-tablet-2x.png 2x">
             <img class="promo__product" src="img/product-cat-energy.png" width="280" height="270"
             srcset="img/product-cat-energy-2x.png 2x" alt="Фотография упаковки продукта.">
-          <picture>
+          </picture>
 
           <a class="promo__programm-selection general-button"
             href="form.html">подобрать программу
@@ -152,9 +152,33 @@
                 <span class="result__price">15 000 руб.</span></p>
             </div>
           </div>
-
+          <!--Слайдер с котами-->
           <div class="result__slider">
-          <!--Тут должен быть слайдер с котами-->
+            <div class="result__slider-before">
+              <picture>
+                <!--<source type="image/webp" media="(min-width: 768px)" width="560" height="512"
+                  srcset="img/cat-before-tablet@1x.webp 1x, img/cat-before-tablet@2x.webp 2x">
+                <source type="image/webp" width="280" height="256"
+                  srcset="img/cat-before-mobile@1x.webp 1x, img/cat-before-mobile@2x.webp 2x" alt="Вид кота каким он был раньше.">-->
+                <source media="(min-width: 768px)" width="560" height="512"
+                  srcset="img/cat-before-tablet@1x.png 1x, img/cat-before-tablet@2x.png 2x">
+                <img src="img/cat-before-mobile@1x.png" width="280" height="256"
+                  srcset="img/cat-before-mobile@2x.png 2x" alt="Вид кота каким он был раньше.">
+              </picture>
+            </div>
+            <button class="result__slider-button"></button>
+            <div class="result__slider-after">
+              <picture>
+                <!--<source type="image/webp" media="(min-width: 768px)" width="560" height="512"
+                  srcset="img/cat-after-tablet@1x.webp 1x, img/cat-after-tablet@2x.webp 2x">
+                <source type="image/webp" width="280" height="256"
+                  srcset="img/cat-after-mobile@1x.webp 1x, img/cat-after-mobile@2x.webp 2x" alt="Вид кота каким он был раньше.">-->
+                <source media="(min-width: 768px)" width="560" height="512"
+                  srcset="img/cat-after-tablet@1x.png 1x, img/cat-after-tablet@2x.png 2x">
+                <img src="img/cat-after-mobile@1x.png" width="280" height="256"
+                  srcset="img/cat-after-mobile@2x.png 2x" alt="Вид кота каким он стал.">
+              </picture>
+            </div>
           </div>
         </div>
       </section>
