@@ -20,18 +20,7 @@
     align-items: center;
     gap: 33px;
     margin: 0 auto;
-  }
-}
-
-.page__header {
-  @media (min-width: $tablet-width) {
-    width: 768px;
-    margin: 0 auto;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 1220px;
-    margin: 0 auto;
+    background-color: transparent;
   }
 }
 

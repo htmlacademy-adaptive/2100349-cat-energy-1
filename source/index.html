@@ -11,7 +11,7 @@
   <link rel="manifest" href="manifest.webmanifest">
 </head>
 
-  <body class="page__body">
+  <body class="page__body page__body--green-cat">
     <header class="main-header">
       <div class="main-header__wrapper">
         <div class="main-header__logo logo">
@@ -39,13 +39,13 @@
       <nav class="main-nav main-nav--opened">
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
-            <a class="site-list__link" href="index.html">Главная</a>
+            <a class="site-list__link site-list__link--green-cat" href="index.html">Главная</a>
           </li>
           <li class="site-list__item">
-            <a class="site-list__link" href="catalog.html">Каталог продукции</a>
+            <a class="site-list__link site-list__link--green-cat" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="site-list__item">
-            <a class="site-list__link" href="form.html">Подбор программы</a>
+            <a class="site-list__link site-list__link--green-cat" href="form.html">Подбор программы</a>
           </li>
         </ul>
       </nav>
@@ -60,22 +60,22 @@
           <h2 class="promo__slogan">
             Занялся собой? Займись котом!
           </h2>
-
-          <picture>
-            <!--<source type="image/webp" media="(min-width: 1220px)" width="552" height="499"
-              srcset="img/product-cat-energy-desktop-1x.webp 1x, img/product-cat-energy-desktop-2x.webp 2x">
-            <source type="image/webp" media="(min-width: 768px)" width="709" height="609"
-              srcset="img/product-cat-energy-tablet-1x.webp 1x, img/product-cat-energy-tablet-2x.webp 2x">
-            <source type="image/webp" width="280" height="270"
-              srcset="img/product-cat-energy.webp 1x, img/product-cat-energy-2x.webp 2x">-->
-            <source media="(min-width: 1220px)" width="552" height="499"
-              srcset="img/product-cat-energy-desktop-1x.png 1x, img/product-cat-energy-desktop-2x.png 2x">
-            <source media="(min-width: 768px)" width="709" height="609"
-              srcset="img/product-cat-energy-tablet-1x.png 1x, img/product-cat-energy-tablet-2x.png 2x">
-            <img class="promo__product" src="img/product-cat-energy.png" width="280" height="270"
-            srcset="img/product-cat-energy-2x.png 2x" alt="Фотография упаковки продукта.">
-          </picture>
-
+          <div class="promo__special">
+            <picture>
+              <!--<source type="image/webp" media="(min-width: 1220px)" width="552" height="499"
+                srcset="img/product-cat-energy-desktop-1x.webp 1x, img/product-cat-energy-desktop-2x.webp 2x">
+              <source type="image/webp" media="(min-width: 768px)" width="709" height="609"
+                srcset="img/product-cat-energy-tablet-1x.webp 1x, img/product-cat-energy-tablet-2x.webp 2x">
+              <source type="image/webp" width="280" height="270"
+                srcset="img/product-cat-energy.webp 1x, img/product-cat-energy-2x.webp 2x">-->
+              <source media="(min-width: 1220px)" width="552" height="499"
+                srcset="img/product-cat-energy-desktop-1x.png 1x, img/product-cat-energy-desktop-2x.png 2x">
+              <source media="(min-width: 768px)" width="709" height="609"
+                srcset="img/product-cat-energy-tablet-1x.png 1x, img/product-cat-energy-tablet-2x.png 2x">
+              <img class="promo__product" src="img/product-cat-energy.png" width="280" height="270"
+              srcset="img/product-cat-energy-2x.png 2x" alt="Фотография упаковки продукта.">
+            </picture>
+          </div>
           <a class="promo__programm-selection general-button"
             href="form.html">подобрать программу
           </a>

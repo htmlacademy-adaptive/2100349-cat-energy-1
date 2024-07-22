@@ -6,6 +6,10 @@
     margin-left: auto;
     display: block;
   }
+
+  @media (min-width: $desktop-width) {
+    background-color: transparent;
+  }
 }
 
 .main-nav--nojs {
