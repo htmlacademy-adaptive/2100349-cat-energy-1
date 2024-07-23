@@ -40,7 +40,7 @@
   }
 }
 
-.title--slogan {
+.main-container__title-special {
   @media (min-width: $desktop-width) {
     padding-left: 0;
   }
@@ -87,5 +87,26 @@
   @media (min-width: $desktop-width) {
     width: 1220px;
     margin: 0 auto;
+  }
+}
+
+.main-container__products {
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    margin: 0 auto;
+    column-gap: 81px;
+    padding-bottom: 67px;
+  }
+}
+
+.main-container__cards {
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    min-width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
   }
 }

@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width; initial-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.webmanifest">
 </head>
 
   <body class="page__body">
@@ -13,7 +15,14 @@
       <div class="main-header__wrapper">
         <div class="main-header__logo logo">
           <a class="logo__link" href="index.html">
-            <img class="logo__img" src="img/cat-logo-mobile.svg" alt="Логотип сайта Кэт энерджи.">
+            <picture>
+              <source media="(min-width: 1220px)"
+                width="70" height="59" srcset="img/cat-logo-desktop.svg">
+              <source media="(min-width: 768px)"
+                width="60" height="50" srcset="img/cat-logo-tablet.svg">
+              <img class="logo__img" src="img/cat-logo-mobile.svg"
+                width="33" height="38" alt="Логотип сайта Кэт энерджи.">
+            </picture>
           </a>
         </div>
         <div class="main-header__name name">
@@ -43,7 +52,7 @@
 
     <main class="main-container">
       <div class="main-container__slogan">
-        <h1 class="main-container__title title--slogan">Подбор программы</h1>
+        <h1 class="main-container__title main-container__title-special">Подбор программы</h1>
         <p class="main-container__text">Заполните анкету, и мы подберем
           программу питания для вашего кота</p>
       </div>

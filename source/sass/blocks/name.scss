@@ -5,4 +5,14 @@
 .name__img {
   width: 100%;
   height: 100%;
+
+  @media (min-width: $tablet-width) {
+    width: 101px;
+    height: 18px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 118px;
+    height: 21px;
+  }
 }

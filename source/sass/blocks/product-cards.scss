@@ -8,18 +8,6 @@
   }
 }
 
-.main-container__cards {
-  margin: 0 auto;
-
-  @media (min-width: $tablet-width) {
-    min-width: 768px;
-  }
-
-  @media (min-width: $desktop-width) {
-    width: 1220px;
-  }
-}
-
 .product-cards__wrapper {
   margin: 0 auto;
 

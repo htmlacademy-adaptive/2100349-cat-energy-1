@@ -6,6 +6,10 @@
     margin-left: auto;
     display: block;
   }
+
+  @media (min-width: $desktop-width) {
+    background-color: transparent;
+  }
 }
 
 .main-nav--nojs {
@@ -14,6 +18,7 @@
 
 .main-nav--opened {
   display: block;
+  //display: none;
   position: absolute;
   width: 100%;
   left: 0;

@@ -6,3 +6,33 @@
   min-height: 100%;
   overflow-x: hidden;
 }
+
+.page__body--green-cat::before {
+  @media (min-width: $desktop-width) {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 694px;
+    background-image: linear-gradient(to bottom,
+      rgba(104, 183, 56, 0.85),
+      rgba(104, 183, 56, 0.85)),
+      url("../img/big-cat-desktop-1x.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+}
+
+.page__header {
+  @media (min-width: $tablet-width) {
+    width: 768px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    margin: 0 auto;
+  }
+}
