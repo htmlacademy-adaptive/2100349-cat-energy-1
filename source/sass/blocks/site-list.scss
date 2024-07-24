@@ -44,5 +44,7 @@
 }
 
 .site-list__link--green-cat {
-  color: $basic-bg;
+  @media (min-width: $desktop-width) {
+    color: $basic-bg;
+  }
 }

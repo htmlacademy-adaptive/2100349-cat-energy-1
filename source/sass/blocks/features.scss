@@ -5,6 +5,7 @@
   @media (min-width: $tablet-width) {
     padding-top: 45px;
     border-bottom: 1px solid #e6e6e6;
+    background: none;
   }
 
   @media (min-width: $desktop-width) {
@@ -47,13 +48,12 @@
 .features__list {
   list-style-type: none;
   margin: 0;
-  padding: 0 0 29px;
-  padding-bottom: 49px;
+  padding: 0 0 90px;
 
   @media (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
-    gap: 37px 137px;
+    gap: 97px 137px;
     counter-reset: feature-counter;
   }
 
@@ -75,6 +75,9 @@
     line-height: 48px;
     text-align: right;
     color: $element-bg;
+    z-index: -1;
+    right: 0;
+    bottom: 60px;
   }
 }
 
@@ -94,7 +97,9 @@
     font-size: 16px;
     line-height: 24px;
     background-size: 80px 80px;
-    padding-top: 80px;
+    padding-top: 120px;
+    padding-left: 0;
+    position: relative;
   }
 }
 
