@@ -137,16 +137,15 @@
   width: 280px;
   height: 256px;
   margin: 0 auto;
-  border: 1px solid;
   display: grid;
   grid-template-columns: 140px 140px;
+  position: relative;
 
   @media (min-width: $tablet-width) {
     width: 560px;
     height: 512px;
     margin-top: 99px;
     margin-bottom: 101px;
-    border: none;
     display: grid;
     grid-template-columns: 280px 280px;
   }
@@ -169,24 +168,55 @@
   }
 }
 
+.result__slider-before-cat {
+  width: 280px;
+  height: 256px;
+
+  @media (min-width: $tablet-width) {
+    width: 560px;
+    height: 512px;
+  }
+}
+
 .result__slider-after {
   width: 140px;
   overflow: hidden;
-  transform: translateX(-50%);
 
   @media (min-width: $tablet-width) {
     width: 280px;
     height: 512px;
-    transform: translateX(-50%);
+  }
+}
+
+.result__slider-after-cat--option {
+  transform: translateX(-50%);
+}
+
+.result__slider-after-cat {
+  width: 280px;
+  height: 256px;
+
+  @media (min-width: $tablet-width) {
+    width: 560px;
+    height: 512px;
   }
 }
 
 .result__slider-button {
   width: 4px;
-  height: 512px;
+  height: 256px;
   padding: 0;
   background: #666666;
   border: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 5;
+  transform: translateX(-50%);
+
+  @media (min-width: $tablet-width) {
+    height: 512px;
+  }
 }
 
 .result__slider-button:hover {
@@ -202,7 +232,9 @@
   background: $basic-bg;
   border-radius: 50%;
   border: 2px solid #666666;
-  margin: -12px -17px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .result__slider-button:hover::before {
@@ -218,7 +250,9 @@
   background: #666666;
   mask: url("../img/icons/double-triangle.svg");
   mask-repeat: no-repeat;
-  margin-left: -9px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .result__slider-button:hover::after {
