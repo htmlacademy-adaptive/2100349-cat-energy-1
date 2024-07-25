@@ -9,6 +9,7 @@
 
   @media (min-width: $desktop-width) {
     background-color: transparent;
+    max-width: 45%;
   }
 }
 
@@ -39,6 +40,7 @@
   @media (min-width: $tablet-width) {
     gap: 33px;
     display: flex;
+    flex-wrap: wrap;
   }
 
   @media (min-width: $desktop-width) {
