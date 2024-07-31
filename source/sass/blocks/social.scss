@@ -18,6 +18,10 @@
   mask-repeat: no-repeat;
 }
 
+.social__link--vkontakte::before:hover:focus {
+  background-color: $accent-color;
+}
+
 .social__link--vkontakte {
   display: block;
   text-decoration: none;

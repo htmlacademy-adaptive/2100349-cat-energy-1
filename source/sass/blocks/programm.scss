@@ -80,6 +80,10 @@
   }
 }
 
+.programm__catalog:active {
+  opacity: 30%;
+}
+
 .programm__catalog::after {
   background-image: url("../img/icons/right-arrow-cards.svg");
   content: "";
@@ -92,4 +96,8 @@
   @media (min-width: $tablet-width) {
     margin-left: 125px;
   }
+}
+
+.programm__catalog::after:hover {
+  background-image: url("../img/icons/right-arrow-cards-hover.svg");
 }

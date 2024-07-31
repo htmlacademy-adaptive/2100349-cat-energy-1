@@ -16,6 +16,12 @@
   }
 }
 
+.general-button:hover {
+  background-color: #5EAA2F;
+}
+
+//.general-button:active {}
+
 .general-button--all {
   background-color: $element-bg;
   color: $text-color;

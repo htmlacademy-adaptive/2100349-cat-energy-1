@@ -157,6 +157,10 @@
   }
 }
 
+.form__label:disabled {
+  opacity: 30%;
+}
+
 //замена цвета при изменении состояния
 
 .form__label:has(.form__input:focus-visible)::after {
@@ -183,6 +187,10 @@
     width: 40px;
     height: 40px;
   }
+}
+
+.form__control-radio:hover {
+  border-color: #dadada;
 }
 
 .form__control-radio:checked::before {
@@ -239,6 +247,16 @@
     min-width: 434px;
   }
 }
+
+.form__input:hover {
+  border-color: #cdcdcd;
+}
+
+.form__input:focus {
+  border: 2px solid $text-color;
+}
+
+//.form__input:error {}
 
 .form__input--option {
   @media (min-width: $desktop-width) {
@@ -334,6 +352,10 @@
   right: 18px;
 }
 
+.form__label--email::after:focus {
+  background-color: $accent-color;
+}
+
 .form__label--tel::after {
   content: "";
   display: block;
@@ -345,6 +367,10 @@
   mask-position: right;
   position: absolute;
   right: 18px;
+}
+
+.form__label--tel::after:focus {
+  background-color: $accent-color;
 }
 
 /*

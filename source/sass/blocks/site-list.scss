@@ -43,6 +43,14 @@
   }
 }
 
+.site-list__link:hover {
+  opacity: 60%;
+}
+
+.site-list__link:active {
+  border-bottom: 2px solid $accent-color;
+}
+
 .site-list__link--green-cat {
   @media (min-width: $desktop-width) {
     color: $basic-bg;
