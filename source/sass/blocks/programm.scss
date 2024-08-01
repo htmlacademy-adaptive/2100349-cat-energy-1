@@ -88,10 +88,11 @@
   background-image: url("../img/icons/right-arrow-cards.svg");
   content: "";
   display: block;
-  width: 32px;
+  width: 24px;
   height: 10px;
   margin-left: 110px;
   margin-top: -12px;
+  background-size: 24px 10px;
 
   @media (min-width: $tablet-width) {
     margin-left: 125px;
@@ -99,5 +100,6 @@
 }
 
 .programm__catalog::after:hover {
-  background-image: url("../img/icons/right-arrow-cards-hover.svg");
+  width: 32px;
+  background-size: 32px 10px;
 }

@@ -3,7 +3,7 @@
   padding-bottom: 40px;
 
   @media (min-width: $tablet-width) {
-    background: linear-gradient(to top, #eaeaea 462px, $basic-bg 462px);
+    background: linear-gradient(to top, $element-bg 462px, $basic-bg 462px);
   }
 
   @media (min-width: $desktop-width) {
@@ -97,6 +97,10 @@
   width: 280px;
   display: flex;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    width: 370px;
+  }
 
   @media (min-width: $desktop-width) {
     width: 370px;
