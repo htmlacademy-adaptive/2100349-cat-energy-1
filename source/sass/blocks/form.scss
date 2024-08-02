@@ -157,10 +157,18 @@
   }
 }
 
+.form__label:has(.form__control-radio:disabled) {
+  opacity: 30%;
+}
+
 //замена цвета при изменении состояния
 
 .form__label:has(.form__input:focus-visible)::after {
   background: $accent-color;
+}
+
+.form__label:has(.form__input:user-invalid)::after {
+  background: #ff8282;
 }
 
 .form__label span {
@@ -183,6 +191,10 @@
     width: 40px;
     height: 40px;
   }
+}
+
+.form__control-radio:hover {
+  border-color: #dadada;
 }
 
 .form__control-radio:checked::before {
@@ -212,9 +224,17 @@
 }
 
 .form__checkbox:checked {
-  background-image: url("../img/icons/checkbox-mobile.svg");
+  background-image: url("../img/icons/stack.svg#checkbox-mobile");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.form__checkbox:hover {
+  border-color: #dadada;
+}
+
+.form__label:has(.form__checkbox:disabled) {
+  opacity: 30%;
 }
 
 .form__input {
@@ -238,6 +258,18 @@
   @media (min-width: $desktop-width) {
     min-width: 434px;
   }
+}
+
+.form__input:hover {
+  border-color: #cdcdcd;
+}
+
+.form__input:focus-visible {
+  outline: 2px solid $text-color;
+}
+
+.form__input:user-invalid {
+  outline-color: #ff8282;
 }
 
 .form__input--option {
@@ -327,11 +359,15 @@
   width: 20px;
   height: 20px;
   background-color: #666666;
-  mask-image: url("../img/icons/e-mail-icons.svg");
+  mask-image: url("../img/icons/stack.svg#e-mail-icons");
   mask-repeat: no-repeat;
   mask-position: right;
   position: absolute;
   right: 18px;
+}
+
+.form__label--email::after:focus {
+  background-color: $accent-color;
 }
 
 .form__label--tel::after {
@@ -340,11 +376,15 @@
   width: 20px;
   height: 20px;
   background-color: #666666;
-  mask-image: url("../img/icons/phone-icons.svg");
+  mask-image: url("../img/icons/stack.svg#phone-icons");
   mask-repeat: no-repeat;
   mask-position: right;
   position: absolute;
   right: 18px;
+}
+
+.form__label--tel::after:focus {
+  background-color: $accent-color;
 }
 
 /*

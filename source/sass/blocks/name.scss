@@ -2,6 +2,14 @@
   display: block;
 }
 
+.name__site-name:hover {
+  opacity: 80%;
+}
+
+.name__site-name:active {
+  opacity: 60%;
+}
+
 .name__img {
   width: 100%;
   height: 100%;
@@ -15,4 +23,12 @@
     width: 118px;
     height: 21px;
   }
+}
+
+.name__img:hover {
+  opacity: 80%;
+}
+
+.name__img:active {
+  opacity: 60%;
 }

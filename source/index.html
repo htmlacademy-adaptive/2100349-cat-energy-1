@@ -18,17 +18,20 @@
           <a class="logo__link" href="index.html">
             <picture>
               <source media="(min-width: 1220px)"
-                width="70" height="59" srcset="img/cat-logo-desktop.svg">
+                width="70" height="59" srcset="img/stack.svg#cat-logo-desktop">
               <source media="(min-width: 768px)"
-                width="60" height="50" srcset="img/cat-logo-tablet.svg">
-              <img class="logo__img" src="img/cat-logo-mobile.svg"
+                width="60" height="50" srcset="img/stack.svg#cat-logo-tablet">
+              <img class="logo__img" src="img/stack.svg#cat-logo-mobile"
                 width="33" height="38" alt="Логотип сайта Кэт энерджи.">
+              <!--<svg width="33" height="38">
+                <use xlink:href="img/sprite.svg#logotype"></use>
+              </svg>-->
             </picture>
           </a>
         </div>
         <div class="main-header__name name">
           <a class="name__site-name" href="index.html">
-            <img class="name__img" src="img/name-site-mobile.svg" width="101" height="18" alt="Сайт Кэт энерджи.">
+            <img class="name__img" src="img/stack.svg#name-site-mobile" width="101" height="18" alt="Сайт Кэт энерджи.">
           </a>
         </div>
         <button class="main-header__toggle main-header__toggle--nojs" type="button">
@@ -39,7 +42,7 @@
       <nav class="main-nav main-nav--opened">
         <ul class="main-nav__list site-list">
           <li class="site-list__item">
-            <a class="site-list__link site-list__link--green-cat" href="index.html">Главная</a>
+            <a class="site-list__link site-list__link--green-cat site-list__link--white" href="index.html">Главная</a>
           </li>
           <li class="site-list__item">
             <a class="site-list__link site-list__link--green-cat" href="catalog.html">Каталог продукции</a>
@@ -62,12 +65,12 @@
           </h2>
           <div class="promo__special">
             <picture>
-              <!--<source type="image/webp" media="(min-width: 1220px)" width="552" height="499"
+              <source type="image/webp" media="(min-width: 1220px)" width="552" height="499"
                 srcset="img/product-cat-energy-desktop-1x.webp 1x, img/product-cat-energy-desktop-2x.webp 2x">
               <source type="image/webp" media="(min-width: 768px)" width="709" height="609"
                 srcset="img/product-cat-energy-tablet-1x.webp 1x, img/product-cat-energy-tablet-2x.webp 2x">
               <source type="image/webp" width="280" height="270"
-                srcset="img/product-cat-energy.webp 1x, img/product-cat-energy-2x.webp 2x">-->
+                srcset="img/product-cat-energy.webp 1x, img/product-cat-energy-2x.webp 2x">
               <source media="(min-width: 1220px)" width="552" height="499"
                 srcset="img/product-cat-energy-desktop-1x.png 1x, img/product-cat-energy-desktop-2x.png 2x">
               <source media="(min-width: 768px)" width="709" height="609"
@@ -156,26 +159,26 @@
           <div class="result__slider">
             <div class="result__slider-before">
               <picture>
-                <!--<source type="image/webp" media="(min-width: 768px)" width="560" height="512"
+                <source type="image/webp" media="(min-width: 768px)" width="560" height="512"
                   srcset="img/cat-before-tablet@1x.webp 1x, img/cat-before-tablet@2x.webp 2x">
                 <source type="image/webp" width="280" height="256"
-                  srcset="img/cat-before-mobile@1x.webp 1x, img/cat-before-mobile@2x.webp 2x" alt="Вид кота каким он был раньше.">-->
+                  srcset="img/cat-before-mobile@1x.webp 1x, img/cat-before-mobile@2x.webp 2x" alt="Вид кота каким он был раньше.">
                 <source media="(min-width: 768px)" width="560" height="512"
                   srcset="img/cat-before-tablet@1x.png 1x, img/cat-before-tablet@2x.png 2x">
-                <img src="img/cat-before-mobile@1x.png" width="280" height="256"
+                <img class="result__slider-before-cat" src="img/cat-before-mobile@1x.png" width="280" height="256"
                   srcset="img/cat-before-mobile@2x.png 2x" alt="Вид кота каким он был раньше.">
               </picture>
             </div>
             <button class="result__slider-button"></button>
             <div class="result__slider-after">
               <picture>
-                <!--<source type="image/webp" media="(min-width: 768px)" width="560" height="512"
+                <source type="image/webp" media="(min-width: 768px)" width="560" height="512"
                   srcset="img/cat-after-tablet@1x.webp 1x, img/cat-after-tablet@2x.webp 2x">
                 <source type="image/webp" width="280" height="256"
-                  srcset="img/cat-after-mobile@1x.webp 1x, img/cat-after-mobile@2x.webp 2x" alt="Вид кота каким он был раньше.">-->
+                  srcset="img/cat-after-mobile@1x.webp 1x, img/cat-after-mobile@2x.webp 2x" alt="Вид кота каким он был раньше.">
                 <source media="(min-width: 768px)" width="560" height="512"
                   srcset="img/cat-after-tablet@1x.png 1x, img/cat-after-tablet@2x.png 2x">
-                <img src="img/cat-after-mobile@1x.png" width="280" height="256"
+                <img class="result__slider-after-cat result__slider-after-cat--option" src="img/cat-after-mobile@1x.png" width="280" height="256"
                   srcset="img/cat-after-mobile@2x.png 2x" alt="Вид кота каким он стал.">
               </picture>
             </div>
@@ -208,7 +211,7 @@
       <div class="main-footer__wrapper">
         <div class="main-footer__name name">
           <a class="name__site-name" href="index.html">
-            <img class="name__img" src="img/name-site-mobile.svg" width="128" height="24" alt="Сайт Кэт энерджи.">
+            <img class="name__img" src="img/stack.svg#name-site-mobile" width="128" height="24" alt="Сайт Кэт энерджи.">
           </a>
         </div>
         <ul class="main-footer__social-list social">

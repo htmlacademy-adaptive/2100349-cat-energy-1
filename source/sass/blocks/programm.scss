@@ -80,16 +80,26 @@
   }
 }
 
+.programm__catalog:active {
+  opacity: 30%;
+}
+
 .programm__catalog::after {
-  background-image: url("../img/icons/right-arrow-cards.svg");
+  background-image: url("../img/icons/stack.svg#right-arrow-cards");
   content: "";
   display: block;
-  width: 32px;
+  width: 24px;
   height: 10px;
   margin-left: 110px;
   margin-top: -12px;
+  background-size: 24px 10px;
 
   @media (min-width: $tablet-width) {
     margin-left: 125px;
   }
+}
+
+.programm__catalog::after:hover {
+  width: 32px;
+  background-size: 32px 10px;
 }

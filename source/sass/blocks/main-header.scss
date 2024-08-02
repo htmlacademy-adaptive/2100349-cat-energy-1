@@ -71,7 +71,7 @@
   width: 24px;
   height: 24px;
   border: none;
-  background-image: url("../img/icons/header-menu.svg");
+  background-image: url("../img/icons/stack.svg#header-menu");
   background-repeat: no-repeat;
   background-color: transparent;
 
@@ -81,7 +81,7 @@
 }
 // main-header__toggle--closed кнопка закрытия меню
 .main-header__toggle--closed {
-  background-image: url("../img/icons/header-menu--closed.svg");
+  background-image: url("../img/icons/stack.svg#header-menu--closed");
 
   @media (min-width: $tablet-width) {
     display: none;

@@ -43,6 +43,36 @@
   }
 }
 
+.site-list__link:hover {
+  opacity: 60%;
+}
+
+.site-list__link:active {
+  opacity: 30%;
+}
+
+.site-list__link--current::after:current {
+  @media (min-width: $tablet-width) {
+    display: block;
+    width: 100%;
+    height: 2px;
+    color: $accent-color;
+    padding-top: 10px;
+  }
+}
+
+.site-list__link--white::after:current {
+  @media (min-width: $desktop-width) {
+    display: block;
+    width: 100%;
+    height: 2px;
+    color: $basic-bg;
+    padding-top: 10px;
+  }
+}
+
 .site-list__link--green-cat {
-  color: $basic-bg;
+  @media (min-width: $desktop-width) {
+    color: $basic-bg;
+  }
 }

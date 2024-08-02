@@ -2,7 +2,7 @@
   width: 124px;
   min-height: 70px;
 
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     width: 162px;
   }
 }
@@ -14,6 +14,10 @@
   line-height: 24px;
   text-align: center;
   color: $title-text;
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 
   @media (min-width: $tablet-width) {
     font-size: 30px;
@@ -29,12 +33,18 @@
   text-align: center;
   color: $text-color;
   margin: 0 auto;
-  padding-top: 7px;
   width: 77px;
+  margin-top: -8px;
+  background: #eaeaea;
 
   @media (min-width: $tablet-width) {
     font-size: 14px;
-    padding-top: 11px;
-    width: 125px;
+    width: fit-content;
+    background: $basic-bg;
+    padding: 0 10px;
+  }
+
+  @media (min-width: $desktop-width) {
+    background: $element-bg;
   }
 }
