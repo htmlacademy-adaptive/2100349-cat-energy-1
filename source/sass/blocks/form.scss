@@ -224,7 +224,7 @@
 }
 
 .form__checkbox:checked {
-  background-image: url("../img/icons/checkbox-mobile.svg");
+  background-image: url("../img/icons/stack.svg#checkbox-mobile");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -359,7 +359,7 @@
   width: 20px;
   height: 20px;
   background-color: #666666;
-  mask-image: url("../img/icons/e-mail-icons.svg");
+  mask-image: url("../img/icons/stack.svg#e-mail-icons");
   mask-repeat: no-repeat;
   mask-position: right;
   position: absolute;
@@ -376,7 +376,7 @@
   width: 20px;
   height: 20px;
   background-color: #666666;
-  mask-image: url("../img/icons/phone-icons.svg");
+  mask-image: url("../img/icons/stack.svg#phone-icons");
   mask-repeat: no-repeat;
   mask-position: right;
   position: absolute;

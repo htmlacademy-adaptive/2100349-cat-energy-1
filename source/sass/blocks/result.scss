@@ -227,6 +227,10 @@
   background: $accent-color;
 }
 
+.result__slider-button:active {
+  opacity: #5eaa2f;
+}
+
 .result__slider-button::before {
   position: absolute;
   content: "";
@@ -242,7 +246,11 @@
 }
 
 .result__slider-button:hover::before {
-  border-color: $accent-color;
+  opacity: $accent-color;
+}
+
+.result__slider-button:active::before {
+  opacity: #5eaa2f;
 }
 
 .result__slider-button::after {
@@ -252,7 +260,7 @@
   width: 24px;
   height: 18px;
   background: #666666;
-  mask: url("../img/icons/double-triangle.svg");
+  mask: url("../img/icons/stack.svg#double-triangle");
   mask-repeat: no-repeat;
   top: 50%;
   left: 50%;
@@ -261,4 +269,8 @@
 
 .result__slider-button:hover::after {
   background: $accent-color;
+}
+
+.result__slider-button:active::after {
+  background: #5eaa2f;
 }

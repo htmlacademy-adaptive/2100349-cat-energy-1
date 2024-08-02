@@ -120,7 +120,7 @@
 }
 
 .catalog__item--text-all::before {
-  background-image: url("../img/icons/extra-plus.svg");
+  background-image: url("../img/icons/stack.svg#extra-plus");
   content: "";
   display: block;
   width: 30px;
@@ -130,7 +130,7 @@
   margin-bottom: 23px;
 
   @media (min-width: $tablet-width) {
-    background-image: url("../img/icons/extra-plus-tablet.svg");
+    background-image: url("../img/icons/stack.svg#extra-plus-tablet");
     content: "";
     display: block;
     width: 60px;

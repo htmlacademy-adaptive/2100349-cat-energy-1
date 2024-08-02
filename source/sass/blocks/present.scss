@@ -1,15 +1,15 @@
 .present {
   background-image: image-set(
-    /* url("../img/cat-in-bag-mobile-1x.webp") type("image/webp") 1x,
-    url("../img/cat-in-bag-mobile-2x.webp") type("image/webp") 2x, */
+    url("../img/cat-in-bag-mobile-1x.webp") type("image/webp") 1x,
+    url("../img/cat-in-bag-mobile-2x.webp") type("image/webp") 2x,
     url("../img/cat-in-bag-mobile-1x.png") type("image/png") 1x,
     url("../img/cat-in-bag-mobile-2x.png") type("image/png") 2x
   );
 
   @media (min-width: $tablet-width) {
     background-image: image-set(
-      /*url("../img/cat-in-bag-tablet-1x.webp") type("image/webp") 1x,
-      url("../img/cat-in-bag-tablet-2x.webp") type("image/webp") 2x, */
+      url("../img/cat-in-bag-tablet-1x.webp") type("image/webp") 1x,
+      url("../img/cat-in-bag-tablet-2x.webp") type("image/webp") 2x,
       url("../img/cat-in-bag-tablet-1x.png") type("image/png") 1x,
       url("../img/cat-in-bag-tablet-2x.png") type("image/png") 2x
     );
@@ -19,8 +19,8 @@
   @media (min-width: $desktop-width) {
     display: flex;
     background-image: image-set(
-      /*url("../img/cat-in-bag-desktop-1x.webp") type("image/webp") 1x,
-      url("../img/cat-in-bag-desktop-2x.webp") type("image/webp") 2x, */
+      url("../img/cat-in-bag-desktop-1x.webp") type("image/webp") 1x,
+      url("../img/cat-in-bag-desktop-2x.webp") type("image/webp") 2x,
       url("../img/cat-in-bag-desktop-1x.png") type("image/png") 1x,
       url("../img/cat-in-bag-desktop-2x.png") type("image/png") 2x
     );
@@ -28,7 +28,7 @@
 }
 
 .present__text::before {
-  background-image: url("../img/icons/present-icon.svg");
+  background-image: url("../img/icons/stack.svg#present-icon");
   content: "";
   display: block;
   width: 78px;
