@@ -211,6 +211,10 @@
   }
 }
 
+.form__label:has(.form__control-radio:disabled) {
+  opacity: 30%;
+}
+
 .form__checkbox {
   appearance: none;
   width: 30px;
@@ -260,6 +264,15 @@
   }
 }
 
+.form__input[type="number"] {
+  appearance: none;
+}
+
+.form__input[type="number"]::-webkit-outer-spin-button,
+.form__input[type="number"]::-webkit-inner-spin-button {
+  appearance: none;
+}
+
 .form__input:hover {
   border-color: #cdcdcd;
 }
@@ -269,7 +282,7 @@
 }
 
 .form__input:user-invalid {
-  outline-color: #ff8282;
+  outline: #ff8282 1px solid;
 }
 
 .form__input--option {
@@ -340,18 +353,6 @@
 .form__group-full--option {
   padding-top: 0;
 }
-/*
-.form__control-radio {
-  font-family: $title-font;
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 18px;
-  text-align: left;
-  color: $text-color;
-}
-*/
-//.form__label--email {}
 
 .form__label--email::after {
   content: "";
@@ -386,13 +387,6 @@
 .form__label--tel::after:focus {
   background-color: $accent-color;
 }
-
-/*
-.form__group-wrapper {
-  @media (min-width: $desktop-width) {}
-}*/
-
-//.form__checkbox {}
 
 .form__request {
   width: 280px;
