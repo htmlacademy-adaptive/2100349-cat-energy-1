@@ -109,6 +109,11 @@
   text-decoration: none;
 }
 
+// наведение на название продукта в карточке 
+.catalog__item-title-link:hover {
+  opacity: 60%;
+}
+
 .catalog__item--text-all {
   width: 100%;
   text-align: center;

@@ -44,7 +44,9 @@ return gulp.src('source/img/**/*.{png,jpg}')
 .pipe(gulp.dest('build/img'))
 }
 const copyImages = () => {
-return gulp.src('source/img/**/*.{png,jpg}')
+return gulp.src(
+  ['source/img/**/*.{png,jpg}',
+  'source/img/*.svg'])
 .pipe(gulp.dest('build/img'))
 }
 
@@ -115,7 +117,8 @@ optimizeImages,
 gulp.parallel(
 styles,
 html,
-createWebp
+createWebp,
+stack
 ),
 );
 
@@ -127,7 +130,8 @@ copyImages,
 gulp.parallel(
 styles,
 html,
-createWebp
+createWebp,
+stack
 ),
 gulp.series(
 server,

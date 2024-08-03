@@ -37,3 +37,7 @@
 .social__link:hover::before, .social__link:focus-visible::before {
   background-color: $accent-color;
 }
+
+.social__link:active::before {
+  opacity: 30%;
+}

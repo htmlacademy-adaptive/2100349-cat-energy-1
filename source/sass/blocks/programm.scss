@@ -92,14 +92,21 @@
   height: 10px;
   margin-left: 110px;
   margin-top: -12px;
-  background-size: 24px 10px;
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  transform-origin: 0 0;
 
   @media (min-width: $tablet-width) {
     margin-left: 125px;
   }
 }
 
-.programm__catalog::after:hover {
-  width: 32px;
-  background-size: 32px 10px;
+.programm__catalog:hover::after, .programm__catalog:focus-visible::after {
+  background-size: 100% 10px;
+  transform: scaleX(1.3);
+}
+
+.programm__catalog:active::after {
+  opacity: 30%;
 }

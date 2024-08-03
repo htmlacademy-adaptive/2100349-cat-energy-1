@@ -246,11 +246,11 @@
 }
 
 .result__slider-button:hover::before {
-  opacity: $accent-color;
+  border-color: $accent-color;
 }
 
 .result__slider-button:active::before {
-  opacity: #5eaa2f;
+  border-color: #5eaa2f;
 }
 
 .result__slider-button::after {
