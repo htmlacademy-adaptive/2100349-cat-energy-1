@@ -157,7 +157,7 @@
   }
 }
 
-.form__label:has(.form__control-radio:disabled) {
+.form__label:has(.form__input:disabled) {
   opacity: 30%;
 }
 

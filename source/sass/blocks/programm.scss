@@ -102,7 +102,7 @@
   }
 }
 
-.programm__catalog:hover::after, .programm__catalog:focus-visible::after {
+.programm__catalog:hover::after .programm__catalog:focus-visible::after {
   background-size: 100% 10px;
   transform: scaleX(1.3);
 }
