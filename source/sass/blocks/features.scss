@@ -3,7 +3,7 @@
   background-color: $basic-bg;
 
   @media (min-width: $tablet-width) {
-    padding-top: 45px;
+    padding-top: 7px;
     border-bottom: 1px solid #e6e6e6;
     background: none;
   }
@@ -43,6 +43,7 @@
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
+    margin-bottom: 71px;
   }
 }
 
@@ -54,8 +55,9 @@
   @media (min-width: $tablet-width) {
     display: flex;
     flex-wrap: wrap;
-    gap: 97px 137px;
+    gap: 103px 135px;
     counter-reset: feature-counter;
+    padding-bottom: 77px;
   }
 
   @media (min-width: $desktop-width) {
@@ -98,7 +100,7 @@
     font-size: 16px;
     line-height: 24px;
     background-size: 80px 80px;
-    padding-top: 120px;
+    padding-top: 113px;
     padding-left: 0;
     position: relative;
   }

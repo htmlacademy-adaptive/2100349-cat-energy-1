@@ -49,10 +49,11 @@
     color: $title-text;
     font-weight: 400;
     font-size: 60px;
-    width: 500px;
+    width: 515px;
     line-height: 60px;
-    padding-left: 80px;
+    padding-left: 89px;
     text-align: left;
+    padding-top: 38px;
   }
 
   @media (min-width: $desktop-width) {
@@ -82,7 +83,9 @@
     font-size: 20px;
     line-height: 20px;
     text-align: left;
-    padding-left: 80px;
+    padding-left: 90px;
+    padding-top: 15px;
+    margin-bottom: 22px;
   }
 
   @media (min-width: $desktop-width) {
@@ -115,10 +118,13 @@
   width: 280px;
 
   @media (min-width: $tablet-width) {
-    width: 244px;
+    width: 245px;
+    height: 53px;
     position: absolute;
-    left: 110px;
-    bottom: 526px;
+    left: 120px;
+    bottom: 528px;
+    padding-top: 18px;
+    font-size: 20px;
   }
 
   @media (min-width: $desktop-width) {

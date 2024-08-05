@@ -30,6 +30,8 @@
   @media (min-width: $tablet-width) {
     width: 708px;
     padding: 0;
+    margin-top: -2px;
+    margin-bottom: 32px;
   }
 
   @media (min-width: $desktop-width) {
@@ -46,8 +48,8 @@
 
   @media (min-width: $tablet-width) {
     background-repeat: no-repeat;
-    background-position: 445px 81px;
-    background-size: 200px 211px;
+    background-position: 445px 79px;
+    background-size: 200px 210px;
   }
 
   @media (min-width: $desktop-width) {
@@ -65,7 +67,7 @@
 
   @media (min-width: $tablet-width) {
     background-repeat: no-repeat;
-    background-position: 411px 81px;
+    background-position: 414px 93px;
     background-size: 268px 200px;
   }
 

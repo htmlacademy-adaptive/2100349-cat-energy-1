@@ -34,11 +34,11 @@
   margin: -3px 0 24px;
 
   @media (min-width: $tablet-width) {
-    width: 340px;
+    width: 390px;
     font-size: 16px;
     line-height: 24px;
     padding-left: 52px;
-    padding-top: 24px;
+    padding-top: 23px;
     margin: 0;
   }
 
@@ -68,8 +68,8 @@
     border: none;
     font-size: 20px;
     padding-left: 52px;
-    padding-top: 48px;
-    padding-bottom: 53px;
+    padding-top: 59px;
+    padding-bottom: 69px;
   }
 
   @media (min-width: $desktop-width) {
@@ -98,7 +98,7 @@
   transform-origin: 0 0;
 
   @media (min-width: $tablet-width) {
-    margin-left: 125px;
+    margin-left: 134px;
   }
 }
 
