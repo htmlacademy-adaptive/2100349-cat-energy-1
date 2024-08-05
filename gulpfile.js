@@ -29,14 +29,7 @@ const html = () => {
 return gulp.src('source/*.html')
 .pipe(gulp.dest('build'));
 }
-/*
-// Scripts
-const scripts = () => {
-return gulp.src('source/js/script.js')
-.pipe(gulp.dest('build/js'))
-.pipe(browser.stream());
-}
-*/
+
 // Images
 const optimizeImages = () => {
 return gulp.src('source/img/**/*.{png,jpg}')
@@ -44,7 +37,9 @@ return gulp.src('source/img/**/*.{png,jpg}')
 .pipe(gulp.dest('build/img'))
 }
 const copyImages = () => {
-return gulp.src('source/img/**/*.{png,jpg}')
+return gulp.src(
+  ['source/img/**/*.{png,jpg}',
+  'source/img/*.svg'])
 .pipe(gulp.dest('build/img'))
 }
 
@@ -115,7 +110,8 @@ optimizeImages,
 gulp.parallel(
 styles,
 html,
-createWebp
+createWebp,
+stack
 ),
 );
 
@@ -127,7 +123,8 @@ copyImages,
 gulp.parallel(
 styles,
 html,
-createWebp
+createWebp,
+stack
 ),
 gulp.series(
 server,
