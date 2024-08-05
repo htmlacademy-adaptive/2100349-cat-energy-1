@@ -45,11 +45,11 @@
 }
 
 .site-list__link:hover {
-  opacity: 60%;
+  opacity: 0.6;
 }
 
 .site-list__link:active {
-  opacity: 30%;
+  opacity: 0.6;
 }
 
 .site-list__link--current::after {

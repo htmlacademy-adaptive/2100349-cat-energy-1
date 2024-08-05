@@ -158,7 +158,7 @@
 }
 
 .form__label:has(.form__input:disabled) {
-  opacity: 30%;
+  opacity: 0.3;
 }
 
 //замена цвета при изменении состояния
@@ -212,7 +212,7 @@
 }
 
 .form__label:has(.form__control-radio:disabled) {
-  opacity: 30%;
+  opacity: 0.6;
 }
 
 .form__checkbox {
@@ -238,7 +238,7 @@
 }
 
 .form__label:has(.form__checkbox:disabled) {
-  opacity: 30%;
+  opacity: 0.6;
 }
 
 .form__input {

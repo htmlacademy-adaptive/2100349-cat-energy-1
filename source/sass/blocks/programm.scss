@@ -81,7 +81,7 @@
 }
 
 .programm__catalog:active {
-  opacity: 30%;
+  opacity: 0.3;
 }
 
 .programm__catalog::after {
@@ -108,5 +108,5 @@
 }
 
 .programm__catalog:active::after {
-  opacity: 30%;
+  opacity: 0.3;
 }
