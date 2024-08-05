@@ -1,6 +1,6 @@
 .product-cards {
   @media (min-width: $tablet-width) {
-    margin-top: 84px;
+    margin-top: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -30,6 +30,6 @@
 
   @media (min-width: $desktop-width) {
     padding-left: 0;
-    gap: 80px;
+    column-gap: 80px;
   }
 }
