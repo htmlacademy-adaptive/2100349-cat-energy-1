@@ -6,9 +6,9 @@
   line-height: 37px;
   color: $title-text;
   text-align: left;
-  margin: 0 0 29px;
-  padding-left: 80px;
-  padding-top: 8px;
+  margin: -1px 0 34px;
+  padding-left: 70px;
+  padding-top: 11px;
 
   @media (min-width: $tablet-width) {
     padding-left: 52px;
@@ -31,7 +31,7 @@
   line-height: 18px;
   text-align: left;
   color: $text-color;
-  margin: 0 0 23px;
+  margin: -3px 0 24px;
 
   @media (min-width: $tablet-width) {
     width: 340px;
@@ -58,7 +58,7 @@
   font-weight: 400;
   line-height: 16px;
   color: $title-text;
-  padding-top: 15px;
+  padding-top: 18px;
   padding-bottom: 18px;
   text-decoration: none;
   border-top: 1px solid #d9d9d9;
@@ -88,11 +88,11 @@
   background-image: url("../img/icons/stack.svg#right-arrow-cards");
   content: "";
   display: block;
-  width: 24px;
+  width: 20px;
   height: 10px;
-  margin-left: 110px;
-  margin-top: -12px;
-  background-size: 100% 10px;
+  margin-left: 101px;
+  margin-top: -16px;
+  background-size: 100% 12px;
   background-repeat: no-repeat;
   background-position: 0 0;
   transform-origin: 0 0;

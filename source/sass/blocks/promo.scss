@@ -75,6 +75,7 @@
   text-align: center;
   color: $basic-bg;
   margin: 0 0 29px;
+  padding-right: 2px;
 
   @media (min-width: $tablet-width) {
     color: $title-text;
@@ -132,4 +133,5 @@
 .promo__special {
   grid-column: 2/4;
   grid-row: 1/4;
+  margin-bottom: 2px;
 }

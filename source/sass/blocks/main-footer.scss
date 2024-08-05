@@ -27,7 +27,7 @@
   width: 128px;
   padding-top: 40px;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -65,7 +65,7 @@
   display: flex;
   justify-content: space-between;
   text-decoration: none;
-  padding: 20px 0 40px;
+  padding: 26px 0 40px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -81,6 +81,7 @@
   background-color: #666666;
   mask-image: url("../img/academy-logo.svg");
   mask-repeat: no-repeat;
+  margin-top: -5px;
 
   @media (min-width: $tablet-width) {
     margin-left: 23px;

@@ -16,8 +16,9 @@
   color: $title-text;
   border: 1px solid #cdcdcd;
   border-radius: 5px;
-  padding-top: 15px;
-  padding-bottom: 20px;
+  padding-top: 14px;
+  padding-bottom: 17px;
+  text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
     font-size: 30px;
@@ -34,7 +35,7 @@
   color: $text-color;
   margin: 0 auto;
   width: 77px;
-  margin-top: -8px;
+  margin-top: -11px;
   background: #eaeaea;
 
   @media (min-width: $tablet-width) {
