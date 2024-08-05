@@ -33,6 +33,10 @@
     padding: 0;
     margin: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 14px;
+  }
 }
 
 .main-footer__social-list {
@@ -54,6 +58,10 @@
     justify-content: space-between;
     margin-left: 36px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 11px;
+  }
 }
 
 .main-footer__academy-link {
@@ -73,6 +81,10 @@
     margin: 0;
     padding-top: 2px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 14px;
+  }
 }
 
 .main-footer__academy-link::after {
@@ -88,5 +100,9 @@
   @media (min-width: $tablet-width) {
     margin-left: 23px;
     margin-top: -5px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -6px;
   }
 }

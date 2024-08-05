@@ -37,6 +37,7 @@
   @media (min-width: $desktop-width) {
     width: 570px;
     min-height: 374px;
+    margin-top: -7px;
   }
 }
 
@@ -73,7 +74,7 @@
 
   @media (min-width: $desktop-width) {
     background-repeat: no-repeat;
-    background-position: 52px 41px;
+    background-position: 35px 47px;
     background-size: 134px 100px;
   }
 }

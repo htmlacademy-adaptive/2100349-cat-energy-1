@@ -46,8 +46,8 @@
     width: 565px;
     align-self: center;
     background-color: $basic-bg;
-    padding-left: 80px;
-    padding-right: 74px;
+    padding-left: 34px;
+    padding-right: 123px;
   }
 }
 
@@ -66,6 +66,10 @@
     line-height: 26px;
     padding-bottom: 9px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 19px;
+  }
 }
 
 .adress__office {
@@ -82,6 +86,11 @@
     font-size: 16px;
     padding-bottom: 10px;
   }
+
+  @media (min-width: $desktop-width) {
+    text-align: start;
+    padding-bottom: 22px;
+  }
 }
 
 .adress__office-space {
@@ -89,6 +98,10 @@
     padding-top: 17px;
     display: flex;
     padding-left: 29px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 0;
   }
 }
 

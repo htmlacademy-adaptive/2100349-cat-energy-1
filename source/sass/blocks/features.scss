@@ -45,6 +45,10 @@
     line-height: 60px;
     margin-bottom: 71px;
   }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 32px;
+  }
 }
 
 .features__list {
@@ -63,7 +67,7 @@
   @media (min-width: $desktop-width) {
     display: flex;
     width: 1220px;
-    gap: 73px;
+    gap: 95px;
   }
 }
 
@@ -103,6 +107,10 @@
     padding-top: 113px;
     padding-left: 0;
     position: relative;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 230px;
   }
 }
 
