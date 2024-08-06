@@ -30,11 +30,14 @@
   @media (min-width: $tablet-width) {
     width: 708px;
     padding: 0;
+    margin-top: -2px;
+    margin-bottom: 32px;
   }
 
   @media (min-width: $desktop-width) {
     width: 570px;
     min-height: 374px;
+    margin-top: -7px;
   }
 }
 
@@ -46,8 +49,8 @@
 
   @media (min-width: $tablet-width) {
     background-repeat: no-repeat;
-    background-position: 445px 81px;
-    background-size: 200px 211px;
+    background-position: 445px 79px;
+    background-size: 200px 210px;
   }
 
   @media (min-width: $desktop-width) {
@@ -60,18 +63,18 @@
 .programm-cards__item--weight-gain {
   background-image: url("../img/icons/stack.svg#cat-back-pro");
   background-repeat: no-repeat;
-  background-position: 20px 21px;
+  background-position: 12px 28px;
   background-size: 67px 50px;
 
   @media (min-width: $tablet-width) {
     background-repeat: no-repeat;
-    background-position: 411px 81px;
+    background-position: 414px 93px;
     background-size: 268px 200px;
   }
 
   @media (min-width: $desktop-width) {
     background-repeat: no-repeat;
-    background-position: 52px 41px;
+    background-position: 35px 47px;
     background-size: 134px 100px;
   }
 }

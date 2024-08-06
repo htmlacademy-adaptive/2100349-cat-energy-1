@@ -12,7 +12,7 @@
     content: "";
     display: block;
     width: 50%;
-    height: 694px;
+    height: 693px;
     background-image: linear-gradient(to bottom,
       rgba(104, 183, 56, 0.85),
       rgba(104, 183, 56, 0.85)),
@@ -22,7 +22,7 @@
       url("../img/big-cat-desktop-2x.png") type("image/png") 2x);
     background-repeat: no-repeat;
     position: absolute;
-    top: 0;
+    top: -28px;
     right: 0;
     z-index: -1;
   }

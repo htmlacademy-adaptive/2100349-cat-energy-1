@@ -27,11 +27,15 @@
   width: 128px;
   padding-top: 40px;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 16px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
     margin: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 14px;
   }
 }
 
@@ -52,6 +56,11 @@
     min-height: 22px;
     padding: 0;
     justify-content: space-between;
+    margin-left: 36px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 11px;
   }
 }
 
@@ -65,11 +74,16 @@
   display: flex;
   justify-content: space-between;
   text-decoration: none;
-  padding: 20px 0 40px;
+  padding: 26px 0 40px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
     margin: 0;
+    padding-top: 2px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 14px;
   }
 }
 
@@ -81,9 +95,14 @@
   background-color: #666666;
   mask-image: url("../img/academy-logo.svg");
   mask-repeat: no-repeat;
+  margin-top: -5px;
 
   @media (min-width: $tablet-width) {
     margin-left: 23px;
     margin-top: -5px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: -6px;
   }
 }

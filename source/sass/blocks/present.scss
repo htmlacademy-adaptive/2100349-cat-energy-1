@@ -39,10 +39,13 @@
   @media (min-width: $tablet-width) {
     width: 80px;
     height: 82px;
+    margin-left: 76px;
+    margin-right: 263px;
   }
 
   @media (min-width: $desktop-width) {
     margin-bottom: 30px;
+    margin-left: 39px;
   }
 }
 
@@ -75,4 +78,6 @@
 
 .present__text span {
   width: 161px;
+  text-align: start;
+  padding-top: 16px;
 }

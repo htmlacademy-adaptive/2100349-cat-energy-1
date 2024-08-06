@@ -15,7 +15,7 @@
 .adress__invitation {
   display: flex;
   width: 320px;
-  padding: 26px 20px;
+  padding: 27px 20px;
   background-color: $element-bg;
   gap: 15px;
   margin: 0 auto;
@@ -26,6 +26,7 @@
     padding: 60px 0;
     width: 628px;
     margin: 0 auto;
+    padding-bottom: 51px;
   }
 }
 
@@ -45,8 +46,8 @@
     width: 565px;
     align-self: center;
     background-color: $basic-bg;
-    padding-left: 80px;
-    padding-right: 74px;
+    padding-left: 34px;
+    padding-right: 123px;
   }
 }
 
@@ -63,6 +64,11 @@
     width: 163px;
     font-size: 20px;
     line-height: 26px;
+    padding-bottom: 9px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-bottom: 19px;
   }
 }
 
@@ -78,14 +84,24 @@
     width: 157px;
     text-align: end;
     font-size: 16px;
+    padding-bottom: 10px;
+  }
+
+  @media (min-width: $desktop-width) {
+    text-align: start;
+    padding-bottom: 22px;
   }
 }
 
 .adress__office-space {
   @media (min-width: $tablet-width) {
-    padding-top: 10px;
+    padding-top: 17px;
     display: flex;
     padding-left: 29px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 0;
   }
 }
 
