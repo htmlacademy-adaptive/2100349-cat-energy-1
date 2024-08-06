@@ -35,7 +35,8 @@
   mask-repeat: no-repeat;
 }
 
-.social__link:hover::before .social__link:focus-visible::before {
+.social__link:hover::before,
+.social__link:focus-visible::before {
   background-color: $accent-color;
 }
 
