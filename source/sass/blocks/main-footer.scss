@@ -109,7 +109,7 @@
   }
 }
 
-.main-footer__academy-link:hover:after {
+.main-footer__academy-link:hover::after {
   background-color: $accent-color;
 }
 
