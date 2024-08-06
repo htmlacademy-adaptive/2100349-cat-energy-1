@@ -17,7 +17,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    display: flex;
     background-image: image-set(
       url("../img/cat-in-bag-desktop-1x.webp") type("image/webp") 1x,
       url("../img/cat-in-bag-desktop-2x.webp") type("image/webp") 2x,
@@ -44,8 +43,9 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin-bottom: 30px;
-    margin-left: 39px;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -72,12 +72,5 @@
   @media (min-width: $desktop-width) {
     display: block;
     padding: 0;
-    margin: 0 auto;
   }
-}
-
-.present__text span {
-  width: 161px;
-  text-align: start;
-  padding-top: 16px;
 }

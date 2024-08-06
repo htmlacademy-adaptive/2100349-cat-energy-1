@@ -11,7 +11,7 @@
   padding-top: 11px;
 
   @media (min-width: $tablet-width) {
-    padding-left: 52px;
+    padding-left: 0;
     font-size: 36px;
     padding-top: 77px;
     margin: 0;
@@ -37,9 +37,8 @@
     width: 390px;
     font-size: 16px;
     line-height: 24px;
-    padding-left: 52px;
     padding-top: 23px;
-    margin: 0;
+    margin: 0 0 41px;
   }
 
   @media (min-width: $desktop-width) {
@@ -47,7 +46,6 @@
     font-size: 16px;
     line-height: 24px;
     padding-top: 73px;
-    padding-left: 52px;
   }
 }
 
@@ -67,9 +65,6 @@
   @media (min-width: $tablet-width) {
     border: none;
     font-size: 20px;
-    padding-left: 52px;
-    padding-top: 59px;
-    padding-bottom: 69px;
   }
 
   @media (min-width: $desktop-width) {
@@ -102,7 +97,8 @@
   }
 }
 
-.programm__catalog:hover::after .programm__catalog:focus-visible::after {
+.programm__catalog:hover::after,
+.programm__catalog:focus-visible::after {
   background-size: 100% 10px;
   transform: scaleX(1.3);
 }
