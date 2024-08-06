@@ -114,6 +114,6 @@
 }
 
 .main-footer__academy-link:focus-visible,
-.main-footer__academy-link:focus-visible:after {
+.main-footer__academy-link:focus-visible::after {
   opacity: 0.3;
 }
