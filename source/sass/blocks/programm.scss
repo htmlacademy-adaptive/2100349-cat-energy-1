@@ -1,4 +1,4 @@
-.programm__head {
+.program__head {
   font-family: $title-font;
   text-transform: uppercase;
   font-size: 24px;
@@ -24,7 +24,7 @@
   }
 }
 
-.programm__text {
+.program__text {
   font-family: $basic-font;
   font-size: 14px;
   font-weight: 400;
@@ -49,7 +49,7 @@
   }
 }
 
-.programm__catalog {
+.program__catalog {
   font-family: $title-font;
   text-transform: uppercase;
   font-size: 16px;
@@ -75,11 +75,11 @@
   }
 }
 
-.programm__catalog:active {
+.program__catalog:active {
   opacity: 0.3;
 }
 
-.programm__catalog::after {
+.program__catalog::after {
   background-image: url("../img/icons/stack.svg#right-arrow-cards");
   content: "";
   display: block;
@@ -97,12 +97,12 @@
   }
 }
 
-.programm__catalog:hover::after,
-.programm__catalog:focus-visible::after {
+.program__catalog:hover::after,
+.program__catalog:focus-visible::after {
   background-size: 100% 10px;
   transform: scaleX(1.3);
 }
 
-.programm__catalog:active::after {
+.program__catalog:active::after {
   opacity: 0.3;
 }
