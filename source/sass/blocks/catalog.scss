@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 20px;
+  padding-bottom: 24px;
   border-top: 1px solid #ebebeb;
 
   @media (min-width: $tablet-width) {
@@ -122,6 +123,7 @@
 .catalog__item--title-all {
   width: 100%;
   text-align: center;
+  padding-top: 4px;
 
   @media (min-width: $tablet-width) {
     width: 170px;
@@ -178,6 +180,11 @@
   @media (min-width: $desktop-width) {
     margin-top: 9px;
   }
+}
+
+.catalog__item-text--plus {
+  margin-top: 10px;
+  margin-bottom: 18px;
 }
 
 .catalog__item-specifications {

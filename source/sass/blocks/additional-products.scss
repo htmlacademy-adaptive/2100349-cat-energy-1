@@ -25,6 +25,7 @@
   background-color: $basic-bg;
   width: fit-content;
   box-shadow: 20px 0 0 $basic-bg;
+  padding-top: 24px;
 
   @media (min-width: $tablet-width) {
     font-size: 36px;
@@ -44,7 +45,7 @@
   height: 2px;
   background-color: $accent-color;
   width: calc(100vw - 22px);
-  top: 15px;
+  top: 39px;
   z-index: -1;
 
   @media (min-width: $tablet-width) {
@@ -59,7 +60,7 @@
 
 .additional-products__list {
   list-style-type: none;
-  padding-top: 36px;
+  padding-top: 35px;
   padding-left: 0;
   width: 280px;
   margin: 0 auto;
@@ -80,7 +81,7 @@
 .additional-products__item {
   width: 280px;
   border-top: 1px solid #cdcdcd;
-  padding-bottom: 19px;
+  padding-bottom: 16px;
 
   @media (min-width: $tablet-width) {
     width: 708px;
