@@ -59,6 +59,11 @@
 .main-container__title--catalog {
   padding-top: 27px;
   margin-bottom: 41px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 1px;
+    margin-bottom: 23px;
+  }
 }
 
 .main-container__text {

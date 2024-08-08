@@ -1,6 +1,6 @@
 .additional-products {
   @media (min-width: $tablet-width) {
-    padding-top: 70px;
+    padding-top: 53px;
   }
 
   @media (min-width: $desktop-width) {
@@ -34,7 +34,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 1px;
+    padding-left: 0;
+    padding-top: 0;
     margin-right: auto;
   }
 }
@@ -49,7 +50,7 @@
   z-index: -1;
 
   @media (min-width: $tablet-width) {
-    top: 16px;
+    top: 39px;
     box-shadow: -100vw 0 0 $accent-color;
   }
 
@@ -68,7 +69,7 @@
   @media (min-width: $tablet-width) {
     width: 708px;
     margin: 0 auto;
-    margin-top: 46px;
+    margin-top: 51px;
   }
 
   @media (min-width: $desktop-width) {
@@ -87,6 +88,7 @@
     width: 708px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 19px;
   }
 
   @media (min-width: $desktop-width) {
