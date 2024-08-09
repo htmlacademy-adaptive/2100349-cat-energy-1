@@ -19,7 +19,7 @@ export const styles = () => {
       autoprefixer(),
       csso()
     ]))
-    .pipe(rename('style.css'))
+    .pipe(rename('style.min.css'))
     .pipe(gulp.dest('build/css', { sourcemaps: '.' }))
     .pipe(browser.stream());
 }
@@ -106,6 +106,7 @@ const watcher = () => {
 export const build = gulp.series(
   clean,
   copy,
+  copyImages,
   optimizeImages,
   gulp.parallel(
     styles,

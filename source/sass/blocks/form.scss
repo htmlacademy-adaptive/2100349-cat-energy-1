@@ -529,6 +529,10 @@
   @media (min-width: $tablet-width) {
     padding-top: 40px;
   }
+
+  @media (min-width: $desktop-width) {
+    flex-wrap: wrap;
+  }
 }
 
 .form__label--email::after {
