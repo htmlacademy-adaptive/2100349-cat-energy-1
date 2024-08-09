@@ -54,6 +54,11 @@
     padding-left: 70px;
     margin-top: 36px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 45px;
+    padding-left: 0;
+  }
 }
 
 .main-container__title--catalog {
