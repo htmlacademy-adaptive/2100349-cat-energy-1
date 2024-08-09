@@ -1,4 +1,5 @@
 .present {
+  background-color: $accent-color;
   background-image: image-set(
     url("../img/cat-in-bag-mobile-1x.webp") type("image/webp") 1x,
     url("../img/cat-in-bag-mobile-2x.webp") type("image/webp") 2x,
@@ -34,6 +35,7 @@
   height: 80px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 49px;
 
   @media (min-width: $tablet-width) {
     width: 80px;
@@ -57,7 +59,7 @@
   text-align: center;
   color: $basic-bg;
   margin: 0 auto;
-  padding-top: 55px;
+  padding-top: 58px;
   width: 161px;
   padding-bottom: 10px;
 

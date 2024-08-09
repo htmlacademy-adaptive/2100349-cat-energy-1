@@ -1,5 +1,5 @@
 .features {
-  padding-top: 22px;
+  padding-top: 24px;
   background-color: $basic-bg;
 
   @media (min-width: $tablet-width) {
@@ -10,6 +10,7 @@
 
   @media (min-width: $desktop-width) {
     border-bottom: none;
+    padding-top: 9px;
   }
 }
 
@@ -37,13 +38,14 @@
   font-weight: 400;
   line-height: 40px;
   color: $title-text;
-  margin: 0 0 42px;
-  padding-top: 8px;
+  margin: 0 0 39px;
+  padding-top: 7px;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 71px;
+    padding-top: 10px;
   }
 
   @media (min-width: $desktop-width) {
@@ -83,8 +85,12 @@
     text-align: right;
     color: $element-bg;
     z-index: -1;
-    right: 0;
+    right: 4px;
     bottom: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    right: -17px;
   }
 }
 
@@ -104,13 +110,23 @@
     font-size: 16px;
     line-height: 24px;
     background-size: 80px 80px;
-    padding-top: 113px;
+    padding-top: 112px;
     padding-left: 0;
     position: relative;
   }
 
   @media (min-width: $desktop-width) {
     width: 230px;
+  }
+}
+
+.features__item--right::before {
+  @media (min-width: $tablet-width) {
+    right: 27px;
+  }
+
+  @media (min-width: $desktop-width) {
+    right: 4px;
   }
 }
 

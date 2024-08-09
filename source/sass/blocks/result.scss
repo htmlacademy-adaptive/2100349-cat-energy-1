@@ -143,7 +143,7 @@
     display: block;
     padding-top: 10px;
   }
-  
+
   @media (min-width: $desktop-width) {
     padding-left: 65px;
     padding-top: 0;
@@ -242,7 +242,7 @@
 }
 
 .result__slider-button:active {
-  opacity: #5eaa2f;
+  opacity: 0.6;
 }
 
 .result__slider-button::before {

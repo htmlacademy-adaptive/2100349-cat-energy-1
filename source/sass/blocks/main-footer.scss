@@ -28,7 +28,7 @@
   height: 24px;
   padding-top: 40px;
   margin: 0 auto;
-  padding-bottom: 16px;
+  padding-bottom: 21px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -36,8 +36,12 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-top: 14px;
+    padding-top: 4px;
   }
+}
+
+.main-footer__name--form {
+  padding-top: 39px;
 }
 
 .main-footer__social-list {
@@ -113,7 +117,7 @@
   background-color: $accent-color;
 }
 
-.main-footer__academy-link:focus-visible,
-.main-footer__academy-link:focus-visible::after {
+.main-footer__academy-link:active,
+.main-footer__academy-link:active::after {
   opacity: 0.3;
 }
