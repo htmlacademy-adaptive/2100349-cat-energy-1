@@ -129,7 +129,7 @@
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    min-width: 768px;
+    width: 768px;
   }
 
   @media (min-width: $desktop-width) {

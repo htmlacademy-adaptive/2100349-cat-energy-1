@@ -15,6 +15,7 @@
       url("../img/cat-in-bag-tablet-2x.png") type("image/png") 2x
     );
     background-repeat: no-repeat;
+    padding: 59px 125px 59px 77px;
   }
 
   @media (min-width: $desktop-width) {
@@ -40,8 +41,7 @@
   @media (min-width: $tablet-width) {
     width: 80px;
     height: 82px;
-    margin-left: 76px;
-    margin-right: 263px;
+    margin: 0;
   }
 
   @media (min-width: $desktop-width) {
@@ -65,10 +65,12 @@
 
   @media (min-width: $tablet-width) {
     display: flex;
-    padding-top: 0;
+    padding: 0;
     margin: 0;
     width: 100%;
-    padding-right: 125px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
   }
 
   @media (min-width: $desktop-width) {

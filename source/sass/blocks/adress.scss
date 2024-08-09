@@ -8,16 +8,16 @@
 
   @media (min-width: $desktop-width) {
     display: grid;
-    grid-template-columns: auto 565px 565px auto;
+    grid-template-columns: auto 565px 652px auto;
   }
 }
 
 .address__invitation {
   display: flex;
   width: 320px;
-  padding: 27px 20px;
+  padding: 26px 20px;
   background-color: $element-bg;
-  gap: 23px;
+  gap: 16px;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
@@ -27,6 +27,11 @@
     width: 628px;
     margin: 0 auto;
     padding-bottom: 51px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 57px;
+    padding-bottom: 40px;
   }
 }
 
@@ -46,8 +51,8 @@
     width: 565px;
     align-self: center;
     background-color: $basic-bg;
-    padding-left: 34px;
-    padding-right: 123px;
+    padding-left: 78px;
+    padding-right: 80px;
   }
 }
 
@@ -64,7 +69,7 @@
     width: 163px;
     font-size: 20px;
     line-height: 26px;
-    padding-bottom: 9px;
+    padding-bottom: 5px;
   }
 
   @media (min-width: $desktop-width) {
@@ -95,7 +100,7 @@
 
 .address__office-space {
   @media (min-width: $tablet-width) {
-    padding-top: 18px;
+    padding-top: 20px;
     display: flex;
     padding-left: 29px;
   }
