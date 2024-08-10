@@ -22,13 +22,16 @@
 .form__group--pdleft {
   padding-left: 18px;
   padding-top: 6px;
+  padding-bottom: 3px;
 
   @media (min-width: $tablet-width) {
+    padding-bottom: 0;
     padding-left: 0;
     padding-top: 39px;
   }
 
   @media (min-width: $desktop-width) {
+    padding-bottom: 0;
     padding-top: 65px;
   }
 }
@@ -61,7 +64,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-left: 0px;
+    padding-left: 0;
     padding-top: 8px;
     padding-bottom: 80px;
     gap: 78px;
@@ -261,10 +264,11 @@
 
 .form__label--radio {
   padding-top: 2px;
+  margin-bottom: 9px;
 
   @media (min-width: $tablet-width) {
     padding-top: 0;
-    padding-bottom: 14px;
+    padding-bottom: 5px;
     gap: 18px;
   }
 }
