@@ -1,11 +1,11 @@
-.programm-cards {
+.program-cards {
   @media (min-width: $desktop-width) {
     padding-left: 0;
     padding-top: 80px;
   }
 }
 
-.programm-cards__wrapper {
+.program-cards__wrapper {
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
@@ -17,18 +17,19 @@
     width: 1220px;
     gap: 80px;
     margin: 0 auto;
+    flex-wrap: wrap;
   }
 }
 
-.programm-cards__item {
+.program-cards__item {
   width: 280px;
   background-color: $element-bg;
   margin: 20px auto 0;
-  padding: 21px 33px 0 20px;
+  padding: 24px 33px 0 20px;
 
   @media (min-width: $tablet-width) {
     width: 708px;
-    padding: 0 0 51px 52px;
+    padding: 68px 0 51px 52px;
     margin-top: -2px;
     margin-bottom: 32px;
   }
@@ -40,7 +41,7 @@
   }
 }
 
-.programm-cards__item--weight-loss {
+.program-cards__item--weight-loss {
   background-image: url("../img/icons/stack.svg#cat-back-slim");
   background-repeat: no-repeat;
   background-position: 20px 21px;
@@ -59,10 +60,10 @@
   }
 }
 
-.programm-cards__item--weight-gain {
+.program-cards__item--weight-gain {
   background-image: url("../img/icons/stack.svg#cat-back-pro");
   background-repeat: no-repeat;
-  background-position: 12px 28px;
+  background-position: 13px 31px;
   background-size: 67px 50px;
 
   @media (min-width: $tablet-width) {

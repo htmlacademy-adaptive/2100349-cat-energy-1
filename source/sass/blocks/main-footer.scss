@@ -28,7 +28,7 @@
   height: 24px;
   padding-top: 40px;
   margin: 0 auto;
-  padding-bottom: 16px;
+  padding-bottom: 21px;
 
   @media (min-width: $tablet-width) {
     padding: 0;
@@ -36,7 +36,19 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-top: 14px;
+    padding-top: 4px;
+  }
+}
+
+.main-footer__name--form {
+  padding-top: 39px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 3px;
   }
 }
 
@@ -45,7 +57,7 @@
   border-top: 1px solid #d9d9d9;
   border-bottom: 1px solid #d9d9d9;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 23px;
   padding: 0;
   gap: 24px;
   justify-content: center;
@@ -113,7 +125,7 @@
   background-color: $accent-color;
 }
 
-.main-footer__academy-link:focus-visible,
-.main-footer__academy-link:focus-visible::after {
+.main-footer__academy-link:active,
+.main-footer__academy-link:active::after {
   opacity: 0.3;
 }

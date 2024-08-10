@@ -1,6 +1,10 @@
 .site-list {
   list-style-type: none;
 
+  @media (min-width: $tablet-width) {
+    padding-left: 3px;
+  }
+
   @media (min-width: $desktop-width) {
     background-color: transparent;
   }
@@ -51,7 +55,7 @@
 }
 
 .site-list__link:active {
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .site-list__link--current::after {

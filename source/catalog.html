@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width; initial-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preload" href="fonts/lato/Lato-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/oswald/oswaldregular.woff2" as="font" crossorigin="anonymous">
   <link rel="icon" href="favicon.ico">
   <link rel="manifest" href="manifest.webmanifest">
 </head>
@@ -51,7 +53,7 @@
     </header>
 
     <main class="main-container">
-      <h1 class="main-container__title">Каталог продукции</h1>
+      <h1 class="main-container__title main-container__title--catalog">Каталог продукции</h1>
 
       <section class="product-cards main-container__cards">
         <h2 class="visually-hidden">Каталог товаров с описанием</h2>
@@ -71,7 +73,7 @@
                     srcset="img/chicken-500-desktop-1x.png 1x, img/chicken-500-desktop-2x.png 2x">
                   <source media="(min-width: 768px)" width="200" height="210"
                     srcset="img/chicken-500-tablet-1x.png 1x, img/chicken-500-tablet-2x.png 2x">
-                  <img class="catalog__item-foto" src="img/chicken-500.png" width="140" height="107"
+                  <img class="catalog__item-pack" src="img/chicken-500.png" width="140" height="107"
                     srcset="img/chicken-500-2x.png 2x" alt="Кэт энерджи со вкусом курицы 500 грамм.">
                 </picture>
               </a>
@@ -111,7 +113,7 @@
                     srcset="img/chicken-1000-desktop-1x.png 1x, img/chicken-1000-desktop-2x.png 2x">
                   <source media="(min-width: 768px)" width="200" height="210"
                     srcset="img/chicken-1000-tablet-1x.png 1x, img/chicken-1000-tablet-2x.png 2x">
-                  <img class="catalog__item-foto" src="img/chicken-1000.png" width="140" height="107"
+                  <img class="catalog__item-pack" src="img/chicken-1000.png" width="140" height="107"
                     srcset="img/chicken-1000-2x.png 2x" alt="Кэт энерджи со вкусом курицы 1000 грамм.">
                 </picture>
               </a>
@@ -150,7 +152,7 @@
                     srcset="img/fish-500-desktop-1x.png 1x, img/fish-500-desktop-2x.png 2x">
                   <source media="(min-width: 768px)" width="200" height="210"
                     srcset="img/fish-500-tablet-1x.png 1x, img/fish-500-tablet-2x.png 2x">
-                  <img class="catalog__item-foto" src="img/fish-500.png" width="140" height="107"
+                  <img class="catalog__item-pack" src="img/fish-500.png" width="140" height="107"
                     srcset="img/fish-500-2x.png 2x" alt="Кэт энерджи со вкусом рыбы 500 грамм.">
                 </picture>
               </a>
@@ -189,7 +191,7 @@
                     srcset="img/fish-1000-desktop-1x.png 1x, img/fish-1000-desktop-2x.png 2x">
                   <source media="(min-width: 768px)" width="200" height="210"
                     srcset="img/fish-1000-tablet-1x.png 1x, img/fish-1000-tablet-2x.png 2x">
-                  <img class="catalog__item-foto" src="img/fish-1000.png" width="140" height="107"
+                  <img class="catalog__item-pack" src="img/fish-1000.png" width="140" height="107"
                     srcset="img/fish-1000-2x.png 2x" alt="Кэт энерджи со вкусом рыбы 1000 грамм.">
                 </picture>
               </a>
@@ -229,7 +231,7 @@
                     srcset="img/buckwheat-500-desktop-1x.png 1x, img/buckwheat-500-desktop-2x.png 2x">
                   <source media="(min-width: 768px)" width="200" height="210"
                     srcset="img/buckwheat-500-tablet-1x.png 1x, img/buckwheat-500-tablet-2x.png 2x">
-                  <img class="catalog__item-foto" src="img/buckwheat-500.png" width="140" height="107"
+                  <img class="catalog__item-pack" src="img/buckwheat-500.png" width="140" height="107"
                     srcset="img/buckwheat-500-2x.png 2x" alt="Кэт энерджи со вкусом гречки 500 грамм.">
                 </picture>
               </a>
@@ -269,7 +271,7 @@
                     srcset="img/buckwheat-1000-desktop-1x.png 1x, img/buckwheat-1000-desktop-2x.png 2x">
                   <source media="(min-width: 768px)" width="200" height="210"
                     srcset="img/buckwheat-1000-tablet-1x.png 1x, img/buckwheat-1000-tablet-2x.png 2x">
-                  <img class="catalog__item-foto" src="img/buckwheat-1000.png" width="140" height="107"
+                  <img class="catalog__item-pack" src="img/buckwheat-1000.png" width="140" height="107"
                     srcset="img/buckwheat-1000-2x.png 2x" alt="Кэт энерджи со вкусом гречки 1000 грамм.">
                 </picture>
               </a>
@@ -309,7 +311,7 @@
                     srcset="img/rice-500-desktop-1x.png 1x, img/rice-500-desktop-2x.png 2x">
                   <source media="(min-width: 768px)" width="200" height="210"
                     srcset="img/rice-500-tablet-1x.png 1x, img/rice-500-tablet-2x.png 2x">
-                  <img class="catalog__item-foto" src="img/rice-500.png" width="140" height="107"
+                  <img class="catalog__item-pack" src="img/rice-500.png" width="140" height="107"
                     srcset="img/rice-500-2x.png 2x" alt="Кэт энерджи со вкусом риса 500 грамм.">
                 </picture>
               </a>
@@ -336,8 +338,8 @@
             </li>
 
             <li class="catalog__item catalog__item--all">
-              <h3 class="catalog__item-title catalog__item--text-all">Показать еще 100500 товаров</h3>
-              <p class="catalog__item-text">На самом деле вкусов гораздо больше!</p>
+              <h3 class="catalog__item-title catalog__item--title-all">Показать еще 100500 товаров</h3>
+              <p class="catalog__item-text catalog__item-text--plus">На самом деле вкусов гораздо больше!</p>
               <a class="catalog__item-order general-button general-button--all" href="#">показать все</a>
             </li>
           </ul>
@@ -365,7 +367,7 @@
               <h3 class="name-product__title">питьевая вода</h3>
               <dl class="name-product__list">
                 <div class="name-product__item">
-                  <dt class="name-product__parameter">
+                  <dt class="name-product__parameter name-product__parameter--pdright">
                     5 литров
                   </dt>
                   <dd class="name-product__price">50 ₽</dd>
@@ -402,26 +404,22 @@
           </ul>
         </div>
         <div class="present additional-products__present">
-          <h3 class="present__text">Закажите все <br>и получите чехол для кота в подарок!</h3>
+          <h3 class="present__text">Закажите все <br>и получите чехол для<br>кота в подарок!</h3>
         </div>
       </section>
 
-      <section class="adress">
+      <section class="address">
         <h2 class="visually-hidden">Адрес</h2>
-        <div class="adress__invitation adress__starting-view">
-          <p class="adress__slogan">
-            приглашаем к сотрудничеству дилеров!
+        <div class="address__invitation address__starting-view">
+          <p class="address__slogan">
+            приглашаем к&nbsp;сотрудничеству дилеров!
           </p>
-          <p class="adress__office">
-            ул. Большая Конюшенная, д. 19/8 <span class="adress__office-space">Санкт-Петербург</span>
+          <p class="address__office">
+            ул. Большая Конюшенная, д. 19/8 <span class="address__office-space">Санкт-Петербург</span>
           </p>
         </div>
 
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6267850760078!2d30.320214985506436!3d59.
-          93833489365426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
-          1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!
-          2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1718124382849!5m2!1sru!2sru"
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6267850760078!2d30.320214985506436!3d59.93833489365426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1718124382849!5m2!1sru!2sru"
           width="320" height="362" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
           title="Офис компании по адресу ул.Большая Конюшенная, д.19/8">
         </iframe>

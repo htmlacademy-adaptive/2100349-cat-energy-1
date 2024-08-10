@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width; initial-scale=1">
   <title>HTML Academy: Кэт энерджи</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preload" href="fonts/lato/Lato-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/oswald/oswaldregular.woff2" as="font" crossorigin="anonymous">
   <link rel="icon" href="favicon.ico">
   <link rel="apple-touch-icon" href="images/favicons/apple-icon.png">
   <link rel="manifest" href="manifest.webmanifest">
@@ -82,25 +84,25 @@
         </div>
       </section>
 
-      <section class="programm-cards">
+      <section class="program-cards">
         <h2 class="visually-hidden">Описание программ</h2>
-        <div class="programm-cards__wrapper">
-          <article class="programm-cards__item programm-cards__item--weight-loss programm">
-            <h3 class="programm__head">похудение</h3>
-            <p class="programm__text">Ваш кот весит больше собаки
+        <div class="program-cards__wrapper">
+          <article class="program-cards__item program-cards__item--weight-loss program">
+            <h3 class="program__head program__head--pdtop">похудение</h3>
+            <p class="program__text program__text--mgtop">Ваш кот весит больше собаки
               и почти утратил способность лазить по деревьям?
               Пора на диету! Cat Energy Slim поможет вашему питомцу
               сбросить лишний вес.
             </p>
-            <a class="programm__catalog" href="#">каталог slim</a>
+            <a class="program__catalog" href="#">каталог slim</a>
           </article>
-          <article class="programm-cards__item programm-cards__item--weight-gain programm">
-            <h3 class="programm__head">набор&nbspмассы</h3>
-            <p class="programm__text">Заработать авторитет среди дворовых котов
+          <article class="program-cards__item program-cards__item--weight-gain program">
+            <h3 class="program__head program__head--pttop">набор&nbsp;массы</h3>
+            <p class="program__text">Заработать авторитет среди дворовых котов
               и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить
               необходимые мышцы!
             </p>
-            <a class="programm__catalog" href="#">каталог pro</a>
+            <a class="program__catalog" href="#">каталог pro</a>
           </article>
         </div>
       </section>
@@ -109,7 +111,7 @@
         <div class="features__wrapper">
           <h3 class="features__work">Как это работает</h3>
           <ul class="features__list">
-            <li class="features__item features__item--substances">
+            <li class="features__item features__item--substances features__item--right">
               Функциональное питание содержит только полезные
               питательные вещества.
             </li>
@@ -122,7 +124,7 @@
               функциональное питание.
             </li>
             <li class="features__item features__item--period">
-              Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
+              Уже через месяц наслаждайтесь изменениями к лучшему&nbsp;вашего питомца!
             </li>
           </ul>
         </div>
@@ -159,7 +161,7 @@
                 <source type="image/webp" media="(min-width: 768px)" width="560" height="512"
                   srcset="img/cat-before-tablet@1x.webp 1x, img/cat-before-tablet@2x.webp 2x">
                 <source type="image/webp" width="280" height="256"
-                  srcset="img/cat-before-mobile@1x.webp 1x, img/cat-before-mobile@2x.webp 2x" alt="Вид кота каким он был раньше.">
+                  srcset="img/cat-before-mobile@1x.webp 1x, img/cat-before-mobile@2x.webp 2x">
                 <source media="(min-width: 768px)" width="560" height="512"
                   srcset="img/cat-before-tablet@1x.png 1x, img/cat-before-tablet@2x.png 2x">
                 <img class="result__slider-before-cat" src="img/cat-before-mobile@1x.png" width="280" height="256"
@@ -172,7 +174,7 @@
                 <source type="image/webp" media="(min-width: 768px)" width="560" height="512"
                   srcset="img/cat-after-tablet@1x.webp 1x, img/cat-after-tablet@2x.webp 2x">
                 <source type="image/webp" width="280" height="256"
-                  srcset="img/cat-after-mobile@1x.webp 1x, img/cat-after-mobile@2x.webp 2x" alt="Вид кота каким он был раньше.">
+                  srcset="img/cat-after-mobile@1x.webp 1x, img/cat-after-mobile@2x.webp 2x">
                 <source media="(min-width: 768px)" width="560" height="512"
                   srcset="img/cat-after-tablet@1x.png 1x, img/cat-after-tablet@2x.png 2x">
                 <img class="result__slider-after-cat result__slider-after-cat--option" src="img/cat-after-mobile@1x.png" width="280" height="256"
@@ -183,21 +185,18 @@
         </div>
       </section>
 
-      <section class="adress adress--index">
+      <section class="address address--index">
         <h2 class="visually-hidden">Адрес</h2>
-        <div class="adress__invitation adress__starting-view adress__invitation--index">
-          <p class="adress__slogan">
-            приглашаем к&nbspсотрудничеству дилеров!
+        <div class="address__invitation address__starting-view address__invitation--index">
+          <p class="address__slogan">
+            приглашаем к&nbsp;сотрудничеству дилеров!
           </p>
-          <p class="adress__office">
-            ул. Большая Конюшенная, д. 19/8 <span class="adress__office-space">Санкт-Петербург</span>
+          <p class="address__office">
+            ул. Большая Конюшенная, д. 19/8 <span class="address__office-space">Санкт-Петербург</span>
           </p>
         </div>
 
-        <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.59730956283!2d30.318358896868133!3d59.
-        93882396180281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007
-        !2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1719324885006!5m2!1sru!2sru"
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.59730956283!2d30.318358896868133!3d59.93882396180281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1719324885006!5m2!1sru!2sru"
           width="320" height="362" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
           title="Офис компании по адресу ул.Большая Конюшенная, д.19/8">
         </iframe>

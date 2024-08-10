@@ -1,4 +1,5 @@
 .present {
+  background-color: $accent-color;
   background-image: image-set(
     url("../img/cat-in-bag-mobile-1x.webp") type("image/webp") 1x,
     url("../img/cat-in-bag-mobile-2x.webp") type("image/webp") 2x,
@@ -14,6 +15,7 @@
       url("../img/cat-in-bag-tablet-2x.png") type("image/png") 2x
     );
     background-repeat: no-repeat;
+    padding: 59px 125px 59px 77px;
   }
 
   @media (min-width: $desktop-width) {
@@ -23,6 +25,7 @@
       url("../img/cat-in-bag-desktop-1x.png") type("image/png") 1x,
       url("../img/cat-in-bag-desktop-2x.png") type("image/png") 2x
     );
+    padding: 0;
   }
 }
 
@@ -34,16 +37,16 @@
   height: 80px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 49px;
 
   @media (min-width: $tablet-width) {
     width: 80px;
     height: 82px;
-    margin-left: 76px;
-    margin-right: 263px;
+    margin: 0;
   }
 
   @media (min-width: $desktop-width) {
-    margin-bottom: 45px;
+    margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -57,20 +60,25 @@
   text-align: center;
   color: $basic-bg;
   margin: 0 auto;
-  padding-top: 55px;
+  padding-top: 58px;
   width: 161px;
   padding-bottom: 10px;
 
   @media (min-width: $tablet-width) {
     display: flex;
-    padding-top: 0;
+    padding: 0;
     margin: 0;
     width: 100%;
-    padding-right: 125px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
   }
 
   @media (min-width: $desktop-width) {
     display: block;
     padding: 0;
+    padding-top: 56px;
+    padding-bottom: 10px;
+    text-align: center;
   }
 }
