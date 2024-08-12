@@ -120,7 +120,7 @@
   opacity: 0.6;
 }
 
-.catalog__item--title-all {
+.catalog__item-title--show {
   width: 100%;
   text-align: center;
   padding-top: 4px;
@@ -136,7 +136,7 @@
   }
 }
 
-.catalog__item--title-all::before {
+.catalog__item-title--show::before {
   background-image: url("../img/icons/stack.svg#extra-plus");
   content: "";
   display: block;
