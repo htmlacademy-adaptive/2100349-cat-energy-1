@@ -89,6 +89,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 19px;
+    border-left: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
   }
 
   @media (min-width: $desktop-width) {
@@ -98,7 +100,13 @@
     padding: 15px 0 17px;
     align-items: center;
     justify-content: space-between;
+    border-left: none;
+    border-right: none;
   }
+}
+
+.additional-products__item--frame {
+  border-bottom: 1px solid #cdcdcd;
 }
 
 .additional-products__present {

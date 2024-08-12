@@ -281,7 +281,7 @@
   }
 }
 
-.form__label--pdtop {
+.form__label--pd-top {
   padding-top: 2px;
   gap: 9px;
 
@@ -415,7 +415,7 @@
   }
 }
 
-.form__input--pdlf {
+.form__input--pd-left {
   @media (min-width: $tablet-width) {
     padding-left: 17px;
   }
@@ -423,11 +423,13 @@
 
 .form__input[type="number"] {
   appearance: none;
+  -moz-appearance: textfield;
 }
 
 .form__input[type="number"]::-webkit-outer-spin-button,
 .form__input[type="number"]::-webkit-inner-spin-button {
   appearance: none;
+  -moz-appearance: textfield;
 }
 
 .form__input:hover {
