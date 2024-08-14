@@ -422,14 +422,13 @@
 }
 
 .form__input[type="number"] {
-  appearance: none;
   -moz-appearance: textfield;
+  appearance: none;
 }
 
 .form__input[type="number"]::-webkit-outer-spin-button,
 .form__input[type="number"]::-webkit-inner-spin-button {
   appearance: none;
-  -moz-appearance: textfield;
 }
 
 .form__input:hover {
