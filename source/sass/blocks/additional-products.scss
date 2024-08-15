@@ -1,11 +1,14 @@
 .additional-products {
   @media (min-width: $tablet-width) {
     padding-top: 53px;
+    width: 768px;
+    margin: 0 auto;
   }
 
   @media (min-width: $desktop-width) {
     display: flex;
     padding-top: 82px;
+    width: 1220px;
   }
 }
 
