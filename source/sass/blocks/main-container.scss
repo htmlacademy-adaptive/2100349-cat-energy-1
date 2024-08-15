@@ -72,6 +72,14 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    font-size: 60px;
+    padding-left: 0;
+    margin: 73px auto;
+    margin-bottom: 23px;
+  }
 }
 
 .main-container__text {

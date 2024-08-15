@@ -56,7 +56,8 @@
 .form__group-tablet {
   @media (min-width: $tablet-width) {
     display: flex;
-    margin: 0;
+    width: 768px;
+    margin: 0 auto;
     padding-left: 70px;
     padding-bottom: 60px;
     gap: 60px;
@@ -68,6 +69,7 @@
     padding-top: 8px;
     padding-bottom: 80px;
     gap: 78px;
+    width: 100%;
   }
 }
 
