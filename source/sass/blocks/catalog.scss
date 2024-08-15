@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 20px;
-  padding-bottom: 24px;
+  padding-bottom: 23px;
   border-top: 1px solid #ebebeb;
 
   @media (min-width: $tablet-width) {
@@ -68,12 +68,13 @@
 }
 
 .catalog__item-description {
-  padding-bottom: 20px;
+  padding-bottom: 21px;
 
   @media (min-width: $tablet-width) {
     width: 250px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 20px;
   }
 
   @media (min-width: $desktop-width) {
@@ -120,14 +121,14 @@
   opacity: 0.6;
 }
 
-.catalog__item--title-all {
+.catalog__item-title--show {
   width: 100%;
   text-align: center;
   padding-top: 4px;
 
   @media (min-width: $tablet-width) {
     width: 170px;
-    padding-bottom: 25px;
+    padding-bottom: 23px;
     padding-top: 7px;
   }
 
@@ -136,7 +137,7 @@
   }
 }
 
-.catalog__item--title-all::before {
+.catalog__item-title--show::before {
   background-image: url("../img/icons/stack.svg#extra-plus");
   content: "";
   display: block;
@@ -167,7 +168,7 @@
   font-family: $basic-font;
   font-size: 12px;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 18px;
   text-align: center;
   color: $text-color;
 
