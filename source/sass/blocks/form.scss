@@ -424,8 +424,7 @@
 }
 
 .form__input[type="number"] {
-  -moz-appearance: textfield;
-  appearance: none;
+  appearance: textfield;
 }
 
 .form__input[type="number"]::-webkit-outer-spin-button,
